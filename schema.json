@@ -5,75 +5,75 @@
     "contents": [
         {
             "title": "Introduction",
-            "href": "./welcome.md"
+            "href": "/v1/welcome.md"
         },
         {
             "title": "Getting Started",
-            "href": "./getting-started.md"
+            "href": "/v1/getting-started.md"
         },
         {
             "title": "Installing",
-            "href": "./installing.md"
+            "href": "/v1/installing.md"
         },
         {
             "title": "Native AOT Support",
-            "href": "./native-aot.md"
+            "href": "/v1/native-aot.md"
         },
         {
             "title": "Deploying",
-            "href": "./deploying.md"
+            "href": "/v1/deploying.md"
         },
         {
             "title": "Setup namespaces on Windows",
-            "href": "./registering-namespace.md"
+            "href": "/v1/registering-namespace.md"
         },
         "Fundamentals",
         {
             "title": "Routing",
-            "href": "./fundamentals/routing.md"
+            "href": "/v1/fundamentals/routing.md"
         },
         {
             "title": "Request handlers",
-            "href": "./fundamentals/request-handlers.md"
+            "href": "/v1/fundamentals/request-handlers.md"
         },
         {
             "title": "Requests",
-            "href": "./fundamentals/requests.md"
+            "href": "/v1/fundamentals/requests.md"
         },
         {
             "title": "Responses",
-            "href": "./fundamentals/responses.md"
+            "href": "/v1/fundamentals/responses.md"
         },
         "Features",
         {
             "title": "Logging",
-            "href": "./features/logging.md"
+            "href": "/v1/features/logging.md"
         },
         {
             "title": "Server sent events",
-            "href": "./features/server-sent-events.md"
+            "href": "/v1/features/server-sent-events.md"
         },
         {
             "title": "Websockets",
-            "href": "./features/websockets.md"
+            "href": "/v1/features/websockets.md"
         },
         "Extensions",
         {
             "title": "Service providers",
-            "href": "./extensions/service-providers.md"
+            "href": "/v1/extensions/service-providers.md"
         },
         {
             "title": "Basic auth",
-            "href": "./extensions/basic-auth.md"
+            "href": "/v1/extensions/basic-auth.md"
         },
         "Advanced",
         {
             "title": "Request lifecycle",
-            "href": "./advanced/request-lifecycle.md"
+            "href": "/v1/advanced/request-lifecycle.md"
         },
         {
             "title": "HTTP server handlers",
-            "href": "./advanced/http-server-handlers.md"
+            "href": "/v1/advanced/http-server-handlers.md"
         }
     ]
 }
