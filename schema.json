@@ -7,7 +7,7 @@
         "description": "Documentation for the Sisk Framework, with tutorials and getting started.",
         "branches": [
             "main",
-            "0.15"
+            "specification"
         ]
     },
     "contents": [
