@@ -3,7 +3,12 @@
         "index": "/v1/readme.md",
         "iconSrc": "https://sisk.project-principium.dev/assets/img/Icon.png",
         "primaryColor": "#5d06fd",
-        "title": "Sisk Framework - Documentation"
+        "title": "Sisk Framework - Documentation",
+        "description": "Documentation for the Sisk Framework, with tutorials and getting started.",
+        "branches": [
+            "main",
+            "0.15"
+        ]
     },
     "contents": [
         {
