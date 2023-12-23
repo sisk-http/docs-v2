@@ -1,6 +1,9 @@
 {
     "metadata": {
-        "index": "/v1/readme.md"
+        "index": "/v1/readme.md",
+        "iconSrc": "https://sisk.project-principium.dev/assets/img/Icon.png",
+        "primaryColor": "#5d06fd",
+        "title": "Sisk Framework - Documentation"
     },
     "contents": [
         {
