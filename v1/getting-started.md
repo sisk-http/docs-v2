@@ -99,7 +99,7 @@ Now our router can receive and send responses. But mainRouter is not tied to a h
 
 # Listening Hosts and ports
 
-A [ListeningHost](../spec/Sisk.Core.Http.ListeningHost) can host a router and multiple listening ports to the same router. A [ListeningPort](../spec/Sisk.Core.Http.ListeningPort) is
+A [ListeningHost](../specification/Sisk.Core.Http.ListeningHost) can host a router and multiple listening ports to the same router. A [ListeningPort](../specification/Sisk.Core.Http.ListeningPort) is
 a prefix where the HTTP server will listen.
 
 Here we can create an ListeningHost which points two endpoints to our router:
