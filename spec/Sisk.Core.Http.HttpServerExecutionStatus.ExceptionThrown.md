@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ExceptionThrown field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
 Indicates that the server encountered an exception while processing the request.

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UsePortableConfiguration(PortableConfigurationBuilder) method
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
 
 
 Definition:
@@ -23,6 +23,10 @@ public void UsePortableConfiguration(Action<PortableConfigurationBuilder> portab
 
 Enables the portable configuration for this application, which imports settings, parameters, and other information from a JSON settings file.
 
+> **Remarks:**
+>
+> This method overrides almost all of your <see cref="M:Sisk.Core.Http.HttpServer.CreateBuilder" /> configuration. To avoid this,
+            call this method at the beginning of your builder, as the first immediate method.
 
 # Parameters
 

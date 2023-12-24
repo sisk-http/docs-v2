@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RotatingLogPolicy(LogStream) constructor
 
-Declaring type: [Sisk.ServiceProvider.RotatingLogPolicy](/read?q=/contents/spec/Sisk.ServiceProvider.RotatingLogPolicy.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.RotatingLogPolicy](/spec/Sisk.ServiceProvider.RotatingLogPolicy.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public RotatingLogPolicy(LogStream? ls)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.ServiceProvider.RotatingLogPolicy.md">RotatingLogPolicy</a> instance with the given <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> object to watch.
+Creates an new <a href="/spec/Sisk.ServiceProvider.RotatingLogPolicy.md">RotatingLogPolicy</a> instance with the given <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> object to watch.
 

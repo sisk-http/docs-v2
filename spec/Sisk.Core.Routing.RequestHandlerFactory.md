@@ -22,30 +22,32 @@ public abstract class RequestHandlerFactory
 
 Provides a class that instantiates request handlers.
 
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerFactory.BuildRequestHandlers().md">
+        <a href="/spec/Sisk.Core.Routing.RequestHandlerFactory.BuildRequestHandlers().md">
             BuildRequestHandlers()
         </a>
     </td>
     <td>
-        Builds and gets the <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> instance objects used later by an <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a>.
-    <td>
+        Builds and gets the <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> instance objects used later by an <a href="/spec/Sisk.Core.Routing.Route.md">Route</a>.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerFactory.Setup(NameValueCollection).md">
+        <a href="/spec/Sisk.Core.Routing.RequestHandlerFactory.Setup(NameValueCollection).md">
             Setup(NameValueCollection)
         </a>
     </td>
     <td>
-        Method that is called by the Agirax instantiator with the parameters defined in configuration before calling <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerFactory.md">BuildRequestHandlers</a>.
-    <td>
+        Method that is called by the Agirax instantiator with the parameters defined in configuration before calling <a href="/spec/Sisk.Core.Routing.RequestHandlerFactory.md">BuildRequestHandlers</a>.
+    </td>
 </tr>
     </tbody>
 </table>

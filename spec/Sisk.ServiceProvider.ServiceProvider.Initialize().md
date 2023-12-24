@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Initialize() method
 
-Declaring type: [Sisk.ServiceProvider.ServiceProvider](/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.ServiceProvider](/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
 
 
 Definition:

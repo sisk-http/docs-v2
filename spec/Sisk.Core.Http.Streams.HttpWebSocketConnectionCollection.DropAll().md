@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # DropAll() method
 
-Declaring type: [Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection](/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public void DropAll()
 ```
 
-Closes all registered and active <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocket.md">HttpWebSocket</a> in this collections.
+Closes all registered and active <a href="/spec/Sisk.Core.Http.Streams.HttpWebSocket.md">HttpWebSocket</a> in this collections.
 

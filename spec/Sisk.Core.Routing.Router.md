@@ -20,229 +20,246 @@ Definition:
 public class Router
 ```
 
-Represents a collection of Routes and main executor of callbacks in an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
+Represents a collection of Routes and main executor of callbacks in an <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
+
 
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.AutoScanModules().md">
+        <a href="/spec/Sisk.Core.Routing.Router.AutoScanModules().md">
             AutoScanModules()
         </a>
     </td>
     <td>
-        Scans for all types that implements <typeparamref name="TModule" /> and associates an instance of each type to the router. Note that, <typeparamref name="TModule" /> must be an <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.md">RouterModule</a> type and an accessible constructor for each type must be present.
-    <td>
+        Scans for all types that implements <typeparamref name="TModule" /> and associates an instance of each type to the router. Note that, <typeparamref name="TModule" /> must be an <a href="/spec/Sisk.Core.Routing.RouterModule.md">RouterModule</a> type and an accessible constructor for each type must be present.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.AutoScanModules().md">
+        <a href="/spec/Sisk.Core.Routing.Router.AutoScanModules().md">
             AutoScanModules()
         </a>
     </td>
     <td>
-        Scans for all types that implements <typeparamref name="TModule" /> and associates an instance of each type to the router. Note that, <typeparamref name="TModule" /> must be an <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.md">RouterModule</a> type and an accessible constructor for each type must be present.
-    <td>
+        Scans for all types that implements <typeparamref name="TModule" /> and associates an instance of each type to the router. Note that, <typeparamref name="TModule" /> must be an <a href="/spec/Sisk.Core.Routing.RouterModule.md">RouterModule</a> type and an accessible constructor for each type must be present.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.CombinePaths(String).md">
+        <a href="/spec/Sisk.Core.Routing.Router.CombinePaths(String).md">
             CombinePaths(String[])
         </a>
     </td>
     <td>
         Combines the specified URL paths into one.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.GetDefinedRoutes().md">
+        <a href="/spec/Sisk.Core.Routing.Router.GetDefinedRoutes().md">
             GetDefinedRoutes()
         </a>
     </td>
     <td>
         Gets all routes defined on this router instance.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.GetRouteFromName(string).md">
+        <a href="/spec/Sisk.Core.Routing.Router.GetRouteFromName(string).md">
             GetRouteFromName(string)
         </a>
     </td>
     <td>
         Gets an route object by their name that is defined in this Router.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.op_Addition(Router-Route).md">
+        <a href="/spec/Sisk.Core.Routing.Router.IsDefined(RouteMethod-string).md">
+            IsDefined(RouteMethod, string)
+        </a>
+    </td>
+    <td>
+        Gets an boolean indicating if there are any route that matches the specified method and route path.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Routing.Router.op_Addition(Router-Route).md">
             op_Addition(Router, Route)
         </a>
     </td>
     <td>
         Defines an route to an router.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.RegisterValueHandler().md">
+        <a href="/spec/Sisk.Core.Routing.Router.RegisterValueHandler().md">
             RegisterValueHandler()
         </a>
     </td>
     <td>
-        Register an type handling association to converting it to an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
-    <td>
+        Register an type handling association to converting it to an <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.SetObject(Object).md">
+        <a href="/spec/Sisk.Core.Routing.Router.SetObject(Object).md">
             SetObject(Object)
         </a>
     </td>
     <td>
-        Searches the object instance for methods with attribute <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
-    <td>
+        Searches the object instance for methods with attribute <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.SetObject(Type).md">
+        <a href="/spec/Sisk.Core.Routing.Router.SetObject(Type).md">
             SetObject(Type)
         </a>
     </td>
     <td>
-        Searches the object instance for methods with attribute <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
-    <td>
+        Searches the object instance for methods with attribute <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.SetRoute(Route).md">
+        <a href="/spec/Sisk.Core.Routing.Router.SetRoute(Route).md">
             SetRoute(Route)
         </a>
     </td>
     <td>
         Defines an route in this Router instance.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.SetRoute(RouteMethod-string-RouteAction-string-IRequestHandler).md">
+        <a href="/spec/Sisk.Core.Routing.Router.SetRoute(RouteMethod-string-RouteAction-string-IRequestHandler).md">
             SetRoute(RouteMethod, string, RouteAction, string, IRequestHandler[])
         </a>
     </td>
     <td>
         Defines an route with their method, path, action function, name and request handlers.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.SetRoute(RouteMethod-string-RouteAction-string).md">
+        <a href="/spec/Sisk.Core.Routing.Router.SetRoute(RouteMethod-string-RouteAction-string).md">
             SetRoute(RouteMethod, string, RouteAction, string)
         </a>
     </td>
     <td>
         Defines an route with their method, path, action function and name.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.SetRoute(RouteMethod-string-RouteAction).md">
+        <a href="/spec/Sisk.Core.Routing.Router.SetRoute(RouteMethod-string-RouteAction).md">
             SetRoute(RouteMethod, string, RouteAction)
         </a>
     </td>
     <td>
         Defines an route with their method, path and action function.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.CallbackErrorHandler.md">
+        <a href="/spec/Sisk.Core.Routing.Router.CallbackErrorHandler.md">
             CallbackErrorHandler
         </a>
     </td>
     <td>
         Gets or sets the Router action exception handler.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.GlobalRequestHandlers.md">
+        <a href="/spec/Sisk.Core.Routing.Router.GlobalRequestHandlers.md">
             GlobalRequestHandlers
         </a>
     </td>
     <td>
         Gets or sets the global requests handlers that will be executed in all matched routes.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.MatchRoutesIgnoreCase.md">
+        <a href="/spec/Sisk.Core.Routing.Router.MatchRoutesIgnoreCase.md">
             MatchRoutesIgnoreCase
         </a>
     </td>
     <td>
-        Gets or sets whether this <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> will match routes ignoring case.
-    <td>
+        Gets or sets whether this <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> will match routes ignoring case.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.MethodNotAllowedErrorHandler.md">
+        <a href="/spec/Sisk.Core.Routing.Router.MethodNotAllowedErrorHandler.md">
             MethodNotAllowedErrorHandler
         </a>
     </td>
     <td>
         Gets or sets the Router "405 Method Not Allowed" handler.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.NotFoundErrorHandler.md">
+        <a href="/spec/Sisk.Core.Routing.Router.NotFoundErrorHandler.md">
             NotFoundErrorHandler
         </a>
     </td>
     <td>
         Gets or sets the Router "404 Not Found" handler.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Constructor list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.Router().md">
+        <a href="/spec/Sisk.Core.Routing.Router.Router().md">
             Router()
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> instance with default properties values.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> instance with default properties values.
+    </td>
 </tr>
     </tbody>
 </table>

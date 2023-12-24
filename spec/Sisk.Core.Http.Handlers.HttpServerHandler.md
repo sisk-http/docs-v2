@@ -20,76 +20,89 @@ Definition:
 public class HttpServerHandler
 ```
 
-Represents a handler for the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>, router, and related modules.
+Represents a handler for the <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>, router, and related modules.
+
 
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnContextBagCreated(HttpContextBagRepository).md">
+        <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnContextBagCreated(HttpContextBagRepository).md">
             OnContextBagCreated(HttpContextBagRepository)
         </a>
     </td>
     <td>
-        Method that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContextBagRepository.md">HttpContextBagRepository</a> is created within an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object.
-    <td>
+        Method that is called when an <a href="/spec/Sisk.Core.Http.HttpContextBagRepository.md">HttpContextBagRepository</a> is created within an <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnException(Exception).md">
+        <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnException(Exception).md">
             OnException(Exception)
         </a>
     </td>
     <td>
         Method that is called when an exception is caught in the Http server.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnHttpRequestClose(HttpServerExecutionResult).md">
+        <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnHttpRequestClose(HttpServerExecutionResult).md">
             OnHttpRequestClose(HttpServerExecutionResult)
         </a>
     </td>
     <td>
-        Method that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> is closed in the Http server.
-    <td>
+        Method that is called when an <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> is closed in the Http server.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnHttpRequestOpen(HttpRequest).md">
+        <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnHttpRequestOpen(HttpRequest).md">
             OnHttpRequestOpen(HttpRequest)
         </a>
     </td>
     <td>
-        Method that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> is received in the Http server.
-    <td>
+        Method that is called when an <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> is received in the Http server.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnServerStarting(HttpServer).md">
+        <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnServerStarted(HttpServer).md">
+            OnServerStarted(HttpServer)
+        </a>
+    </td>
+    <td>
+        Method that is called immediately after starting the <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>, when it's ready and listening.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnServerStarting(HttpServer).md">
             OnServerStarting(HttpServer)
         </a>
     </td>
     <td>
-        Method that is called immediately before starting the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
-    <td>
+        Method that is called immediately before starting the <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnSetupRouter(Router).md">
+        <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnSetupRouter(Router).md">
             OnSetupRouter(Router)
         </a>
     </td>
     <td>
-        Method that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> is binded to the Http server.
-    <td>
+        Method that is called when an <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> is binded to the Http server.
+    </td>
 </tr>
     </tbody>
 </table>

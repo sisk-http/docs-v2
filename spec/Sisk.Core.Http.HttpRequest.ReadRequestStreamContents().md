@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ReadRequestStreamContents() method
 
-Declaring type: [Sisk.Core.Http.HttpRequest](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public void ReadRequestStreamContents()
 ```
 
-Reads the entire request input stream and stores it into <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">RawBody</a>. This method is invoked automatically when the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md">AutoReadRequestStream</a> is enabled.
+Reads the entire request input stream and stores it into <a href="/spec/Sisk.Core.Http.HttpRequest.md">RawBody</a>. This method is invoked automatically when the <see cref="!:HttpServerFlags.AutoReadRequestStream" /> is enabled.
 

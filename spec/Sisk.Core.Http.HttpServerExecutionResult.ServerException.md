@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ServerException property
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionResult](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionResult.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionResult](/spec/Sisk.Core.Http.HttpServerExecutionResult.md) (from Sisk.Core)
 
 
 Definition:

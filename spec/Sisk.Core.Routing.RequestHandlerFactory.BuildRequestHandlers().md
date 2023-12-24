@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # BuildRequestHandlers() method
 
-Declaring type: [Sisk.Core.Routing.RequestHandlerFactory](/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerFactory.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.Core.Routing.RequestHandlerFactory](/spec/Sisk.Core.Routing.RequestHandlerFactory.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public abstract IRequestHandler[] BuildRequestHandlers();
 ```
 
-Builds and gets the <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> instance objects used later by an <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a>.
+Builds and gets the <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> instance objects used later by an <a href="/spec/Sisk.Core.Routing.Route.md">Route</a>.
 

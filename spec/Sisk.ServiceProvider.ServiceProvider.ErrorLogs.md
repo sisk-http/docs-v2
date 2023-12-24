@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ErrorLogs property
 
-Declaring type: [Sisk.ServiceProvider.ServiceProvider](/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.ServiceProvider](/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public TextWriter? ErrorLogs { get; }
 ```
 
-Gets the configured error log stream. This property is inherited from <a href="/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md">ServerConfiguration</a>.
+Gets the configured error log stream. This property is inherited from <a href="/spec/Sisk.ServiceProvider.ServiceProvider.md">ServerConfiguration</a>.
 

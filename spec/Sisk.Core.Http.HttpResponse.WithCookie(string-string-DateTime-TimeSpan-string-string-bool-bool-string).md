@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # WithCookie(string, string, DateTime?, TimeSpan?, string, string, bool?, bool?, string) method
 
-Declaring type: [Sisk.Core.Http.HttpResponse](/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpResponse](/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
 
 
 Definition:

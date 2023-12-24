@@ -20,185 +20,191 @@ Definition:
 public class HttpServerConfiguration : IDisposable
 ```
 
-Provides execution parameters for an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
+Provides execution parameters for an <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
+
 
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.AccessLogsFormat.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.AccessLogsFormat.md">
             AccessLogsFormat
         </a>
     </td>
     <td>
         Gets or sets the access logging format for incoming HTTP requests.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.AccessLogsStream.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.AccessLogsStream.md">
             AccessLogsStream
         </a>
     </td>
     <td>
         Gets or sets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.TextWriter">TextWriter</a> object which the HTTP server will write HTTP server access messages to.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.DefaultCultureInfo.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.DefaultCultureInfo.md">
             DefaultCultureInfo
         </a>
     </td>
     <td>
         Gets or sets the default <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Globalization.CultureInfo">CultureInfo</a> object which the HTTP server will apply to the request handlers and callbacks thread.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.DefaultEncoding.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.DefaultEncoding.md">
             DefaultEncoding
         </a>
     </td>
     <td>
         Gets or sets the default encoding for sending and decoding messages.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.ErrorsLogsStream.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.ErrorsLogsStream.md">
             ErrorsLogsStream
         </a>
     </td>
     <td>
         Gets or sets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.TextWriter">TextWriter</a> object which the HTTP server will write HTTP server error transcriptions to.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.Flags.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.Flags.md">
             Flags
         </a>
     </td>
     <td>
         Gets or sets advanced flags and configuration settings for the HTTP server.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.IncludeRequestIdHeader.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.IncludeRequestIdHeader.md">
             IncludeRequestIdHeader
         </a>
     </td>
     <td>
         Gets or sets whether the server should include the "X-Request-Id" header in response headers.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.KeepAlive.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.KeepAlive.md">
             KeepAlive
         </a>
     </td>
     <td>
         Gets or sets whether the client should mantain an persistent connection with the HTTP server.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.ListeningHosts.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.ListeningHosts.md">
             ListeningHosts
         </a>
     </td>
     <td>
-        Gets or sets the listening hosts repository that the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> instance will listen to.
-    <td>
+        Gets or sets the listening hosts repository that the <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> instance will listen to.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.MaximumContentLength.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.MaximumContentLength.md">
             MaximumContentLength
         </a>
     </td>
     <td>
         Gets or sets the maximum size of a request body before it is closed by the socket.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.ResolveForwardedOriginAddress.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.ResolveForwardedOriginAddress.md">
             ResolveForwardedOriginAddress
         </a>
     </td>
     <td>
         Gets or sets whether the HTTP server should resolve remote (IP) addresses by the X-Forwarded-For header. This option is useful if you are using Sisk through a reverse proxy.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.ResolveForwardedOriginHost.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.ResolveForwardedOriginHost.md">
             ResolveForwardedOriginHost
         </a>
     </td>
     <td>
         Gets or sets whether the HTTP server should resolve remote forwarded hosts by the header X-Forwarded-Host.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.ThrowExceptions.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.ThrowExceptions.md">
             ThrowExceptions
         </a>
     </td>
     <td>
-        Gets or sets whether the server should throw exceptions instead of reporting it on <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md">HttpServerExecutionStatus</a> if any is thrown while processing requests.
-    <td>
+        Gets or sets whether the server should throw exceptions instead of reporting it on <a href="/spec/Sisk.Core.Http.HttpServerExecutionStatus.md">HttpServerExecutionStatus</a> if any is thrown while processing requests.
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Constructor list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.HttpServerConfiguration().md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.HttpServerConfiguration().md">
             HttpServerConfiguration()
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.md">HttpServerConfiguration</a> instance with no parameters.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.md">HttpServerConfiguration</a> instance with no parameters.
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.Dispose().md">
+        <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.Dispose().md">
             Dispose()
         </a>
     </td>
     <td>
         Frees the resources and invalidates this instance.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>

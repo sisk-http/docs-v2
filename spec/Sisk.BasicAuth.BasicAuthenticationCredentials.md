@@ -22,30 +22,32 @@ public class BasicAuthenticationCredentials
 
 Represents basic authentication credentials for an HTTP request.
 
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticationCredentials.Password.md">
+        <a href="/spec/Sisk.BasicAuth.BasicAuthenticationCredentials.Password.md">
             Password
         </a>
     </td>
     <td>
         Gets the plain password component from this credentials.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticationCredentials.UserId.md">
+        <a href="/spec/Sisk.BasicAuth.BasicAuthenticationCredentials.UserId.md">
             UserId
         </a>
     </td>
     <td>
         Gets the user id component from this credentials.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>

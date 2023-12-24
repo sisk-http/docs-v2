@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Throw field
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode](/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.md) (from Sisk.Core)
 
 
 No message should be displayed and exceptions should be thrown instead being caughts.

@@ -22,112 +22,116 @@ public class HttpResponseStream
 
 Represents a way to manage HTTP requests with their output streams, without relying on synchronous content.
 
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.ResponseStream.md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpResponseStream.ResponseStream.md">
             ResponseStream
         </a>
     </td>
     <td>
         Gets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.Stream">Stream</a> that represents the HTTP response output stream.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.SendChunked.md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpResponseStream.SendChunked.md">
             SendChunked
         </a>
     </td>
     <td>
         Gets or sets whether this HTTP response stream should use chunked transfer encoding.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.Close().md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpResponseStream.Close().md">
             Close()
         </a>
     </td>
     <td>
-        Closes this HTTP response stream connection between the server and the client and returns an empty <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> to finish the HTTP server context.
-    <td>
+        Closes this HTTP response stream connection between the server and the client and returns an empty <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> to finish the HTTP server context.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.SetHeader(string-string).md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpResponseStream.SetHeader(string-string).md">
             SetHeader(string, string)
         </a>
     </td>
     <td>
         Sets the specific HTTP header into this response stream.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.SetStatus(HttpStatusInformation).md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpResponseStream.SetStatus(HttpStatusInformation).md">
             SetStatus(HttpStatusInformation)
         </a>
     </td>
     <td>
         Sets the HTTP status code and description for this response stream.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.SetStatus(int).md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpResponseStream.SetStatus(int).md">
             SetStatus(int)
         </a>
     </td>
     <td>
         Sets the HTTP status code for this response stream.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.SetStatus(HttpStatusCode).md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpResponseStream.SetStatus(HttpStatusCode).md">
             SetStatus(HttpStatusCode)
         </a>
     </td>
     <td>
         Sets the HTTP status code for this response stream.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.Write(Byte).md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpResponseStream.Write(Byte).md">
             Write(Byte[])
         </a>
     </td>
     <td>
         Writes an sequence of bytes to the HTTP response stream.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.Write(Byte).md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpResponseStream.Write(Byte).md">
             Write(Byte)
         </a>
     </td>
     <td>
         Writes an sequence of bytes to the HTTP response stream.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # HttpRequest property
 
-Declaring type: [Sisk.Core.Http.Streams.HttpWebSocket](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocket.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpWebSocket](/spec/Sisk.Core.Http.Streams.HttpWebSocket.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpRequest HttpRequest { get; }
 ```
 
-Gets the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object which created this Web Socket instance.
+Gets the <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object which created this Web Socket instance.
 

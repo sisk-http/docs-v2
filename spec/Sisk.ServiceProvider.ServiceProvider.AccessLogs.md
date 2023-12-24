@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # AccessLogs property
 
-Declaring type: [Sisk.ServiceProvider.ServiceProvider](/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.ServiceProvider](/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public TextWriter? AccessLogs { get; }
 ```
 
-Gets the configured access log stream. This property is inherited from <a href="/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md">ServerConfiguration</a>.
+Gets the configured access log stream. This property is inherited from <a href="/spec/Sisk.ServiceProvider.ServiceProvider.md">ServerConfiguration</a>.
 

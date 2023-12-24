@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Setup(NameValueCollection) method
 
-Declaring type: [Sisk.Core.Routing.RequestHandlerFactory](/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerFactory.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.Core.Routing.RequestHandlerFactory](/spec/Sisk.Core.Routing.RequestHandlerFactory.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public abstract void Setup(NameValueCollection setupParameters);
 ```
 
-Method that is called by the Agirax instantiator with the parameters defined in configuration before calling <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerFactory.md">BuildRequestHandlers</a>.
+Method that is called by the Agirax instantiator with the parameters defined in configuration before calling <a href="/spec/Sisk.Core.Routing.RequestHandlerFactory.md">BuildRequestHandlers</a>.
 
 
 # Parameters

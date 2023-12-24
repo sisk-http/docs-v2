@@ -20,43 +20,45 @@ Definition:
 public enum RequestHandlerExecutionMode
 ```
 
-Defines when the <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> object should be executed.
+Defines when the <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> object should be executed.
+
 
 # Field list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerExecutionMode.AfterResponse.md">
+        <a href="/spec/Sisk.Core.Routing.RequestHandlerExecutionMode.AfterResponse.md">
             AfterResponse
         </a>
     </td>
     <td>
         Indicates that the handler must be executed after the route action execution.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerExecutionMode.BeforeContents.md">
+        <a href="/spec/Sisk.Core.Routing.RequestHandlerExecutionMode.BeforeContents.md">
             BeforeContents
         </a>
     </td>
     <td>
         Indicates that the handler must be executed before the router calls the route action and before the request content is available.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerExecutionMode.BeforeResponse.md">
+        <a href="/spec/Sisk.Core.Routing.RequestHandlerExecutionMode.BeforeResponse.md">
             BeforeResponse
         </a>
     </td>
     <td>
         Indicates that the handler must be executed before the router calls the route action and after request contents is loaded.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>

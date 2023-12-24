@@ -22,101 +22,105 @@ public class HttpServerHostContext
 
 Represents the class that hosts most of the components needed to run a Sisk application.
 
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.AccessLogs.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.AccessLogs.md">
             AccessLogs
         </a>
     </td>
     <td>
-        Gets the configured access log stream. This property is inherited from <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">ServerConfiguration</a>.
-    <td>
+        Gets the configured access log stream. This property is inherited from <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">ServerConfiguration</a>.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.CrossOriginResourceSharingPolicy.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.CrossOriginResourceSharingPolicy.md">
             CrossOriginResourceSharingPolicy
         </a>
     </td>
     <td>
-        Gets the host <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">CrossOriginResourceSharingPolicy</a>.
-    <td>
+        Gets the host <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">CrossOriginResourceSharingPolicy</a>.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.ErrorLogs.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.ErrorLogs.md">
             ErrorLogs
         </a>
     </td>
     <td>
-        Gets the configured error log stream. This property is inherited from <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">ServerConfiguration</a>.
-    <td>
+        Gets the configured error log stream. This property is inherited from <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">ServerConfiguration</a>.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.HttpServer.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.HttpServer.md">
             HttpServer
         </a>
     </td>
     <td>
         Gets the host Http server.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.Parameters.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.Parameters.md">
             Parameters
         </a>
     </td>
     <td>
         Gets the initialization parameters from the portable configuration file.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.Router.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.Router.md">
             Router
         </a>
     </td>
     <td>
         Gets the host router.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.ServerConfiguration.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.ServerConfiguration.md">
             ServerConfiguration
         </a>
     </td>
     <td>
         Gets the host server configuration.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.Start(bool-bool).md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.Start(bool-bool).md">
             Start(bool, bool)
         </a>
     </td>
     <td>
         Starts the Http server.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>

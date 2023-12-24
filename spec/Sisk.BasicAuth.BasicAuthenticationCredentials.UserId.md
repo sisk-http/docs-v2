@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UserId property
 
-Declaring type: [Sisk.BasicAuth.BasicAuthenticationCredentials](/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticationCredentials.md) (from Sisk.BasicAuth)
+Declaring type: [Sisk.BasicAuth.BasicAuthenticationCredentials](/spec/Sisk.BasicAuth.BasicAuthenticationCredentials.md) (from Sisk.BasicAuth)
 
 
 Definition:

@@ -12,13 +12,13 @@ edit the XML documentation present in the Sisk source code.
 
 # GetMultipartFormContent() method
 
-Declaring type: [Sisk.Core.Http.HttpRequest](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public MultipartObject[] GetMultipartFormContent()
+public MultipartFormCollection GetMultipartFormContent()
 ```
 
 Gets the multipart form content for this request.

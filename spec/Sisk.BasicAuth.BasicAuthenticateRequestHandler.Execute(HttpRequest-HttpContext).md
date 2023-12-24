@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Execute(HttpRequest, HttpContext) method
 
-Declaring type: [Sisk.BasicAuth.BasicAuthenticateRequestHandler](/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.md) (from Sisk.BasicAuth)
+Declaring type: [Sisk.BasicAuth.BasicAuthenticateRequestHandler](/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.md) (from Sisk.BasicAuth)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpResponse? Execute(HttpRequest request, HttpContext context)
 ```
 
-This method is called by the <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> before executing a request when the <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a> instantiates an object that implements this interface. If it returns a <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object, the route callback is not called and all execution of the route is stopped. If it returns "null", the execution is continued.
+This method is called by the <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> before executing a request when the <a href="/spec/Sisk.Core.Routing.Route.md">Route</a> instantiates an object that implements this interface. If it returns a <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object, the route callback is not called and all execution of the route is stopped. If it returns "null", the execution is continued.
 

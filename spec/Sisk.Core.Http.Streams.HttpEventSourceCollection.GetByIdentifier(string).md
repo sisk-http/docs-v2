@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # GetByIdentifier(string) method
 
-Declaring type: [Sisk.Core.Http.Streams.HttpEventSourceCollection](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpEventSourceCollection](/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md) (from Sisk.Core)
 
 
 Definition:

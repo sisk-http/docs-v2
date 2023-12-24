@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Headers property
 
-Declaring type: [Sisk.Core.Entity.MultipartObject](/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.MultipartObject](/spec/Sisk.Core.Entity.MultipartObject.md) (from Sisk.Core)
 
 
 Definition:

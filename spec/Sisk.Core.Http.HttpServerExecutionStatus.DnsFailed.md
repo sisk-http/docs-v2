@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # DnsFailed field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
 Represents that the client did not correctly specify a host in the request.

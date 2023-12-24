@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UseCors(CrossOriginResourceSharingHeaders) method
 
-Declaring type: [Sisk.ServiceProvider.ServiceProviderConfigurator](/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProviderConfigurator.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.ServiceProviderConfigurator](/spec/Sisk.ServiceProvider.ServiceProviderConfigurator.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public void UseCors(Action<CrossOriginResourceSharingHeaders> corsCallback)
 ```
 
-Calls a callback that has <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.md">CrossOriginResourceSharingHeaders</a> instance from the main listening host as an argument.
+Calls a callback that has <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.md">CrossOriginResourceSharingHeaders</a> instance from the main listening host as an argument.
 
 
 # Parameters

@@ -20,81 +20,85 @@ Definition:
 public class BasicAuthenticateRequestHandler : IRequestHandler
 ```
 
-Gets a <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> that serves as an authenticator for the Basic Authentication scheme, which can validate a user id and password.
+Gets a <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> that serves as an authenticator for the Basic Authentication scheme, which can validate a user id and password.
+
 
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.ExecutionMode.md">
+        <a href="/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.ExecutionMode.md">
             ExecutionMode
         </a>
     </td>
     <td>
         Gets or sets when this RequestHandler should run.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.Realm.md">
+        <a href="/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.Realm.md">
             Realm
         </a>
     </td>
     <td>
         Gets or sets a message to show the client which protection scope it needs to authenticate to.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.CreateUnauthorizedResponse().md">
+        <a href="/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.CreateUnauthorizedResponse().md">
             CreateUnauthorizedResponse()
         </a>
     </td>
     <td>
         Creates an empty HTTP response with the WWW-Authenticate header and with the realm message defined in this class instance.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.CreateUnauthorizedResponse(string).md">
+        <a href="/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.CreateUnauthorizedResponse(string).md">
             CreateUnauthorizedResponse(string)
         </a>
     </td>
     <td>
         Creates an empty HTTP response with the WWW-Authenticate header and an custom realm message.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.Execute(HttpRequest-HttpContext).md">
+        <a href="/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.Execute(HttpRequest-HttpContext).md">
             Execute(HttpRequest, HttpContext)
         </a>
     </td>
     <td>
-        This method is called by the <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> before executing a request when the <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a> instantiates an object that implements this interface. If it returns a <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object, the route callback is not called and all execution of the route is stopped. If it returns "null", the execution is continued.
-    <td>
+        This method is called by the <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> before executing a request when the <a href="/spec/Sisk.Core.Routing.Route.md">Route</a> instantiates an object that implements this interface. If it returns a <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object, the route callback is not called and all execution of the route is stopped. If it returns "null", the execution is continued.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.OnValidating(BasicAuthenticationCredentials-HttpContext).md">
+        <a href="/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.OnValidating(BasicAuthenticationCredentials-HttpContext).md">
             OnValidating(BasicAuthenticationCredentials, HttpContext)
         </a>
     </td>
     <td>
-        Indicates the method that is called to validate a request with client credentials. When returning an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a>, it will be sent immediately to the client and the rest of the stack will not be executed. If the return is null, it is interpretable that the authentication was successful and the execution should continue.
-    <td>
+        Indicates the method that is called to validate a request with client credentials. When returning an <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a>, it will be sent immediately to the client and the rest of the stack will not be executed. If the return is null, it is interpretable that the authentication was successful and the execution should continue.
+    </td>
 </tr>
     </tbody>
 </table>

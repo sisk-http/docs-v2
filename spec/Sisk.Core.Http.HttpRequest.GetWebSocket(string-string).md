@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # GetWebSocket(string, string) method
 
-Declaring type: [Sisk.Core.Http.HttpRequest](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public HttpWebSocket GetWebSocket(string? subprotocol = null)
 ```
 
-Accepts and acquires a websocket for this request. Calling this method will put this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> instance in streaming state.
+Accepts and acquires a websocket for this request. Calling this method will put this <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> instance in streaming state.
 
 
 # Parameters

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OnConnectionOpen event
 
-Declaring type: [Sisk.Core.Http.HttpServer](/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServer](/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public event ReceiveRequestEventHandler? OnConnectionOpen;
 ```
 
-Event that is called when this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> receives an request.
+Event that is called when this <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> receives an request.
 

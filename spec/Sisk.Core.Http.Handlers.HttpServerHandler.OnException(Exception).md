@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OnException(Exception) method
 
-Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
 
 
 Definition:

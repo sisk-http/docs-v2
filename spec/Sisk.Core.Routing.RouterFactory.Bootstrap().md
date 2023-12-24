@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Bootstrap() method
 
-Declaring type: [Sisk.Core.Routing.RouterFactory](/read?q=/contents/spec/Sisk.Core.Routing.RouterFactory.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.Core.Routing.RouterFactory](/spec/Sisk.Core.Routing.RouterFactory.md) (from Sisk.ServiceProvider)
 
 
 Definition:

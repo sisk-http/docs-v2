@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OnValidating(BasicAuthenticationCredentials, HttpContext) method
 
-Declaring type: [Sisk.BasicAuth.BasicAuthenticateRequestHandler](/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.md) (from Sisk.BasicAuth)
+Declaring type: [Sisk.BasicAuth.BasicAuthenticateRequestHandler](/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.md) (from Sisk.BasicAuth)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public virtual HttpResponse? OnValidating(BasicAuthenticationCredentials credentials, HttpContext context)
 ```
 
-Indicates the method that is called to validate a request with client credentials. When returning an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a>, it will be sent immediately to the client and the rest of the stack will not be executed. If the return is null, it is interpretable that the authentication was successful and the execution should continue.
+Indicates the method that is called to validate a request with client credentials. When returning an <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a>, it will be sent immediately to the client and the rest of the stack will not be executed. If the return is null, it is interpretable that the authentication was successful and the execution should continue.
 
 
 # Parameters

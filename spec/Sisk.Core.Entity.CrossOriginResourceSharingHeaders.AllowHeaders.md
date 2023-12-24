@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # AllowHeaders property
 
-Declaring type: [Sisk.Core.Entity.CrossOriginResourceSharingHeaders](/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.CrossOriginResourceSharingHeaders](/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.md) (from Sisk.Core)
 
 
 Definition:

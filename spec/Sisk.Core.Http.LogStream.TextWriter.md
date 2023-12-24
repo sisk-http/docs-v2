@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # TextWriter property
 
-Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public TextWriter? TextWriter { get; }
 ```
 
-Gets the <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">TextWriter</a> object where the log is being written to.
+Gets the <a href="/spec/Sisk.Core.Http.LogStream.md">TextWriter</a> object where the log is being written to.
 

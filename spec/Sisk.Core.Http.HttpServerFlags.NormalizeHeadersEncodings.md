@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # NormalizeHeadersEncodings field
 
-Declaring type: [Sisk.Core.Http.HttpServerFlags](/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerFlags](/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
 
 
 Definition:
@@ -25,5 +25,5 @@ Determines if the HTTP server should convert request headers encoding to the con
 
 
 <p>
-                    Default value: <code>true</code></p>
+                    Default value: <code>false</code></p>
 

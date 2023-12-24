@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UseFlags(HttpServerFlags) method
 
-Declaring type: [Sisk.ServiceProvider.ServiceProviderConfigurator](/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProviderConfigurator.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.ServiceProviderConfigurator](/spec/Sisk.ServiceProvider.ServiceProviderConfigurator.md) (from Sisk.ServiceProvider)
 
 
 Definition:

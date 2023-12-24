@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # BypassGlobalRequestHandlers property
 
-Declaring type: [Sisk.Core.Routing.Route](/read?q=/contents/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Route](/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public IRequestHandler[]? BypassGlobalRequestHandlers { get; set; }
 ```
 
-Gets or sets the global request handlers that will not run on this route. The verification is given by the identifier of the instance of an <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a>.
+Gets or sets the global request handlers that will not run on this route. The verification is given by the identifier of the instance of an <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a>.
 

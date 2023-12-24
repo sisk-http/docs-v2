@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UseLocale(CultureInfo) method
 
-Declaring type: [Sisk.ServiceProvider.ServiceProviderConfigurator](/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProviderConfigurator.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.ServiceProviderConfigurator](/spec/Sisk.ServiceProvider.ServiceProviderConfigurator.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public void UseLocale(CultureInfo locale)
 ```
 
-Overrides the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.md">DefaultCultureInfo</a> property in the HTTP server configuration.
+Overrides the <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.md">DefaultCultureInfo</a> property in the HTTP server configuration.
 
 
 # Parameters

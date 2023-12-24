@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # All field
 
-Declaring type: [Sisk.Core.Http.Hosting.PortableConfigurationRequireSection](/read?q=/contents/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.PortableConfigurationRequireSection](/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.md) (from Sisk.Core)
 
 
 Defines that the all sections is mandatory.

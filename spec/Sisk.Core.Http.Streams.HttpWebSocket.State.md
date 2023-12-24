@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # State property
 
-Declaring type: [Sisk.Core.Http.Streams.HttpWebSocket](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocket.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpWebSocket](/spec/Sisk.Core.Http.Streams.HttpWebSocket.md) (from Sisk.Core)
 
 
 Definition:

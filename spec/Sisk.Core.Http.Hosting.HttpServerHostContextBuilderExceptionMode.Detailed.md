@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Detailed field
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode](/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.md) (from Sisk.Core)
 
 
 Detailed messages, including detailed exception trace and information, should be displayed.

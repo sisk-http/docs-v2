@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ListeningHostRepository(ListeningHost) constructor
 
-Declaring type: [Sisk.Core.Http.ListeningHostRepository](/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHostRepository](/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public ListeningHostRepository(IEnumerable<ListeningHost> hosts)
 ```
 
-Creates a new instance of an <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a> copying the items from another collection of <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a>.
+Creates a new instance of an <a href="/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a> copying the items from another collection of <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a>.
 
 
 # Parameters

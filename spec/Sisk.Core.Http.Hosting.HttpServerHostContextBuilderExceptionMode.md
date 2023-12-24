@@ -22,52 +22,54 @@ public enum HttpServerHostContextBuilderExceptionMode
 
 Represents how the builder event error message should be displayed.
 
+
 # Field list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.Detailed.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.Detailed.md">
             Detailed
         </a>
     </td>
     <td>
         Detailed messages, including detailed exception trace and information, should be displayed.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.Normal.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.Normal.md">
             Normal
         </a>
     </td>
     <td>
         Normal messages, including their exception type and message, should be displayed.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.Silent.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.Silent.md">
             Silent
         </a>
     </td>
     <td>
         No message should be displayed.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.Throw.md">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.Throw.md">
             Throw
         </a>
     </td>
     <td>
         No message should be displayed and exceptions should be thrown instead being caughts.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>

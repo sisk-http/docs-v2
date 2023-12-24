@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # BuildRouter() method
 
-Declaring type: [Sisk.Core.Routing.RouterFactory](/read?q=/contents/spec/Sisk.Core.Routing.RouterFactory.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.Core.Routing.RouterFactory](/spec/Sisk.Core.Routing.RouterFactory.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public abstract Router BuildRouter();
 ```
 
-Build and gets a router that will be used later by an <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a>.
+Build and gets a router that will be used later by an <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a>.
 

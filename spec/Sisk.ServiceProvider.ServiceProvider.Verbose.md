@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Verbose property
 
-Declaring type: [Sisk.ServiceProvider.ServiceProvider](/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.ServiceProvider](/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public bool Verbose { get; set; }
 ```
 
-Gets or sets whether this <a href="/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md">ServiceProvider</a> should write mensagens to console indicating if the server is listening or not.
+Gets or sets whether this <a href="/spec/Sisk.ServiceProvider.ServiceProvider.md">ServiceProvider</a> should write mensagens to console indicating if the server is listening or not.
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ExecutionMode property
 
-Declaring type: [Sisk.BasicAuth.BasicAuthenticateRequestHandler](/read?q=/contents/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.md) (from Sisk.BasicAuth)
+Declaring type: [Sisk.BasicAuth.BasicAuthenticateRequestHandler](/spec/Sisk.BasicAuth.BasicAuthenticateRequestHandler.md) (from Sisk.BasicAuth)
 
 
 Definition:

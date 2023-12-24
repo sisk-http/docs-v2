@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RouteDeleteAttribute() constructor
 
-Declaring type: [Sisk.Core.Routing.RouteDeleteAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RouteDeleteAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RouteDeleteAttribute](/spec/Sisk.Core.Routing.RouteDeleteAttribute.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public RouteDeleteAttribute()
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteDeleteAttribute.md">RouteDeleteAttribute</a> attribute instance with an root path (/).
+Creates an new <a href="/spec/Sisk.Core.Routing.RouteDeleteAttribute.md">RouteDeleteAttribute</a> attribute instance with an root path (/).
 

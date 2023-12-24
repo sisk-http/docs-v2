@@ -20,5 +20,5 @@ Definition:
 public delegate void EventSourceUnregistrationHandler(object sender, HttpRequestEventSource eventSource);
 ```
 
-Represents an function that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md">HttpEventSourceCollection</a> is removed and had their connection closed.
+Represents an function that is called when an <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md">HttpEventSourceCollection</a> is removed and had their connection closed.
 

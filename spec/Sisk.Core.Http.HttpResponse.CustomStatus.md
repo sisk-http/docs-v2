@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # CustomStatus property
 
-Declaring type: [Sisk.Core.Http.HttpResponse](/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpResponse](/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpStatusInformation? CustomStatus { get; set; }
 ```
 
-Gets or sets an custom HTTP status code and description for this HTTP response. If this property ins't null, it will overwrite the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">Status</a> property in this class.
+Gets or sets an custom HTTP status code and description for this HTTP response. If this property ins't null, it will overwrite the <a href="/spec/Sisk.Core.Http.HttpResponse.md">Status</a> property in this class.
 

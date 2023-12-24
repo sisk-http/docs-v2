@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # GetStatusCodeDescription(int) method
 
-Declaring type: [Sisk.Core.Http.HttpStatusInformation](/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpStatusInformation](/spec/Sisk.Core.Http.HttpStatusInformation.md) (from Sisk.Core)
 
 
 Definition:

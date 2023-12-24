@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # CanListen property
 
-Declaring type: [Sisk.Core.Http.ListeningHost](/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHost](/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public bool CanListen { get; }
 ```
 
-Gets whether this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> can be listened by it's host <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
+Gets whether this <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> can be listened by it's host <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
 

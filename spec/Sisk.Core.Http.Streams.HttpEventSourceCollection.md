@@ -20,97 +20,103 @@ Definition:
 public sealed class HttpEventSourceCollection
 ```
 
-Provides a managed object to manage <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> connections.
+Provides a managed object to manage <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> connections.
+
 
 # Event list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/event.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.OnEventSourceRegistered.md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.OnEventSourceRegistered.md">
             OnEventSourceRegistered
         </a>
     </td>
     <td>
-        Represents an event that is fired when an <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> is registered in this collection.
-    <td>
+        Represents an event that is fired when an <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> is registered in this collection.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/event.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.OnEventSourceUnregistration.md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.OnEventSourceUnregistration.md">
             OnEventSourceUnregistration
         </a>
     </td>
     <td>
-        Represents an event that is fired when an <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> is closed and removed from this collection.
-    <td>
+        Represents an event that is fired when an <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> is closed and removed from this collection.
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.ActiveConnections.md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.ActiveConnections.md">
             ActiveConnections
         </a>
     </td>
     <td>
         Gets an number indicating the amount of active event source connections.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.All().md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.All().md">
             All()
         </a>
     </td>
     <td>
-        Gets all actives <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instances.
-    <td>
+        Gets all actives <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instances.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.DropAll().md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.DropAll().md">
             DropAll()
         </a>
     </td>
     <td>
-        Closes and disposes all registered and active <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> in this collections.
-    <td>
+        Closes and disposes all registered and active <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> in this collections.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.Find(string-Boolean}).md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.Find(string-Boolean}).md">
             Find(string, Boolean})
         </a>
     </td>
     <td>
-        Gets all actives <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instances that matches their identifier predicate.
-    <td>
+        Gets all actives <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instances that matches their identifier predicate.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.GetByIdentifier(string).md">
+        <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.GetByIdentifier(string).md">
             GetByIdentifier(string)
         </a>
     </td>
     <td>
         Gets the event source connection for the specified identifier.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>

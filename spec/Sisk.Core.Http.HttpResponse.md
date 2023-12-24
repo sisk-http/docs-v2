@@ -22,260 +22,266 @@ public class HttpResponse : CookieHelper
 
 Represents an HTTP Response.
 
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.CreateEmptyResponse().md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.CreateEmptyResponse().md">
             CreateEmptyResponse()
         </a>
     </td>
     <td>
-        Creates an new empty <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> with no status code or contents. This will cause to the HTTP server to close the connection between the server and the client and don't deliver any response.
-    <td>
+        Creates an new empty <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> with no status code or contents. This will cause to the HTTP server to close the connection between the server and the client and don't deliver any response.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.CreateRedirectResponse(RouteAction).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.CreateRedirectResponse(RouteAction).md">
             CreateRedirectResponse(RouteAction)
         </a>
     </td>
     <td>
-        Creates an new redirect <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> which redirects to the route path defined in a action. The provided method must have a valid RouteAttribute attribute.
-    <td>
+        Creates an new redirect <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> which redirects to the route path defined in a action. The provided method must have a valid RouteAttribute attribute.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.CreateRedirectResponse(string).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.CreateRedirectResponse(string).md">
             CreateRedirectResponse(string)
         </a>
     </td>
     <td>
-        Creates an new redirect <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> with given location header.
-    <td>
+        Creates an new redirect <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> with given location header.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.GetRawHttpResponse(bool).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.GetRawHttpResponse(bool).md">
             GetRawHttpResponse(bool)
         </a>
     </td>
     <td>
         Gets the raw HTTP response message.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.WithContent(HttpContent).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.WithContent(HttpContent).md">
             WithContent(HttpContent)
         </a>
     </td>
     <td>
-        Sets an content in this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
-    <td>
+        Sets an content in this <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.WithContent(string).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.WithContent(string).md">
             WithContent(string)
         </a>
     </td>
     <td>
-        Sets an UTF-8 string in this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> content.
-    <td>
+        Sets an UTF-8 string in this <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> content.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.WithCookie(string-string-DateTime-TimeSpan-string-string-bool-bool-string).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.WithCookie(string-string-DateTime-TimeSpan-string-string-bool-bool-string).md">
             WithCookie(string, string, DateTime?, TimeSpan?, string, string, bool?, bool?, string)
         </a>
     </td>
     <td>
         Sets a cookie and sends it in the response to be set by the client.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.WithHeader(NameValueCollection).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.WithHeader(NameValueCollection).md">
             WithHeader(NameValueCollection)
         </a>
     </td>
     <td>
-        Sets an array of HTTP header in this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
-    <td>
+        Sets an array of HTTP header in this <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.WithHeader(string-string).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.WithHeader(string-string).md">
             WithHeader(string, string)
         </a>
     </td>
     <td>
-        Sets an HTTP header in this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
-    <td>
+        Sets an HTTP header in this <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.WithStatus(int).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.WithStatus(int).md">
             WithStatus(int)
         </a>
     </td>
     <td>
         Sets the HTTP response status code.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.WithStatus(HttpStatusCode).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.WithStatus(HttpStatusCode).md">
             WithStatus(HttpStatusCode)
         </a>
     </td>
     <td>
         Sets the HTTP response status code.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.Content.md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.Content.md">
             Content
         </a>
     </td>
     <td>
         Gets or sets the HTTP response body contents.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.CustomStatus.md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.CustomStatus.md">
             CustomStatus
         </a>
     </td>
     <td>
-        Gets or sets an custom HTTP status code and description for this HTTP response. If this property ins't null, it will overwrite the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">Status</a> property in this class.
-    <td>
+        Gets or sets an custom HTTP status code and description for this HTTP response. If this property ins't null, it will overwrite the <a href="/spec/Sisk.Core.Http.HttpResponse.md">Status</a> property in this class.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.Headers.md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.Headers.md">
             Headers
         </a>
     </td>
     <td>
         Gets a <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Specialized.NameValueCollection">NameValueCollection</a> instance of the HTTP response headers.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.SendChunked.md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.SendChunked.md">
             SendChunked
         </a>
     </td>
     <td>
         Gets or sets whether the HTTP response can be sent chunked.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.Status.md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.Status.md">
             Status
         </a>
     </td>
     <td>
         Gets or sets the HTTP response status code.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Constructor list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.HttpResponse().md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.HttpResponse().md">
             HttpResponse()
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with HTTP OK status code and no content.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with HTTP OK status code and no content.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.HttpResponse(int-HttpContent).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.HttpResponse(int-HttpContent).md">
             HttpResponse(int, HttpContent)
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code and HTTP content.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code and HTTP content.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.HttpResponse(int).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.HttpResponse(int).md">
             HttpResponse(int)
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.HttpResponse(HttpContent).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.HttpResponse(HttpContent).md">
             HttpResponse(HttpContent)
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given HTTP content, with default status code as 200 OK.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given HTTP content, with default status code as 200 OK.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.HttpResponse(HttpStatusCode-HttpContent).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.HttpResponse(HttpStatusCode-HttpContent).md">
             HttpResponse(HttpStatusCode, HttpContent)
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code and HTTP contents.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code and HTTP contents.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.HttpResponse(HttpStatusCode).md">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.HttpResponse(HttpStatusCode).md">
             HttpResponse(HttpStatusCode)
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code.
+    </td>
 </tr>
     </tbody>
 </table>

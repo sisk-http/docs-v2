@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UseRegex property
 
-Declaring type: [Sisk.Core.Routing.Route](/read?q=/contents/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Route](/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
 
 
 Definition:

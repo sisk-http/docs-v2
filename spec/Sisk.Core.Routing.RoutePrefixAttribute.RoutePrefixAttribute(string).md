@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RoutePrefixAttribute(string) constructor
 
-Declaring type: [Sisk.Core.Routing.RoutePrefixAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RoutePrefixAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RoutePrefixAttribute](/spec/Sisk.Core.Routing.RoutePrefixAttribute.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public RoutePrefixAttribute(string prefix)
 ```
 
-Initializes an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePrefixAttribute.md">RoutePrefixAttribute</a> with given prefix.
+Initializes an new <a href="/spec/Sisk.Core.Routing.RoutePrefixAttribute.md">RoutePrefixAttribute</a> with given prefix.
 

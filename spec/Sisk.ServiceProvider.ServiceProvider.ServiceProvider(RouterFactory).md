@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ServiceProvider(RouterFactory) constructor
 
-Declaring type: [Sisk.ServiceProvider.ServiceProvider](/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.ServiceProvider](/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public ServiceProvider(RouterFactory instance)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md">ServiceProvider</a> instance with given router factory.
+Creates an new <a href="/spec/Sisk.ServiceProvider.ServiceProvider.md">ServiceProvider</a> instance with given router factory.
 
 
 # Parameters

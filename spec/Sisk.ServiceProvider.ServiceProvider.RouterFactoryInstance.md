@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RouterFactoryInstance property
 
-Declaring type: [Sisk.ServiceProvider.ServiceProvider](/read?q=/contents/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
+Declaring type: [Sisk.ServiceProvider.ServiceProvider](/spec/Sisk.ServiceProvider.ServiceProvider.md) (from Sisk.ServiceProvider)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public RouterFactory RouterFactoryInstance { get; set; }
 ```
 
-Gets or sets the <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterFactory.md">RouterFactory</a> object instance which will provide an entry point for this service.
+Gets or sets the <a href="/spec/Sisk.Core.Routing.RouterFactory.md">RouterFactory</a> object instance which will provide an entry point for this service.
 

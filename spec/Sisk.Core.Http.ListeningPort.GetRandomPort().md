@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # GetRandomPort() method
 
-Declaring type: [Sisk.Core.Http.ListeningPort](/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningPort](/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public static ListeningPort GetRandomPort()
 ```
 
-Gets an <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> object with an random insecure port.
+Gets an <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> object with an random insecure port.
 

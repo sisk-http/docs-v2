@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ReadContentAsString() method
 
-Declaring type: [Sisk.Core.Entity.MultipartObject](/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.MultipartObject](/spec/Sisk.Core.Entity.MultipartObject.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public string? ReadContentAsString()
 ```
 
-Reads the content bytes using the <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.md">DefaultContentEncoding</a> encoding.
+Reads the content bytes using the Http request content-encoding.
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ListeningHost(string, Router) constructor
 
-Declaring type: [Sisk.Core.Http.ListeningHost](/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHost](/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public ListeningHost(string uri, Router r)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance with given URL.
+Creates an new <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance with given URL.
 
 
 # Parameters

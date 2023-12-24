@@ -22,41 +22,43 @@ public abstract class RouterFactory
 
 Provides a class that instantiates a router, capable of porting applications for use with Agirax.
 
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterFactory.Bootstrap().md">
+        <a href="/spec/Sisk.Core.Routing.RouterFactory.Bootstrap().md">
             Bootstrap()
         </a>
     </td>
     <td>
         Method that is called immediately before initializing the service, after all configurations was parsed and set up.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterFactory.BuildRouter().md">
+        <a href="/spec/Sisk.Core.Routing.RouterFactory.BuildRouter().md">
             BuildRouter()
         </a>
     </td>
     <td>
-        Build and gets a router that will be used later by an <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a>.
-    <td>
+        Build and gets a router that will be used later by an <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a>.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterFactory.Setup(NameValueCollection).md">
+        <a href="/spec/Sisk.Core.Routing.RouterFactory.Setup(NameValueCollection).md">
             Setup(NameValueCollection)
         </a>
     </td>
     <td>
-        Method that is called by the service instantiator with the parameters defined in configuration before calling <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterFactory.md">BuildRouter</a>.
-    <td>
+        Method that is called by the service instantiator with the parameters defined in configuration before calling <a href="/spec/Sisk.Core.Routing.RouterFactory.md">BuildRouter</a>.
+    </td>
 </tr>
     </tbody>
 </table>

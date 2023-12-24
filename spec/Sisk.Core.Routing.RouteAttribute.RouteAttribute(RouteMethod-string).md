@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RouteAttribute(RouteMethod, string) constructor
 
-Declaring type: [Sisk.Core.Routing.RouteAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RouteAttribute](/spec/Sisk.Core.Routing.RouteAttribute.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public RouteAttribute(RouteMethod method, string path)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> instance with given route method and path pattern.
+Creates an new <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> instance with given route method and path pattern.
 
 
 # Parameters

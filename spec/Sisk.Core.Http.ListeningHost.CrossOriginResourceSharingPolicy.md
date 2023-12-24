@@ -12,13 +12,13 @@ edit the XML documentation present in the Sisk source code.
 
 # CrossOriginResourceSharingPolicy property
 
-Declaring type: [Sisk.Core.Http.ListeningHost](/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHost](/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public Entity.CrossOriginResourceSharingHeaders? CrossOriginResourceSharingPolicy { get; set; }
+public Entity.CrossOriginResourceSharingHeaders CrossOriginResourceSharingPolicy { get; set; }
 ```
 
 Gets or sets the CORS sharing policy object.

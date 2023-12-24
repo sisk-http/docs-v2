@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RoutePostAttribute(string) constructor
 
-Declaring type: [Sisk.Core.Routing.RoutePostAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RoutePostAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RoutePostAttribute](/spec/Sisk.Core.Routing.RoutePostAttribute.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public RoutePostAttribute(string path)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePostAttribute.md">RoutePostAttribute</a> attribute instance with given path.
+Creates an new <a href="/spec/Sisk.Core.Routing.RoutePostAttribute.md">RoutePostAttribute</a> attribute instance with given path.
 
 
 # Parameters

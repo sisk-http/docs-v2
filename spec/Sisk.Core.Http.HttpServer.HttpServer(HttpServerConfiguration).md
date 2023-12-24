@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # HttpServer(HttpServerConfiguration) constructor
 
-Declaring type: [Sisk.Core.Http.HttpServer](/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServer](/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public HttpServer(HttpServerConfiguration configuration)
 ```
 
-Creates a new default configuration <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> instance with the given Route and server configuration.
+Creates a new default configuration <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> instance with the given Route and server configuration.
 
 
 # Parameters

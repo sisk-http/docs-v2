@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # All() method
 
-Declaring type: [Sisk.Core.Http.Streams.HttpEventSourceCollection](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpEventSourceCollection](/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpRequestEventSource[] All()
 ```
 
-Gets all actives <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instances.
+Gets all actives <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instances.
 

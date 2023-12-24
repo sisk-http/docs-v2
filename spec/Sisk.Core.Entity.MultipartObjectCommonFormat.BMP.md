@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # BMP field
 
-Declaring type: [Sisk.Core.Entity.MultipartObjectCommonFormat](/read?q=/contents/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.MultipartObjectCommonFormat](/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.md) (from Sisk.Core)
 
 
 Definition:

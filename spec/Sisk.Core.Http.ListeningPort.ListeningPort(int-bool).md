@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ListeningPort(int, bool) constructor
 
-Declaring type: [Sisk.Core.Http.ListeningPort](/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningPort](/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public ListeningPort(int port, bool secure)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port and secure context at the loopback host.
+Creates an new <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port and secure context at the loopback host.
 
 
 # Parameters

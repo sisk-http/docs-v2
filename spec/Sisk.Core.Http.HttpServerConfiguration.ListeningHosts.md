@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ListeningHosts property
 
-Declaring type: [Sisk.Core.Http.HttpServerConfiguration](/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerConfiguration](/spec/Sisk.Core.Http.HttpServerConfiguration.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public ListeningHostRepository ListeningHosts { get; set; }
 ```
 
-Gets or sets the listening hosts repository that the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> instance will listen to.
+Gets or sets the listening hosts repository that the <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> instance will listen to.
 
