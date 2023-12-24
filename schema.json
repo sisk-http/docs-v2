@@ -8,7 +8,9 @@
         "branches": [
             "main",
             "specification"
-        ]
+        ],
+        "makeExternalLinks": true,
+        "editButtonVisible": false
     },
     "contents": [
         "Sisk.BasicAuth",
