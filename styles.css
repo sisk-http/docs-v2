@@ -1,4 +1,11 @@
 img.icon {
+    display: inline;
+    position: relative;
+    top: 2px;
     width: 18px;
     height: 18px;
+}
+
+html.dark-mode img.icon {
+    filter: brightness(1.5);
 }
