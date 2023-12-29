@@ -18,7 +18,7 @@ public class HttpServerHandler
 }
 ```
 
-Please refer to [this page](/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) to read where each method is triggered and what its purpose is. You can also view the [lifecycle of an HTTP request](/read?q=/contents/docs/advanced/request-lifecycle.md) to understand what happens with a request and where events are fired. The HTTP server allows you to use multiple handlers at the same time. Each event call is synchronous, that is, it will blocked the current thread for each request or context until all handlers associated with that function are executed and completed.
+Please refer to [this page](../specification/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) to read where each method is triggered and what its purpose is. You can also view the [lifecycle of an HTTP request](/v1/advanced/request-lifecycle.md) to understand what happens with a request and where events are fired. The HTTP server allows you to use multiple handlers at the same time. Each event call is synchronous, that is, it will blocked the current thread for each request or context until all handlers associated with that function are executed and completed.
 
 Unlike RequestHandlers, they cannot be applied to some route groups or specific routes. Instead, they are applied to the entire Http server. You can apply conditions within your Http Server Handler. Furthermore, singletons of each HttpServerHandler are defined for every Sisk application, so only one instance per `HttpServerHandler` is defined.
 
@@ -57,7 +57,7 @@ public static class DatabaseConnectionHandlerExtensions
 
 With the code above, the `GetDbContext` extension allows a connection context to be created directly from the HttpRequest object. An undisposed connection can cause problems when running with the database, so it is terminated in `OnHttpRequestClose`.
 
-You can register a handler on an Http server in your builder or directly with [HttpServer.RegisterHandler](/read?q=/contents/spec/Sisk.Core.Http.HttpServer.RegisterHandler().md).
+You can register a handler on an Http server in your builder or directly with [HttpServer.RegisterHandler](../specification/spec/Sisk.Core.Http.HttpServer.RegisterHandler().md).
 
 ```cs
 // Program.cs

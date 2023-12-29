@@ -26,4 +26,4 @@ Moreover, its development model allows you to choose how you want your developme
 
 Getting started with Sisk is easy. Those who already have experience with web development typically learn Sisk in one or two days. Our documentation is... let's say... very well-documented. You can find everything you need here. Additionally, our source code is open, so you have access to it.
 
-Let's [get started with Sisk](/read?q=/contents/docs/getting-started).
+Let's [get started with Sisk](/v1/getting-started.md).

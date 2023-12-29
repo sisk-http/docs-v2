@@ -4,7 +4,7 @@ Request handlers, also known as "middlewares", are functions that run before or 
 
 There are three types of request handlers:
 
-- **BeforeContents**: defines a Request Handler that will be executed before the request content is loaded. Note that it is possible to use the [GetInputStream()](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetInputStream().md) method in this context and also the [ContentLength](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.ContentLength.md) property. Returning a non-null HTTP response will discard the content sent by the client and not load the input body into the memory.
+- **BeforeContents**: defines a Request Handler that will be executed before the request content is loaded. Note that it is possible to use the [GetInputStream()](../specification/spec/Sisk.Core.Http.HttpRequest.GetInputStream().md) method in this context and also the [ContentLength](../specification/spec/Sisk.Core.Http.HttpRequest.ContentLength.md) property. Returning a non-null HTTP response will discard the content sent by the client and not load the input body into the memory.
 - **BeforeResponse**: defines that the request handler will be executed before calling the router callback, but after the contents is loaded and ready.
 - **AfterResponse**: defines that the request handler will be executed after calling the router callback. Sending an HTTP response in this context will overwrite the router's HTTP response.
 
@@ -20,7 +20,7 @@ Example: let's assume that a user authentication request handler does not authen
 
 # Creating an request handler
 
-To create a request handler, we can create a class that inherits the [IRequestHandler](/read?q=/contents/spec/Sisk.Core.Routing.Handlers.IRequestHandler) interface, in this format:
+To create a request handler, we can create a class that inherits the [IRequestHandler](../specification/spec/Sisk.Core.Routing.Handlers.IRequestHandler) interface, in this format:
 
 ```cs
 public class AuthenticateUserRequestHandler : IRequestHandler
@@ -43,7 +43,7 @@ public class AuthenticateUserRequestHandler : IRequestHandler
 }
 ```
 
-In the above example, we indicated that if the "Authorization" header is present in the request, it should continue and the next request handler or the router callback should be called, whichever comes next. If it's a request handler is executed after the response by their property [ExecutionMode](/read?q=/contents/spec/Sisk.Core.Routing.Handlers.IRequestHandler.ExecutionMode) and return an non-null value, it will overwrite the router's response.
+In the above example, we indicated that if the "Authorization" header is present in the request, it should continue and the next request handler or the router callback should be called, whichever comes next. If it's a request handler is executed after the response by their property [ExecutionMode](../specification/spec/Sisk.Core.Routing.Handlers.IRequestHandler.ExecutionMode) and return an non-null value, it will overwrite the router's response.
 
 Whenever a Request Handler returns `null`, it indicates that the request must continue and the next object must be called or the cycle must end with the router's response.
 
@@ -61,7 +61,7 @@ mainRouter.SetRoute(RouteMethod.Get, "/", IndexPage, "", new IRequestHandler[]
 });
 ```
 
-Or creating an [Route](/read?q=/contents/spec/Sisk.Core.Routing.Route) object:
+Or creating an [Route](../specification/spec/Sisk.Core.Routing.Route) object:
 
 ```cs
 Route indexRoute = new Route(RouteMethod.Get, "/", "", IndexPage, null);
@@ -101,7 +101,7 @@ public class MyController
 }
 ```
 
-Note that it is necessary to pass the desired request handler type and not an object instance. That way, the request handler will be instantiated by the router parser. You can pass arguments in the class constructor with the [ConstructorArguments](/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerAttribute.ConstructorArguments) property.
+Note that it is necessary to pass the desired request handler type and not an object instance. That way, the request handler will be instantiated by the router parser. You can pass arguments in the class constructor with the [ConstructorArguments](../specification/spec/Sisk.Core.Routing.RequestHandlerAttribute.ConstructorArguments) property.
 
 Example:
 

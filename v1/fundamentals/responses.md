@@ -47,7 +47,7 @@ HttpResponse res = new HttpResponse();
 res.SetCookie("cookie-name", "cookie-value");
 ```
 
-There are other [more complete versions](/read?q=/contents/spec/Sisk.Core.Http.CookieHelper.SetCookie(string-string-DateTime-TimeSpan-string-string-bool-bool-string).md) of the same method.
+There are other [more complete versions](../specification/spec/Sisk.Core.Http.CookieHelper.SetCookie(string-string-DateTime-TimeSpan-string-string-bool-bool-string).md) of the same method.
 
 # Sending response in chunks
 
@@ -91,7 +91,7 @@ Since version 0.15, you can use other return types besides HttpResponse, but it 
 
 The concept is to always return a reference type and turn it into a valid HttpResponse object. Routes that return HttpResponse do not undergo any conversion.
 
-Value types (structures) cannot be used as a return type because they are not compatible with the [RouterCallback](/read?q=/contents/spec/Sisk.Core.Routing.RouterCallback), so they must be wrapped in a ValueResult to be able to be used in handlers.
+Value types (structures) cannot be used as a return type because they are not compatible with the [RouterCallback](../specification/spec/Sisk.Core.Routing.RouterCallback), so they must be wrapped in a ValueResult to be able to be used in handlers.
 
 Consider the following example from a router module not using HttpResponse in the return type:
 

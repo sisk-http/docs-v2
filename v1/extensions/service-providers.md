@@ -37,7 +37,7 @@ Service Providers managed by a JSON file of settings that is read by the applica
 }
 ```
 
-This file is read alongside the server executable, regardless of the build platform. By default the file name is `service-config.json` and must stay at the same directory of the output executeable. It is also possible to change the file name by tweaking the [ServiceProvider](/read?q=/contents/spec/Sisk/Provider/ServiceProvider) class.
+This file is read alongside the server executable, regardless of the build platform. By default the file name is `service-config.json` and must stay at the same directory of the output executeable. It is also possible to change the file name by tweaking the [ServiceProvider](../specification/spec/Sisk/Provider/ServiceProvider) class.
 
 > **Tip:**
 >
@@ -240,7 +240,7 @@ The JSON file is composed of the properties:
         <tr>
             <td>ListeningHost.Ports</td>
             <td>Required</td>
-            <td>Represents an array of strings, matching the <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort">ListeningPort</a> syntax.</td>
+            <td>Represents an array of strings, matching the <a href="../specification/spec/Sisk.Core.Http.ListeningPort">ListeningPort</a> syntax.</td>
         </tr>
         <tr>
             <td>ListeningHost.CrossOriginResourceSharingPolicy</td>
@@ -270,7 +270,7 @@ The JSON file is composed of the properties:
             <td>ListeningHost.CrossOriginResourceSharingPolicy.AllowOrigins</td>
             <td>Optional</td>
             <td>Defaults to <code>null</code>. This property expects an array of strings.
-                Specifies multiples <code>Allow-Origin</code> headers. See <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowOrigins">
+                Specifies multiples <code>Allow-Origin</code> headers. See <a href="../specification/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowOrigins">
                     AllowOrigins
                 </a> for more information.
             </td>

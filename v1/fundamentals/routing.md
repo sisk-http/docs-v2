@@ -1,6 +1,6 @@
 # Routing
 
-The router refers to what redirects requests to their proper places. A [Router](/read?q=/contents/spec/Sisk.Core.Routing.Router) is responsible for routing [Route](/read?q=/contents/spec/Sisk.Core.Routing.Route) to its responsible controllers, methods or callbacks. What the Router uses to match a route with a Route is the request path and its method. These two items are responsible for assigning a request to a route.
+The router refers to what redirects requests to their proper places. A [Router](../specification/spec/Sisk.Core.Routing.Router) is responsible for routing [Route](../specification/spec/Sisk.Core.Routing.Route) to its responsible controllers, methods or callbacks. What the Router uses to match a route with a Route is the request path and its method. These two items are responsible for assigning a request to a route.
 
 ```cs
 mainRouter.SetRoute(RouteMethod.Get, "/hey", (request) =>
@@ -19,7 +19,7 @@ mainRouter += new Route(RouteMethod.Get, "/", (req) =>
 });
 ```
 
-To understand what a route is capable of doing, we need to understand what a request is capable of doing. An [HttpRequest](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest) will contain everything you need. Sisk also includes some extra features that speed up the overral development.
+To understand what a route is capable of doing, we need to understand what a request is capable of doing. An [HttpRequest](../specification/spec/Sisk.Core.Http.HttpRequest) will contain everything you need. Sisk also includes some extra features that speed up the overral development.
 
 # Creating routes using paths
 
@@ -41,9 +41,9 @@ mainRouter.SetRoute(RouteMethod.Get, "/hey/<name>/surname/<surname>", (request) 
 });
 ```
 
-The HTTP request [Query](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Query) property also stores the content of an original query, but if there are parameters in the route with the same name as a query, it will be replaced by what is in the route. The path that is matched with an request URI is always the path as explained in [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986#section-3.3).
+The HTTP request [Query](../specification/spec/Sisk.Core.Http.HttpRequest.Query) property also stores the content of an original query, but if there are parameters in the route with the same name as a query, it will be replaced by what is in the route. The path that is matched with an request URI is always the path as explained in [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986#section-3.3).
 
-You can also get an query parameter, including an route parameter, casting it to the desired type, with [GetQueryValue](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetQueryValue(string).md):
+You can also get an query parameter, including an route parameter, casting it to the desired type, with [GetQueryValue](../specification/spec/Sisk.Core.Http.HttpRequest.GetQueryValue(string).md):
 
 ```cs
 mainRouter.SetRoute(RouteMethod.Get, "/user/<id>", (request) =>
@@ -58,11 +58,11 @@ Internally, the implementation of this method differs from .NET 6 to newer versi
 >
 > Paths have their trailing `/` ignored in both request and route path, that is, if you try to access a route defined as `/index/page` you'll be able to access using `/index/page/` too.
 >
-> You can also force URLs to terminate with `/` enabling the [ForceTrailingSlash](/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.ForceTrailingSlash) flag.
+> You can also force URLs to terminate with `/` enabling the [ForceTrailingSlash](../specification/spec/Sisk.Core.Http.HttpServerFlags.ForceTrailingSlash) flag.
 
 # Creating routes using class instances
 
-You can also define routes dynamically using reflection with the attribute [RouteAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute). This way, the instance of a class in which its methods implement this attribute will have their routes defined in the target router.
+You can also define routes dynamically using reflection with the attribute [RouteAttribute](../specification/spec/Sisk.Core.Routing.RouteAttribute). This way, the instance of a class in which its methods implement this attribute will have their routes defined in the target router.
 
 Methods marked with the route attribute must be static.
 
@@ -118,7 +118,7 @@ indexRoute.UseRegex = true;
 mainRouter.SetRoute(indexRoute);
 ```
 
-You can also capture groups from the regex pattern into the [Request.Query](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Query.md) contents:
+You can also capture groups from the regex pattern into the [Request.Query](../specification/spec/Sisk.Core.Http.HttpRequest.Query.md) contents:
 
 ```cs
 [RegexRoute(RouteMethod.Get, @"/uploads/(?<filename>.*\.(jpeg|jpg|png))")]
@@ -183,7 +183,7 @@ mainRouter.MethodNotAllowedErrorHandler = () =>
 
 Route callbacks can throw errors during server execution. If not handled correctly, the overall functioning of the HTTP server can be terminated. The router has a callback for when a route callback fails and prevents service interruption.
 
-This method is only reacheable when [ThrowExceptions](/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.ThrowExceptions.md) is false.
+This method is only reacheable when [ThrowExceptions](../specification/spec/Sisk.Core.Http.HttpServerConfiguration.ThrowExceptions.md) is false.
 
 ```cs
 mainRouter.CallbackErrorHandler = (ex, req) =>

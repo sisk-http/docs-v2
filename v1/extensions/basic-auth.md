@@ -71,7 +71,7 @@ public class UsersController
 }
 ```
 
-Or using [RouterModule](/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.md) class:
+Or using [RouterModule](../specification/spec/Sisk.Core.Routing.RouterModule.md) class:
 
 ```cs
 public class UsersController : RouterModule

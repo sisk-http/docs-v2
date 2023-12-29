@@ -2,7 +2,7 @@
 
 You can configure Sisk to write access and error logs automatically. It is possible to define log rotation, format and frequency.
 
-The [LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream) class provides an asynchronous way of writing logs and keeping them in an awaitable write queue.
+The [LogStream](../specification/spec/Sisk.Core.Http.LogStream) class provides an asynchronous way of writing logs and keeping them in an awaitable write queue.
 
 In this article we will show you how to configure logging for your application.
 
@@ -364,7 +364,7 @@ config.ThrowExceptions = false;
 config.ErrorsLogsStream = new LogStream("error.log");
 ```
 
-This property will only write something to the log if the error is not captured by the callback or the [Router.CallbackErrorHandler](/read?q=/contents/spec/Sisk.Core.Routing.Router.CallbackErrorHandler) property.
+This property will only write something to the log if the error is not captured by the callback or the [Router.CallbackErrorHandler](../specification/spec/Sisk.Core.Routing.Router.CallbackErrorHandler) property.
 
 The error written by the server always writes the date and time, the request headers (not the body), the error trace, and the inner exception trace, if theres any.
 

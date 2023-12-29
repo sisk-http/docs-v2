@@ -10,7 +10,7 @@ These connections are useful for sending events from the server to the client wi
 
 A SSE connection works like a regular HTTP request, but instead of sending a response and immediately closing the connection, the connection is kept open to send messages.
 
-Calling the [HttpRequest.GetEventSource()](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetEventSource(string)) method, the request is put in a waiting state while the SSE instance is created.
+Calling the [HttpRequest.GetEventSource()](../specification/spec/Sisk.Core.Http.HttpRequest.GetEventSource(string)) method, the request is put in a waiting state while the SSE instance is created.
 
 ```cs
 r += new Route(RouteMethod.Get, "/", (req) =>
@@ -26,14 +26,14 @@ r += new Route(RouteMethod.Get, "/", (req) =>
 In the above code, we create an SSE connection and send a "Hello, world" message, then we close the SSE connection from the server side.
 
 > **Note:**
-> 
+>
 > When closing a server-side connection, by default the client will try to connect again at that end and the connection will be restarted, executing the method again, forever.
-> 
+>
 > It's common to forward a termination message from the server whenever the connection is closed from the server to prevent the client from trying to reconnect again.
 
 # Appending headers
 
-If you need to send headers, you can use the [HttpRequestEventSource.AppendHeader](/read?q=/contents/spec/Sisk.Core.Http.HttpRequestEventSource.AppendHeader(string-string)) method before sending any messages.
+If you need to send headers, you can use the [HttpRequestEventSource.AppendHeader](../specification/spec/Sisk.Core.Http.HttpRequestEventSource.AppendHeader(string-string)) method before sending any messages.
 
 ```cs
 r += new Route(RouteMethod.Get, "/", (req) =>
@@ -55,7 +55,7 @@ Connections are normally terminated when the server is no longer able to send me
 
 Even with a reconnection, the instance of the class will not work, as it is linked to the previous connection. In some situations, you may need this connection later and you don't want to manage it via the callback method of the route.
 
-For this, we can identify the SSE connections with an identifier and get them using it later, even outside the callback of the route. In addition, we mark the connection with [WaitForFail](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md) so as not to terminate the route and terminate the connection automatically.
+For this, we can identify the SSE connections with an identifier and get them using it later, even outside the callback of the route. In addition, we mark the connection with [WaitForFail](../specification/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md) so as not to terminate the route and terminate the connection automatically.
 
 An SSE connection in KeepAlive will wait for a send error (caused by disconnection) to resume method execution. It is also possible to set a Timeout for this. After the time, if no message has been sent, the connection is terminated and execution resumes.
 
@@ -83,12 +83,12 @@ if (evs != null)
 
 And the snippet above will try to look for the newly created connection, and if it exists, it will send a message to it.
 
-All active server connections that are identified will be available in the collection [HttpServer.EventSources](/read?q=/contents/spec/Sisk.Core.Http.HttpServer.EventSources). This collection only stores active and identified connections. Closed connections are removed from the collection.
+All active server connections that are identified will be available in the collection [HttpServer.EventSources](../specification/spec/Sisk.Core.Http.HttpServer.EventSources). This collection only stores active and identified connections. Closed connections are removed from the collection.
 
 > **Note:**
-> 
+>
 > It is important to note that keep alive has a limit established by components that may be connected to Sisk in an uncontrollable way, such as an web proxy, an HTTP kernel or a network driver, and they close idle connections after a certain period of time.
-> 
+>
 > Therefore, it is important to keep the connection open by sending periodic pings or extending the maximum time before the connection is closed. Read the next section to better understand sending periodic pings.
 
 # Setup connections ping policy
@@ -126,4 +126,4 @@ foreach (HttpRequestEventSource e in evs)
 }
 ```
 
-You can also use the [All](/read?q=/contents/spec/Sisk.Core.Http.HttpEventSourceCollection.All()) method to get all active SSE connections.
+You can also use the [All](../specification/spec/Sisk.Core.Http.HttpEventSourceCollection.All()) method to get all active SSE connections.

@@ -10,7 +10,7 @@ The example below shows how websocket works in practice, with an example of open
 
 All messages received by WebSocket are received in bytes, so you will have to decode them upon receipt.
 
-By default, messages are fragmented into chunks and the last piece is sent as the final packet of the message. You can configure the packet size with the [WebSocketBufferSize](/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.WebSocketBufferSize) flag. This buffering is the same for sending and receiving messages.
+By default, messages are fragmented into chunks and the last piece is sent as the final packet of the message. You can configure the packet size with the [WebSocketBufferSize](../specification/spec/Sisk.Core.Http.HttpServerFlags.WebSocketBufferSize) flag. This buffering is the same for sending and receiving messages.
 
 ```cs
 static ListeningHost BuildLhA()
@@ -87,7 +87,7 @@ static ListeningHost BuildLhA()
 
 # Sending messages
 
-The Send method has three overloads, which allow you to send text, a byte array, or a byte span. All of them is chunked if the server's [WebSocketBufferSize](/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.WebSocketBufferSize) flag is greater than the total payload size.
+The Send method has three overloads, which allow you to send text, a byte array, or a byte span. All of them is chunked if the server's [WebSocketBufferSize](../specification/spec/Sisk.Core.Http.HttpServerFlags.WebSocketBufferSize) flag is greater than the total payload size.
 
 ```cs
 static ListeningHost BuildLhA()
@@ -112,11 +112,11 @@ static ListeningHost BuildLhA()
 
 # Waiting for websocket close
 
-The method [WaitForClose()](/read?q=/contents/spec/Sisk.Core.Http.HttpWebSocket.WaitForClose()) blocks the current call stack until the connection is terminated by either the client or the server.
+The method [WaitForClose()](../specification/spec/Sisk.Core.Http.HttpWebSocket.WaitForClose()) blocks the current call stack until the connection is terminated by either the client or the server.
 
 With this, the execution of the callback of the request will be blocked until the client or the server disconnects.
 
-You can also manually close the connection with the [Close()](/read?q=/contents/spec/Sisk.Core.Http.HttpWebSocket.Close()) method. This method returns an empty [HttpResponse](/read?q=/contents/spec/Sisk.Core.Http.HttpResponse) object, which is not sent to the client, but works as a return from the function where the HTTP request was received.
+You can also manually close the connection with the [Close()](../specification/spec/Sisk.Core.Http.HttpWebSocket.Close()) method. This method returns an empty [HttpResponse](../specification/spec/Sisk.Core.Http.HttpResponse) object, which is not sent to the client, but works as a return from the function where the HTTP request was received.
 
 ```cs
 static ListeningHost BuildLhA()

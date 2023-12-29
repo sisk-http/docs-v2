@@ -1,6 +1,6 @@
 # Requests
 
-Requests are structures that represent an HTTP request message. The [HttpRequest](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest) object contains useful functions for handling HTTP messages throughout your application.
+Requests are structures that represent an HTTP request message. The [HttpRequest](../specification/spec/Sisk.Core.Http.HttpRequest) object contains useful functions for handling HTTP messages throughout your application.
 
 An HTTP request is formed by the method, path, version, headers and body.
 
@@ -22,7 +22,7 @@ This property returns the request's method represented by an [HttpMethod](https:
 
 > **Note:**
 >
-> Unlike route methods, this property does not serves the [RouteMethod.Any](/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Any) item. Instead, it returns the real request method.
+> Unlike route methods, this property does not serves the [RouteMethod.Any](../specification/spec/Sisk.Core.Routing.RouteMethod.Any) item. Instead, it returns the real request method.
 
 # Getting the request url component
 
@@ -41,7 +41,7 @@ http://localhost:5000/user/login?email=foo@bar.com
     <tbody>
         <tr>
             <td>
-                <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Path">
+                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.Path">
                     Path
                 </a>
             </td>
@@ -54,7 +54,7 @@ http://localhost:5000/user/login?email=foo@bar.com
         </tr>
         <tr>
             <td>
-                <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.FullPath">
+                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.FullPath">
                     FullPath
                 </a>
             </td>
@@ -67,7 +67,7 @@ http://localhost:5000/user/login?email=foo@bar.com
         </tr>
         <tr>
             <td>
-                <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.FullUrl">
+                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.FullUrl">
                     FullUrl
                 </a>
             </td>
@@ -80,7 +80,7 @@ http://localhost:5000/user/login?email=foo@bar.com
         </tr>
         <tr>
             <td>
-                <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Host">
+                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.Host">
                     Host
                 </a>
             </td>
@@ -93,7 +93,7 @@ http://localhost:5000/user/login?email=foo@bar.com
         </tr>
         <tr>
             <td>
-                <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Authority">
+                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.Authority">
                     Authority
                 </a>
             </td>
@@ -106,7 +106,7 @@ http://localhost:5000/user/login?email=foo@bar.com
         </tr>
         <tr>
             <td>
-                <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.QueryString">
+                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.QueryString">
                     QueryString
                 </a>
             </td>
@@ -119,7 +119,7 @@ http://localhost:5000/user/login?email=foo@bar.com
         </tr>
         <tr>
             <td>
-                <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Query">
+                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.Query">
                     Query
                 </a>
             </td>
@@ -132,7 +132,7 @@ http://localhost:5000/user/login?email=foo@bar.com
         </tr>
         <tr>
             <td>
-                <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.IsSecure">
+                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.IsSecure">
                     IsSecure
                 </a>
             </td>
@@ -157,21 +157,21 @@ string body = request.Body;
 byte[] bodyBytes = request.RawBody;
 ```
 
-It is also possible to determine if there is a body in the request and if it is loaded with the properties [HasContents](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.HasContents), which determines if the request has contents and [IsContentAvailable](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.IsContentAvailable) which indicates that the HTTP server fully received the content from the remote point.
+It is also possible to determine if there is a body in the request and if it is loaded with the properties [HasContents](../specification/spec/Sisk.Core.Http.HttpRequest.HasContents), which determines if the request has contents and [IsContentAvailable](../specification/spec/Sisk.Core.Http.HttpRequest.IsContentAvailable) which indicates that the HTTP server fully received the content from the remote point.
 
-In a BeforeContents Request Handler context, you can read the request content inline with GetInputStream(). Learn more [here](/read?q=/contents/docs/fundamentals/request-handlers.md).
+In a BeforeContents Request Handler context, you can read the request content inline with GetInputStream(). Learn more [here](/v1/fundamentals/request-handlers.md).
 
 > **Note:**
 >
 > Sisk follows the RFC 9110 "HTTP Semantics", which doens't allow certain requests methods to have body. These requests will immediately drop an 400 (Bad Request) with the `ContentServedOnIllegalMethod` status. Requests with bodies are not allowed in methods GET, OPTIONS, HEAD and TRACE. You can read the [RFC 9910](https://httpwg.org/spec/rfc9110.html) here.
 >
-> You can disable this feature by turning [ThrowContentOnNonSemanticMethods](/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags) to `false`.
+> You can disable this feature by turning [ThrowContentOnNonSemanticMethods](../specification/spec/Sisk.Core.Http.HttpServerFlags) to `false`.
 
 # Getting the request context
 
 The HTTP Context is an exclusive Sisk object that stores HTTP server, route, router and request handler information. You can use it to be able to organize yourself in an environment where these objects are difficult to organize.
 
-The [RequestBag](/read?q=/contents/spec/Sisk.Core.Http.HttpContext.RequestBag) object contains stored information that is passed from an request handler to another point, and can be consumed at the final destination. This object can also be used by request handlers that run after the route callback.
+The [RequestBag](../specification/spec/Sisk.Core.Http.HttpContext.RequestBag) object contains stored information that is passed from an request handler to another point, and can be consumed at the final destination. This object can also be used by request handlers that run after the route callback.
 
 ```cs
 public class AuthenticateUserRequestHandler : IRequestHandler
@@ -273,15 +273,15 @@ static HttpResponse Index(HttpRequest request)
 }
 ```
 
-You can read more about Sisk [Multipart form objects](/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject) and it's methods, properties and functionalities.
+You can read more about Sisk [Multipart form objects](../specification/spec/Sisk.Core.Entity.MultipartObject) and it's methods, properties and functionalities.
 
 # Server-sent events support
 
 Sisk supports [Server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events), which allows sending chunks as an stream and keeping the connection between the server and the client alive.
 
-Calling the [HttpRequest.GetEventSource](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetEventSource()) method will put the HttpRequest in it's listener state. From this, the context of this HTTP request will not expect an HttpResponse as it will overlap the packets sent by server side events.
+Calling the [HttpRequest.GetEventSource](../specification/spec/Sisk.Core.Http.HttpRequest.GetEventSource()) method will put the HttpRequest in it's listener state. From this, the context of this HTTP request will not expect an HttpResponse as it will overlap the packets sent by server side events.
 
-After sending all packets, the callback must return the [Close](/read?q=/contents/spec/Sisk.Core.Http.HttpRequestEventSource.Close()) method, which will send the final response to the server and indicate that the streaming has ended.
+After sending all packets, the callback must return the [Close](../specification/spec/Sisk.Core.Http.HttpRequestEventSource.Close()) method, which will send the final response to the server and indicate that the streaming has ended.
 
 It's not possible to predict what the total length of all packets that will be sent, so it is not possible to determine the end of the connection with `Content-Length` header.
 
@@ -358,4 +358,4 @@ confg.ResolveForwardedOriginAddress = true; // will resolve the first X-Forwarde
 confg.ResolveForwardedOriginHost = true;
 ```
 
-In case of [ResolveForwardedOriginHost](/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.ResolveForwardedOriginHost) and an `X-Forwarded-Host` header is present, the value of this header will be used for server-side DNS matching.
+In case of [ResolveForwardedOriginHost](../specification/spec/Sisk.Core.Http.HttpServerConfiguration.ResolveForwardedOriginHost) and an `X-Forwarded-Host` header is present, the value of this header will be used for server-side DNS matching.
