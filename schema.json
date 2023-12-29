@@ -9,7 +9,8 @@
         "branches": [
             "main",
             "specification"
-        ]
+        ],
+        "theme": "microsoft"
     },
     "contents": [
         {
