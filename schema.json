@@ -4,86 +4,66 @@
         "iconSrc": "https://sisk.project-principium.dev/assets/img/Icon.png",
         "primaryColor": "#5d06fd",
         "darkPrimaryColor": "#8f66ff",
-        "title": "Sisk Framework - Documentation",
-        "description": "Documentation for the Sisk Framework, with tutorials and getting started.",
+        "title": "Sisk Framework - Changelogs",
+        "description": "Changelogs for Sisk releases.",
         "branches": [
             "main",
-            "specification"
+            "specification",
+            "changelogs"
         ],
         "theme": "github"
     },
     "contents": [
+        "v0.16",
         {
-            "title": "Introduction",
-            "href": "/v1/readme.md"
+            "title": "v0.16-rc3",
+            "href": "/changelogs/v0.16/v0.16-rc-3.md"
         },
         {
-            "title": "Getting Started",
-            "href": "/v1/getting-started.md"
+            "title": "v0.16",
+            "href": "/changelogs/v0.16/v0.16.md"
+        },
+        "v0.15",
+        {
+            "title": "v0.15.3",
+            "href": "/changelogs/v0.15/v0.15.3.md"
         },
         {
-            "title": "Installing",
-            "href": "/v1/installing.md"
+            "title": "v0.15.2",
+            "href": "/changelogs/v0.15/v0.15.2.md"
         },
         {
-            "title": "Native AOT Support",
-            "href": "/v1/native-aot.md"
+            "title": "v0.15.1",
+            "href": "/changelogs/v0.15/v0.15.1.md"
         },
         {
-            "title": "Deploying",
-            "href": "/v1/deploying.md"
+            "title": "v0.15",
+            "href": "/changelogs/v0.15/v0.15.md"
+        },
+        "Legacy releases",
+        {
+            "title": "v0.14",
+            "href": "/changelogs/legacy/v0.14.md"
         },
         {
-            "title": "Setup namespaces on Windows",
-            "href": "/v1/registering-namespace.md"
-        },
-        "Fundamentals",
-        {
-            "title": "Routing",
-            "href": "/v1/fundamentals/routing.md"
+            "title": "v0.13",
+            "href": "/changelogs/legacy/v0.13.md"
         },
         {
-            "title": "Request handlers",
-            "href": "/v1/fundamentals/request-handlers.md"
+            "title": "v0.12",
+            "href": "/changelogs/legacy/v0.12.md"
         },
         {
-            "title": "Requests",
-            "href": "/v1/fundamentals/requests.md"
+            "title": "v0.10",
+            "href": "/changelogs/legacy/v0.10.md"
         },
         {
-            "title": "Responses",
-            "href": "/v1/fundamentals/responses.md"
-        },
-        "Features",
-        {
-            "title": "Logging",
-            "href": "/v1/features/logging.md"
+            "title": "v0.9",
+            "href": "/changelogs/legacy/v0.9.md"
         },
         {
-            "title": "Server sent events",
-            "href": "/v1/features/server-sent-events.md"
-        },
-        {
-            "title": "Websockets",
-            "href": "/v1/features/websockets.md"
-        },
-        "Extensions",
-        {
-            "title": "Service providers",
-            "href": "/v1/extensions/service-providers.md"
-        },
-        {
-            "title": "Basic auth",
-            "href": "/v1/extensions/basic-auth.md"
-        },
-        "Advanced",
-        {
-            "title": "Request lifecycle",
-            "href": "/v1/advanced/request-lifecycle.md"
-        },
-        {
-            "title": "HTTP server handlers",
-            "href": "/v1/advanced/http-server-handlers.md"
+            "title": "v0.8",
+            "href": "/changelogs/legacy/v0.8.md"
         }
     ]
 }
