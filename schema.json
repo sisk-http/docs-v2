@@ -7,7 +7,8 @@
         "description": "API specification for the Sisk Framework.",
         "branches": [
             "main",
-            "specification"
+            "specification",
+            "changelog"
         ],
         "makeExternalLinks": true,
         "editButtonVisible": false
