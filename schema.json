@@ -8,7 +8,7 @@
         "branches": [
             "main",
             "specification",
-            "changelog"
+            "changelogs"
         ],
         "makeExternalLinks": true,
         "editButtonVisible": false
