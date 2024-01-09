@@ -122,5 +122,16 @@ Represents the class that hosts most of the components needed to run a Sisk appl
         Starts the Http server.
     </td>
 </tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.StartAsync(bool-bool).md">
+            StartAsync(bool, bool)
+        </a>
+    </td>
+    <td>
+        Asynchronously starts the Http server.
+    </td>
+</tr>
     </tbody>
 </table>

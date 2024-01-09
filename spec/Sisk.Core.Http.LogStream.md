@@ -70,6 +70,28 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
+        <a href="/spec/Sisk.Core.Http.LogStream.Format.md">
+            Format
+        </a>
+    </td>
+    <td>
+        Gets or sets the function that formats input when used with <see cref="M:Sisk.Core.Http.LogStream.WriteFormat(System.Object)" />.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/property.svg">
+        <a href="/spec/Sisk.Core.Http.LogStream.RotatingPolicy.md">
+            RotatingPolicy
+        </a>
+    </td>
+    <td>
+        Gets the defined <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.md">RotatingLogPolicy</a> for this <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a>.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/property.svg">
         <a href="/spec/Sisk.Core.Http.LogStream.TextWriter.md">
             TextWriter
         </a>
@@ -123,6 +145,17 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
     </td>
     <td>
         Writes all pending logs from the queue and closes all resources used by this object.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.LogStream.ConfigureRotatingPolicy(long-TimeSpan).md">
+            ConfigureRotatingPolicy(long, TimeSpan)
+        </a>
+    </td>
+    <td>
+        Defines the time interval and size threshold for starting the task, and then starts the task. This method is an shortcut for calling <see cref="M:Sisk.Core.Http.RotatingLogPolicy.Configure(System.Int64,System.TimeSpan)" /> of this defined <a href="/spec/Sisk.Core.Http.LogStream.md">RotatingPolicy</a> method.
     </td>
 </tr>
 <tr>
@@ -189,6 +222,17 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
     </td>
     <td>
         Writes an exception description in the log.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.LogStream.WriteFormat(Object).md">
+            WriteFormat(Object)
+        </a>
+    </td>
+    <td>
+        Writes the input, formatting with <a href="/spec/Sisk.Core.Http.LogStream.md">Format</a> handler, at the end of the output.
     </td>
 </tr>
 <tr>

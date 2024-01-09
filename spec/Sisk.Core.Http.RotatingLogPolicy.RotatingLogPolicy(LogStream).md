@@ -18,7 +18,7 @@ Declaring type: [Sisk.Core.Http.RotatingLogPolicy](/spec/Sisk.Core.Http.Rotating
 Definition:
 
 ```cs
-public RotatingLogPolicy(LogStream? ls)
+public RotatingLogPolicy(LogStream ls)
 ```
 
 Creates an new <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.md">RotatingLogPolicy</a> instance with the given <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> object to watch.
