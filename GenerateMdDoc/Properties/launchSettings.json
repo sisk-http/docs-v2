@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GenerateMdDoc": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Code\\repos\\Sisk Environment\\core\\src\\bin\\Release\\net8.0\\Sisk.Core.xml\" \"C:\\Code\\repos\\Sisk Environment\\core\\extensions\\Sisk.BasicAuth\\bin\\Release\\net6.0\\Sisk.BasicAuth.xml\" \"C:\\Code\\repos\\Sisk Environment\\core\\extensions\\Sisk.ServiceProvider\\bin\\Release\\net7.0\\Sisk.ServiceProvider.xml\""
+    }
+  }
+}
