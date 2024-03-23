@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ListeningPort(string) constructor
 
-Declaring type: [Sisk.Core.Http.ListeningPort](/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningPort](/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public ListeningPort(string uri)
 ```
 
-Creates an new <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified URI.
+Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified URI.
 
 
 # Parameters

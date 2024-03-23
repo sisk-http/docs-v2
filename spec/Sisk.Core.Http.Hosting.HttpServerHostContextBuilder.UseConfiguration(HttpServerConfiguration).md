@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UseConfiguration(HttpServerConfiguration) method
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
 
 
 Definition:

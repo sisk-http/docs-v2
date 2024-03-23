@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # LogMode property
 
-Declaring type: [Sisk.Core.Routing.RouteAttribute](/spec/Sisk.Core.Routing.RouteAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RouteAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md) (from Sisk.Core)
 
 
 Definition:

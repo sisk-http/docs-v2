@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # HttpServerConfiguration() constructor
 
-Declaring type: [Sisk.Core.Http.HttpServerConfiguration](/spec/Sisk.Core.Http.HttpServerConfiguration.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerConfiguration](/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpServerConfiguration()
 ```
 
-Creates an new <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.md">HttpServerConfiguration</a> instance with no parameters.
+Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.md">HttpServerConfiguration</a> instance with no parameters.
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Add(ListeningHost) method
 
-Declaring type: [Sisk.Core.Http.ListeningHostRepository](/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHostRepository](/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
 
 
 Definition:

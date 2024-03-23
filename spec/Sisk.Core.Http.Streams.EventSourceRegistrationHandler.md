@@ -20,5 +20,5 @@ Definition:
 public delegate void EventSourceRegistrationHandler(object sender, HttpRequestEventSource eventSource);
 ```
 
-Represents an function that is called when an <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md">HttpEventSourceCollection</a> registers an new event source connection.
+Represents an function that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md">HttpEventSourceCollection</a> registers an new event source connection.
 

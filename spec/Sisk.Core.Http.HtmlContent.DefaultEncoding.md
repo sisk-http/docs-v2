@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # DefaultEncoding property
 
-Declaring type: [Sisk.Core.Http.HtmlContent](/spec/Sisk.Core.Http.HtmlContent.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HtmlContent](/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.md) (from Sisk.Core)
 
 
 Definition:

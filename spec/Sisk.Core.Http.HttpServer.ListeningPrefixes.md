@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ListeningPrefixes property
 
-Declaring type: [Sisk.Core.Http.HttpServer](/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServer](/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
 
 
 Definition:

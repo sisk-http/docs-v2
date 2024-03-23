@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OverrideHeaders property
 
-Declaring type: [Sisk.Core.Http.HttpContext](/spec/Sisk.Core.Http.HttpContext.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpContext](/read?q=/contents/spec/Sisk.Core.Http.HttpContext.md) (from Sisk.Core)
 
 
 Definition:

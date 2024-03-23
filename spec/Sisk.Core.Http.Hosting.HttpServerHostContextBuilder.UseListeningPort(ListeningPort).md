@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UseListeningPort(ListeningPort) method
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public void UseListeningPort(ListeningPort listeningPort)
 ```
 
-Sets the main <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> of this host builder.
+Sets the main <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> of this host builder.
 
 
 # Parameters

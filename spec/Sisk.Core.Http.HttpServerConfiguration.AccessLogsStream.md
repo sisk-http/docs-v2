@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # AccessLogsStream property
 
-Declaring type: [Sisk.Core.Http.HttpServerConfiguration](/spec/Sisk.Core.Http.HttpServerConfiguration.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerConfiguration](/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.md) (from Sisk.Core)
 
 
 Definition:

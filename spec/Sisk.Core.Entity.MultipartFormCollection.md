@@ -22,43 +22,41 @@ public class MultipartFormCollection : IEnumerable<MultipartObject>
 
 Represents an class which hosts an multipart form data contents.
 
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartFormCollection.GetItem().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartFormCollection.GetItem().md">
             GetItem()
         </a>
     </td>
     <td>
         Reads an form item by it's name and casts it into an <typeparamref name="T" />.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartFormCollection.GetItem(string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartFormCollection.GetItem(string).md">
             GetItem(string)
         </a>
     </td>
     <td>
         Reads an form item by it's name.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartFormCollection.GetString(string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartFormCollection.GetString(string).md">
             GetString(string)
         </a>
     </td>
     <td>
         Reads an form item by it's name and return an string representation of it's value.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

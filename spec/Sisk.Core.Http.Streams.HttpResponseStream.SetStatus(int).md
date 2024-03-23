@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # SetStatus(int) method
 
-Declaring type: [Sisk.Core.Http.Streams.HttpResponseStream](/spec/Sisk.Core.Http.Streams.HttpResponseStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpResponseStream](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.md) (from Sisk.Core)
 
 
 Definition:

@@ -22,90 +22,84 @@ public struct HttpStatusInformation
 
 Represents a structure that holds an HTTP response status information, with its code and description.
 
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.Description.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.Description.md">
             Description
         </a>
     </td>
     <td>
         Gets or sets the short description of the HTTP message.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.StatusCode.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.StatusCode.md">
             StatusCode
         </a>
     </td>
     <td>
         Gets or sets the numeric HTTP status code of the HTTP message.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.HttpStatusInformation(int-string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.HttpStatusInformation(int-string).md">
             HttpStatusInformation(int, string)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> instance with given parameters.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> instance with given parameters.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.HttpStatusInformation(int).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.HttpStatusInformation(int).md">
             HttpStatusInformation(int)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> instance with given parameters.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> instance with given parameters.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.HttpStatusInformation(HttpStatusCode).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.HttpStatusInformation(HttpStatusCode).md">
             HttpStatusInformation(HttpStatusCode)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> instance with given parameters.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> instance with given parameters.
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.GetStatusCodeDescription(int).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.GetStatusCodeDescription(int).md">
             GetStatusCodeDescription(int)
         </a>
     </td>
     <td>
         Gets the description of the HTTP status based on its description.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

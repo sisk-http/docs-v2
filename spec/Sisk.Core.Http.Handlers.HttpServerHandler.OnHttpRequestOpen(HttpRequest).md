@@ -12,16 +12,16 @@ edit the XML documentation present in the Sisk source code.
 
 # OnHttpRequestOpen(HttpRequest) method
 
-Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public virtual void OnHttpRequestOpen(HttpRequest request)
+protected virtual void OnHttpRequestOpen(HttpRequest request)
 ```
 
-Method that is called when an <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> is received in the Http server.
+Method that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> is received in the Http server.
 
 
 # Parameters

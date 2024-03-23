@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # CrossOriginResourceSharingPolicy property
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContext](/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContext](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public CrossOriginResourceSharingHeaders CrossOriginResourceSharingPolicy { get; set; }
 ```
 
-Gets the host <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">CrossOriginResourceSharingPolicy</a>.
+Gets the host <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">CrossOriginResourceSharingPolicy</a>.
 

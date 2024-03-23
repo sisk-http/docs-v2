@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UseCors(CrossOriginResourceSharingHeaders) method
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public void UseCors(Action<CrossOriginResourceSharingHeaders> handler)
 ```
 
-Calls an action that has an <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.md">CrossOriginResourceSharingHeaders</a> instance from the main listening host as an argument.
+Calls an action that has an <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.md">CrossOriginResourceSharingHeaders</a> instance from the main listening host as an argument.
 
 
 # Parameters

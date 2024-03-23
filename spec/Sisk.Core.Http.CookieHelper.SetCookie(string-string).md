@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # SetCookie(string, string) method
 
-Declaring type: [Sisk.Core.Http.CookieHelper](/spec/Sisk.Core.Http.CookieHelper.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.CookieHelper](/read?q=/contents/spec/Sisk.Core.Http.CookieHelper.md) (from Sisk.Core)
 
 
 Definition:

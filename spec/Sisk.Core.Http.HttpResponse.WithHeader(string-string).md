@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # WithHeader(string, string) method
 
-Declaring type: [Sisk.Core.Http.HttpResponse](/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpResponse](/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public HttpResponse WithHeader(string headerKey, string headerValue)
 ```
 
-Sets an HTTP header in this <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
+Sets an HTTP header in this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
 
 
 # Parameters

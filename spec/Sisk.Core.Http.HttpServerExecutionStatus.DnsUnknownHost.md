@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # DnsUnknownHost field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
 Represents that the client requested an host that's not been set up on this server.

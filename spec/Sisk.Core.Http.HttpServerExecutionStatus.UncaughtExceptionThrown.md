@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UncaughtExceptionThrown field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
 Indicates that the router encontered an uncaught exception while calling it's action function.

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # WithRequiredSections(PortableConfigurationRequireSection) method
 
-Declaring type: [Sisk.Core.Http.Hosting.PortableConfigurationBuilder](/spec/Sisk.Core.Http.Hosting.PortableConfigurationBuilder.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.PortableConfigurationBuilder](/read?q=/contents/spec/Sisk.Core.Http.Hosting.PortableConfigurationBuilder.md) (from Sisk.Core)
 
 
 Definition:

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # UseRouter(Router) method
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public void UseRouter(Action<Router> handler)
 ```
 
-Calls an action that has an <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> instance from the host HTTP server.
+Calls an action that has an <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> instance from the host HTTP server.
 
 
 # Parameters

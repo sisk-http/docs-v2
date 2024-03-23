@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Map() method
 
-Declaring type: [Sisk.Core.Http.Hosting.InitializationParameterCollection](/spec/Sisk.Core.Http.Hosting.InitializationParameterCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.InitializationParameterCollection](/read?q=/contents/spec/Sisk.Core.Http.Hosting.InitializationParameterCollection.md) (from Sisk.Core)
 
 
 Definition:

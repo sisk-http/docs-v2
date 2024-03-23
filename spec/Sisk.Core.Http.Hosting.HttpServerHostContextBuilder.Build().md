@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Build() method
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilder](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpServerHostContext Build()
 ```
 
-Builds an <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">HttpServerHostContext</a> with the specified parameters.
+Builds an <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">HttpServerHostContext</a> with the specified parameters.
 

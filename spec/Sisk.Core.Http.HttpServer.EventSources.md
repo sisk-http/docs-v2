@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # EventSources property
 
-Declaring type: [Sisk.Core.Http.HttpServer](/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServer](/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpEventSourceCollection EventSources { get; }
 ```
 
-Gets an <a href="/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md">HttpEventSourceCollection</a> with active event source connections in this HTTP server.
+Gets an <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md">HttpEventSourceCollection</a> with active event source connections in this HTTP server.
 

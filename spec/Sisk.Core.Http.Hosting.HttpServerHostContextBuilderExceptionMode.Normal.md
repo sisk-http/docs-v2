@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Normal field
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode](/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilderExceptionMode.md) (from Sisk.Core)
 
 
 Normal messages, including their exception type and message, should be displayed.

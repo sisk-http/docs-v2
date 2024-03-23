@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # GetItem(string) method
 
-Declaring type: [Sisk.Core.Entity.MultipartFormCollection](/spec/Sisk.Core.Entity.MultipartFormCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.MultipartFormCollection](/read?q=/contents/spec/Sisk.Core.Entity.MultipartFormCollection.md) (from Sisk.Core)
 
 
 Definition:

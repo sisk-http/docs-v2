@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RequestHandlers property
 
-Declaring type: [Sisk.Core.Routing.Route](/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Route](/read?q=/contents/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public IRequestHandler[]? RequestHandlers { get; set; }
 ```
 
-Gets or sets the RequestHandlers to run before the route's Action.
+Gets or sets the request handlers instances to run before the route's Action.
 

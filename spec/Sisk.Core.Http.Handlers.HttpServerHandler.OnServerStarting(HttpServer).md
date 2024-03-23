@@ -12,16 +12,16 @@ edit the XML documentation present in the Sisk source code.
 
 # OnServerStarting(HttpServer) method
 
-Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public virtual void OnSetupHttpServer(HttpServer server)
+protected virtual void OnSetupHttpServer(HttpServer server)
 ```
 
-Method that is called immediately before starting the <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
+Method that is called immediately before starting the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
 
 
 # Parameters

@@ -22,50 +22,46 @@ public class HttpStreamPingPolicy
 
 Provides an automatic ping sender for HTTP Event Source connections.
 
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.DataMessage.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.DataMessage.md">
             DataMessage
         </a>
     </td>
     <td>
         Gets or sets the payload message that is sent to the server as a ping message.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.Interval.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.Interval.md">
             Interval
         </a>
     </td>
     <td>
         Gets or sets the sending interval for each ping message.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.Start().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.Start().md">
             Start()
         </a>
     </td>
     <td>
         Starts sending periodic pings to the client.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

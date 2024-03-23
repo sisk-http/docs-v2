@@ -21,155 +21,153 @@ Definition:
 public enum RouteMethod : int
 ```
 
-Represents an HTTP method to be matched in an <a href="/spec/Sisk.Core.Routing.Route.md">Route</a>.
-
+Represents an HTTP method to be matched in an <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a>.
 
 # Field list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Any.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Any.md">
             Any
         </a>
     </td>
     <td>
         Represents any HTTP method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Copy.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Copy.md">
             Copy
         </a>
     </td>
     <td>
         Represents the HTTP COPY method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Delete.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Delete.md">
             Delete
         </a>
     </td>
     <td>
         Represents the HTTP DELETE method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Get.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Get.md">
             Get
         </a>
     </td>
     <td>
         Represents the HTTP GET method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Head.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Head.md">
             Head
         </a>
     </td>
     <td>
         Represents the HTTP HEAD method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Link.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Link.md">
             Link
         </a>
     </td>
     <td>
         Represents the HTTP LINK method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Options.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Options.md">
             Options
         </a>
     </td>
     <td>
         Represents the HTTP OPTIONS method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Patch.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Patch.md">
             Patch
         </a>
     </td>
     <td>
         Represents the HTTP PATCH method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Post.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Post.md">
             Post
         </a>
     </td>
     <td>
         Represents the HTTP POST method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Put.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Put.md">
             Put
         </a>
     </td>
     <td>
         Represents the HTTP PUT method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Trace.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Trace.md">
             Trace
         </a>
     </td>
     <td>
         Represents the HTTP TRACE method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Unlink.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.Unlink.md">
             Unlink
         </a>
     </td>
     <td>
         Represents the HTTP UNLINK method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.View.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.View.md">
             View
         </a>
     </td>
     <td>
         Represents the HTTP VIEW method.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

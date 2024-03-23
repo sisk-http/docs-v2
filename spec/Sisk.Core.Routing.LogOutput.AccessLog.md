@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # AccessLog field
 
-Declaring type: [Sisk.Core.Routing.LogOutput](/spec/Sisk.Core.Routing.LogOutput.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.LogOutput](/read?q=/contents/spec/Sisk.Core.Routing.LogOutput.md) (from Sisk.Core)
 
 
 Determines that the context or the route can write log messages only to the access logs.

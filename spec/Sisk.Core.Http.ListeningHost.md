@@ -22,123 +22,117 @@ public class ListeningHost
 
 Provides a structure to contain the fields needed by an http server host.
 
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHost.Equals(Object).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.Equals(Object).md">
             Equals(Object)
         </a>
     </td>
     <td>
         Determines if another object is equals to this class instance.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHost.GetHashCode().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.GetHashCode().md">
             GetHashCode()
         </a>
     </td>
     <td>
         Gets the hash code for this listening host.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHost.CanListen.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.CanListen.md">
             CanListen
         </a>
     </td>
     <td>
-        Gets whether this <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> can be listened by it's host <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
-    </td>
+        Gets whether this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> can be listened by it's host <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHost.CrossOriginResourceSharingPolicy.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.CrossOriginResourceSharingPolicy.md">
             CrossOriginResourceSharingPolicy
         </a>
     </td>
     <td>
         Gets or sets the CORS sharing policy object.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHost.Label.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.Label.md">
             Label
         </a>
     </td>
     <td>
         Gets or sets a label for this Listening Host.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHost.Ports.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.Ports.md">
             Ports
         </a>
     </td>
     <td>
         Gets or sets the ports that this host will listen on.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHost.Router.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.Router.md">
             Router
         </a>
     </td>
     <td>
-        Gets or sets the <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> for this <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance.
-    </td>
+        Gets or sets the <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> for this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance.
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHost.ListeningHost().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.ListeningHost().md">
             ListeningHost()
         </a>
     </td>
     <td>
-        Creates an new empty <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance.
-    </td>
+        Creates an new empty <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHost.ListeningHost(string-Router).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.ListeningHost(string-Router).md">
             ListeningHost(string, Router)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance with given URL.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance with given URL.
+    <td>
 </tr>
     </tbody>
 </table>

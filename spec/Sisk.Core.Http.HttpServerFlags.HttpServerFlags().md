@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # HttpServerFlags() constructor
 
-Declaring type: [Sisk.Core.Http.HttpServerFlags](/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerFlags](/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpServerFlags()
 ```
 
-Creates an new <a href="/spec/Sisk.Core.Http.HttpServerFlags.md">HttpServerFlags</a> instance with default flags values.
+Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md">HttpServerFlags</a> instance with default flags values.
 

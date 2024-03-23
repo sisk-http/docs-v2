@@ -23,94 +23,90 @@ public class RouteAttribute : Attribute
 
 Represents an class that, when applied to a method, will be recognized by a router as a route.
 
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteAttribute.LogMode.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.LogMode.md">
             LogMode
         </a>
     </td>
     <td>
         Gets or sets how this route can write messages to log files on the server.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteAttribute.Method.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.Method.md">
             Method
         </a>
     </td>
     <td>
         Gets or sets the matching HTTP method. If it is "Any", the route will just use the path expression to be matched, not the HTTP method.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteAttribute.Name.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.Name.md">
             Name
         </a>
     </td>
     <td>
         Gets or sets the route name. It allows it to be found by other routes and makes it easier to create links.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteAttribute.Path.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.Path.md">
             Path
         </a>
     </td>
     <td>
         Gets or sets the path expression that will be interpreted by the router and validated by the requests.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteAttribute.UseCors.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.UseCors.md">
             UseCors
         </a>
     </td>
     <td>
         Gets or sets whether this route should send Cross-Origin Resource Sharing headers in the response.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteAttribute.UseRegex.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.UseRegex.md">
             UseRegex
         </a>
     </td>
     <td>
         Get or sets if this route should use regex to be interpreted instead of predefined templates.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteAttribute.RouteAttribute(RouteMethod-string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.RouteAttribute(RouteMethod-string).md">
             RouteAttribute(RouteMethod, string)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> instance with given route method and path pattern.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> instance with given route method and path pattern.
+    <td>
 </tr>
     </tbody>
 </table>

@@ -12,13 +12,13 @@ edit the XML documentation present in the Sisk source code.
 
 # WriteLine(string, Object[]) method
 
-Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public void WriteLine(string format, params object?[] args)
+public virtual void WriteLine(string format, params object?[] args)
 ```
 
 Writes the text format and arguments and concats an line-break at the end into the output.

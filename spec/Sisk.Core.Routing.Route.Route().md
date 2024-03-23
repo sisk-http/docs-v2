@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Route() constructor
 
-Declaring type: [Sisk.Core.Routing.Route](/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Route](/read?q=/contents/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public Route()
 ```
 
-Creates an new <a href="/spec/Sisk.Core.Routing.Route.md">Route</a> instance with no parameters.
+Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a> instance with no parameters.
 

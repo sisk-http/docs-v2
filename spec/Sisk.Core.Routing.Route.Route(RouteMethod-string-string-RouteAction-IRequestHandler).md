@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Route(RouteMethod, string, string, RouteAction, IRequestHandler[]) constructor
 
-Declaring type: [Sisk.Core.Routing.Route](/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Route](/read?q=/contents/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public Route(RouteMethod method, string path, string? name, RouterCallback action, IRequestHandler[]? beforeCallback)
 ```
 
-Creates an new <a href="/spec/Sisk.Core.Routing.Route.md">Route</a> instance with given parameters.
+Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a> instance with given parameters.
 
 
 # Parameters

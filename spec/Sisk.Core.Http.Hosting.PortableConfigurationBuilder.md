@@ -20,45 +20,43 @@ Definition:
 public sealed class PortableConfigurationBuilder
 ```
 
-Represents the portable configuration builder for <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md">HttpServerHostContextBuilder</a>.
-
+Represents the portable configuration builder for <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContextBuilder.md">HttpServerHostContextBuilder</a>.
 
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Hosting.PortableConfigurationBuilder.WithConfigFile(string-bool).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.PortableConfigurationBuilder.WithConfigFile(string-bool).md">
             WithConfigFile(string, bool)
         </a>
     </td>
     <td>
         Specifies the name of the server configuration file.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Hosting.PortableConfigurationBuilder.WithParameters(InitializationParameterCollection).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.PortableConfigurationBuilder.WithParameters(InitializationParameterCollection).md">
             WithParameters(InitializationParameterCollection)
         </a>
     </td>
     <td>
         Invokes a method on the initialization parameter collection.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Hosting.PortableConfigurationBuilder.WithRequiredSections(PortableConfigurationRequireSection).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.PortableConfigurationBuilder.WithRequiredSections(PortableConfigurationRequireSection).md">
             WithRequiredSections(PortableConfigurationRequireSection)
         </a>
     </td>
     <td>
         Specifies the required configuration sections in the configuration file.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

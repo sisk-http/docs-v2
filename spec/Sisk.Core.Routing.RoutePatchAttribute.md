@@ -21,34 +21,32 @@ Definition:
 public class RoutePatchAttribute : RouteAttribute
 ```
 
-Represents a mapping to an HTTP PATCH route. This attribute is an shorthand from <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a>.
-
+Represents a mapping to an HTTP PATCH route. This attribute is an shorthand from <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a>.
 
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Routing.RoutePatchAttribute.RoutePatchAttribute().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePatchAttribute.RoutePatchAttribute().md">
             RoutePatchAttribute()
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Routing.RoutePatchAttribute.md">RoutePatchAttribute</a> attribute instance with an root path (/).
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePatchAttribute.md">RoutePatchAttribute</a> attribute instance with an root path (/).
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Routing.RoutePatchAttribute.RoutePatchAttribute(string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePatchAttribute.RoutePatchAttribute(string).md">
             RoutePatchAttribute(string)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Routing.RoutePatchAttribute.md">RoutePatchAttribute</a> attribute instance with given path.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePatchAttribute.md">RoutePatchAttribute</a> attribute instance with given path.
+    <td>
 </tr>
     </tbody>
 </table>

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ConnectionClosed field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
 Represents that the connection stream was closed by the client.

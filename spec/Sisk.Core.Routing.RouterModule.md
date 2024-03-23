@@ -22,61 +22,57 @@ public class RouterModule
 
 Indicates that extended class supports router modules, which allows the management of routes, request handlers and prefixes.
 
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Routing.RouterModule.Prefix.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.Prefix.md">
             Prefix
         </a>
     </td>
     <td>
-        Gets or sets the router prefix for this class. This property overrides any value defined by <a href="/spec/Sisk.Core.Routing.RoutePrefixAttribute.md">RoutePrefixAttribute</a> set in this class.
-    </td>
+        Gets or sets the router prefix for this class. This property overrides any value defined by <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePrefixAttribute.md">RoutePrefixAttribute</a> set in this class.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Routing.RouterModule.RequestHandlers.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.RequestHandlers.md">
             RequestHandlers
         </a>
     </td>
     <td>
         Gets or sets the request handlers this class has implemented.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Routing.RouterModule.HasRequestHandler(IRequestHandler).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.HasRequestHandler(IRequestHandler).md">
             HasRequestHandler(IRequestHandler)
         </a>
     </td>
     <td>
-        Registers an <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> on all routes of this class.
-    </td>
+        Registers an <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> on all routes of this class.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Routing.RouterModule.OnRouteCreating(Route).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.OnRouteCreating(Route).md">
             OnRouteCreating(Route)
         </a>
     </td>
     <td>
         This method is called before a route is defined in the router and after it is created in this class, so its attributes and parameters can be modified. This method must be overloaded in the extending class and must not be called directly.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

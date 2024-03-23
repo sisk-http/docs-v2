@@ -12,13 +12,13 @@ edit the XML documentation present in the Sisk source code.
 
 # WriteException(Exception) method
 
-Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public void WriteException(Exception exp)
+public virtual void WriteException(Exception exp)
 ```
 
 Writes an exception description in the log.

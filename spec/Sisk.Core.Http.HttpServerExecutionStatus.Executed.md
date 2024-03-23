@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Executed field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
 Represents that the request was closed by the HTTP server and executed by a router and its response was succesfully delivered.

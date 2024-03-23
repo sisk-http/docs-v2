@@ -20,5 +20,5 @@ Definition:
 public delegate void WebSocketUnregistrationHandler(object sender, HttpWebSocket ws);
 ```
 
-Represents an function that is called when an <a href="/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md">HttpWebSocketConnectionCollection</a> is removed and had it's connection closed.
+Represents an function that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md">HttpWebSocketConnectionCollection</a> is removed and had it's connection closed.
 

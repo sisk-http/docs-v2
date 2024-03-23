@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Remove(ListeningHost) method
 
-Declaring type: [Sisk.Core.Http.ListeningHostRepository](/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHostRepository](/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public bool Remove(ListeningHost item)
 ```
 
-Try to remove a <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> from this repository. If the item is removed, this methods returns <c>true</c>.
+Try to remove a <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> from this repository. If the item is removed, this methods returns <c>true</c>.
 
 
 # Parameters

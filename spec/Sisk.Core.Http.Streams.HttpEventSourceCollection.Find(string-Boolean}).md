@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Find(string, Boolean}) method
 
-Declaring type: [Sisk.Core.Http.Streams.HttpEventSourceCollection](/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpEventSourceCollection](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public HttpRequestEventSource[] Find(Func<string, bool> predicate)
 ```
 
-Gets all actives <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instances that matches their identifier predicate.
+Gets all actives <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instances that matches their identifier predicate.
 
 
 # Parameters

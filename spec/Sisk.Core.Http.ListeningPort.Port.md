@@ -12,13 +12,13 @@ edit the XML documentation present in the Sisk source code.
 
 # Port property
 
-Declaring type: [Sisk.Core.Http.ListeningPort](/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningPort](/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public int Port { get; set; }
+public ushort Port { get; set; }
 ```
 
 Gets or sets the port where this listening port will refer.

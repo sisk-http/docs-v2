@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # HttpStatusInformation(int, string) constructor
 
-Declaring type: [Sisk.Core.Http.HttpStatusInformation](/spec/Sisk.Core.Http.HttpStatusInformation.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpStatusInformation](/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public HttpStatusInformation(int statusCode, string description)
 ```
 
-Creates an new <a href="/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> instance with given parameters.
+Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> instance with given parameters.
 
 
 # Parameters

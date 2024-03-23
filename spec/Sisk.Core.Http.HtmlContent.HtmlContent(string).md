@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # HtmlContent(string) constructor
 
-Declaring type: [Sisk.Core.Http.HtmlContent](/spec/Sisk.Core.Http.HtmlContent.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HtmlContent](/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public HtmlContent(string content)
 ```
 
-Creates an new <a href="/spec/Sisk.Core.Http.HtmlContent.md">HtmlContent</a> class with given HTML content, using the <a href="/spec/Sisk.Core.Http.HtmlContent.md">DefaultEncoding</a> encoding.
+Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.md">HtmlContent</a> class with given HTML content, using the <a href="/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.md">DefaultEncoding</a> encoding.
 
 
 # Parameters

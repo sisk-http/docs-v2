@@ -12,8 +12,8 @@ edit the XML documentation present in the Sisk source code.
 
 # RequestTimeout field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
-Indicates that the HTTP request exceeded the maximum running time defined on <a href="/spec/Sisk.Core.Http.HttpServerFlags.md">RouteActionTimeout</a>.
+Indicates that the HTTP request exceeded the maximum running time defined on <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md">RouteActionTimeout</a>.
 

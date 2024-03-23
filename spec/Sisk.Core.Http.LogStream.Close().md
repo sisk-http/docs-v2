@@ -12,13 +12,13 @@ edit the XML documentation present in the Sisk source code.
 
 # Close() method
 
-Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public void Close()
+public virtual void Close()
 ```
 
 Writes all pending logs from the queue and closes all resources used by this object.

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # WaitForFail(TimeSpan) method
 
-Declaring type: [Sisk.Core.Http.Streams.HttpRequestEventSource](/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpRequestEventSource](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md) (from Sisk.Core)
 
 
 Definition:

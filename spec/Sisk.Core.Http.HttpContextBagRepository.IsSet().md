@@ -12,14 +12,25 @@ edit the XML documentation present in the Sisk source code.
 
 # IsSet() method
 
-Declaring type: [Sisk.Core.Http.HttpContextBagRepository](/spec/Sisk.Core.Http.HttpContextBagRepository.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpContextBagRepository](/read?q=/contents/spec/Sisk.Core.Http.HttpContextBagRepository.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public bool IsSet<T>() where T : notnull
+public bool IsSet<T>([NotNullWhen(true)] out T value) where T : notnull
 ```
 
-Determines whether the specified <typeparamref name="T" /> singleton is defined in this context.
+Determines whether the specified <typeparamref name="T" /> singleton is defined in this context and tries to output it.
 
+
+# Parameters
+
+<table>
+    <tbody>
+<tr>
+    <td width="33%">value</td>
+    <td>When this method returns, the value associated with the specified key, if the key is found; otherwise, the default value for the type of the value parameter. This parameter is passed uninitialized.</td>
+</tr>
+    </tbody>
+</table>

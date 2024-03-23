@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # MatchRoutesIgnoreCase property
 
-Declaring type: [Sisk.Core.Routing.Router](/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Router](/read?q=/contents/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public bool MatchRoutesIgnoreCase { get; set; }
 ```
 
-Gets or sets whether this <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> will match routes ignoring case.
+Gets or sets whether this <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> will match routes ignoring case.
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Contains(ListeningHost) method
 
-Declaring type: [Sisk.Core.Http.ListeningHostRepository](/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHostRepository](/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public bool Contains(ListeningHost item)
 ```
 
-Determines if an <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> is present in this repository.
+Determines if an <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> is present in this repository.
 
 
 # Parameters

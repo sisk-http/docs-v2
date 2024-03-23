@@ -21,34 +21,32 @@ Definition:
 public class RoutePutAttribute : RouteAttribute
 ```
 
-Represents a mapping to an HTTP PUT route. This attribute is an shorthand from <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a>.
-
+Represents a mapping to an HTTP PUT route. This attribute is an shorthand from <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a>.
 
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Routing.RoutePutAttribute.RoutePutAttribute().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePutAttribute.RoutePutAttribute().md">
             RoutePutAttribute()
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Routing.RoutePutAttribute.md">RoutePutAttribute</a> attribute instance with an root path (/).
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePutAttribute.md">RoutePutAttribute</a> attribute instance with an root path (/).
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Routing.RoutePutAttribute.RoutePutAttribute(string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePutAttribute.RoutePutAttribute(string).md">
             RoutePutAttribute(string)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Routing.RoutePutAttribute.md">RoutePutAttribute</a> attribute instance with given path.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePutAttribute.md">RoutePutAttribute</a> attribute instance with given path.
+    <td>
 </tr>
     </tbody>
 </table>

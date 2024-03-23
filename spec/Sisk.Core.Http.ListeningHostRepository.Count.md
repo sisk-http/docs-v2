@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Count property
 
-Declaring type: [Sisk.Core.Http.ListeningHostRepository](/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHostRepository](/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public int Count { get; }
 ```
 
-Gets the number of elements contained in this <a href="/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
+Gets the number of elements contained in this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
 

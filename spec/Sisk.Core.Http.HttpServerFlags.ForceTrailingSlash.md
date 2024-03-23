@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ForceTrailingSlash field
 
-Declaring type: [Sisk.Core.Http.HttpServerFlags](/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerFlags](/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public bool ForceTrailingSlash;
 ```
 
-Determines if the HTTP server should automatically rewrite paths to end with /. Does not works with Regex routes.
+Determines if the HTTP server should automatically rewrite GET requests to end their path with /. This is non-applyable to Regex routes.
 
 
 <p>

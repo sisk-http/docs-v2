@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # IsAsync property
 
-Declaring type: [Sisk.Core.Routing.Route](/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Route](/read?q=/contents/spec/Sisk.Core.Routing.Route.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public bool IsAsync { get; }
 ```
 
-Gets an boolean indicating if this <a href="/spec/Sisk.Core.Routing.Route.md">Route</a> action return is an asynchronous <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task">Task</a>.
+Gets an boolean indicating if this <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a> action return is an asynchronous <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task">Task</a>.
 

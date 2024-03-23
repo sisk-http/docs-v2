@@ -22,134 +22,128 @@ public class CrossOriginResourceSharingHeaders
 
 Provides a class to provide Cross Origin response headers for when communicating with a browser.
 
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowCredentials.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowCredentials.md">
             AllowCredentials
         </a>
     </td>
     <td>
         Gets or sets the Access-Control-Allow-Credentials header indicates whether or not the response to the request can be exposed when the credentials flag is true. When used as part of a response to a preflight request, this indicates whether or not the actual request can be made using credentials.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowHeaders.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowHeaders.md">
             AllowHeaders
         </a>
     </td>
     <td>
         Gets or sets the Access-Control-Allow-Headers header is used in response to a preflight request to indicate which HTTP headers can be used when making the actual request.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowMethods.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowMethods.md">
             AllowMethods
         </a>
     </td>
     <td>
         Gets or sets the Access-Control-Allow-Methods header specifies the method or methods allowed when accessing the resource.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowOrigin.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowOrigin.md">
             AllowOrigin
         </a>
     </td>
     <td>
         From MDN: Access-Control-Allow-Origin specifies either a single origin which tells browsers to allow that origin to access the resource; or else — for requests without credentials — the "*" wildcard tells browsers to allow any origin to access the resource.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowOrigins.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.AllowOrigins.md">
             AllowOrigins
         </a>
     </td>
     <td>
         Gets or sets domains which will define the source header according to one of the domains present below.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.Empty.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.Empty.md">
             Empty
         </a>
     </td>
     <td>
         Gets an instance of an empty CrossOriginResourceSharingHeaders.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.ExposeHeaders.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.ExposeHeaders.md">
             ExposeHeaders
         </a>
     </td>
     <td>
         Gets or sets the Access-Control-Expose-Headers header adds the specified headers to the allowlist that JavaScript in browsers is allowed to access.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.MaxAge.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.MaxAge.md">
             MaxAge
         </a>
     </td>
     <td>
         Gets or sets the Access-Control-Max-Age header indicates how long the results of a preflight request can be cached.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.CrossOriginResourceSharingHeaders().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.CrossOriginResourceSharingHeaders().md">
             CrossOriginResourceSharingHeaders()
         </a>
     </td>
     <td>
-        Creates an empty <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.md">CrossOriginResourceSharingHeaders</a> instance with no predefined CORS headers.
-    </td>
+        Creates an empty <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.md">CrossOriginResourceSharingHeaders</a> instance with no predefined CORS headers.
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.CreatePublicContext().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.CrossOriginResourceSharingHeaders.CreatePublicContext().md">
             CreatePublicContext()
         </a>
     </td>
     <td>
         Create an instance of Cross-Origin Resource Sharing that allows any origin, any method and any header in the request.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

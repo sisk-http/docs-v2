@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ExecutionMode property
 
-Declaring type: [Sisk.Core.Routing.AsyncRequestHandler](/spec/Sisk.Core.Routing.AsyncRequestHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.AsyncRequestHandler](/read?q=/contents/spec/Sisk.Core.Routing.AsyncRequestHandler.md) (from Sisk.Core)
 
 
 Definition:

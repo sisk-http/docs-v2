@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ContentServedOnIllegalMethod field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
 Represents that the request has sent an request body with an with a HTTP method that is not indicated for receiving request contents.

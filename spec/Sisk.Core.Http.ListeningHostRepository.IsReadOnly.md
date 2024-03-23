@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # IsReadOnly property
 
-Declaring type: [Sisk.Core.Http.ListeningHostRepository](/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHostRepository](/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public bool IsReadOnly { get; }
 ```
 
-Gets an boolean indicating if this <a href="/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a> is read only. This property always returns <c>true</c>.
+Gets an boolean indicating if this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a> is read only. This property always returns <c>true</c>.
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ThrowExceptions property
 
-Declaring type: [Sisk.Core.Http.HttpServerConfiguration](/spec/Sisk.Core.Http.HttpServerConfiguration.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerConfiguration](/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public bool ThrowExceptions { get; set; } = false;
 ```
 
-Gets or sets whether the server should throw exceptions instead of reporting it on <a href="/spec/Sisk.Core.Http.HttpServerExecutionStatus.md">HttpServerExecutionStatus</a> if any is thrown while processing requests.
+Gets or sets whether the server should throw exceptions instead of reporting it on <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md">HttpServerExecutionStatus</a> if any is thrown while processing requests.
 

@@ -22,79 +22,73 @@ public class RotatingLogPolicy : IDisposable
 
 Provides a managed utility for rotating log files by their file size.
 
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.Due.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.RotatingLogPolicy.Due.md">
             Due
         </a>
     </td>
     <td>
         Gets the time interval between checks.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.MaximumSize.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.RotatingLogPolicy.MaximumSize.md">
             MaximumSize
         </a>
     </td>
     <td>
         Gets the file size threshold in bytes for when the file will be compressed and then cleared.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.RotatingLogPolicy(LogStream).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.RotatingLogPolicy.RotatingLogPolicy(LogStream).md">
             RotatingLogPolicy(LogStream)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.md">RotatingLogPolicy</a> instance with the given <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> object to watch.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.RotatingLogPolicy.md">RotatingLogPolicy</a> instance with the given <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> object to watch.
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.Configure(long-TimeSpan).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.RotatingLogPolicy.Configure(long-TimeSpan).md">
             Configure(long, TimeSpan)
         </a>
     </td>
     <td>
         Defines the time interval and size threshold for starting the task, and then starts the task.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.Dispose().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.RotatingLogPolicy.Dispose().md">
             Dispose()
         </a>
     </td>
     <td>
         Waits for the last scheduled run and terminates this class and its resources.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

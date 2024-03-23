@@ -22,98 +22,96 @@ public enum MultipartObjectImageFormat
 
 Represents an image format for Multipart objects.
 
-
 # Field list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.BMP.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.BMP.md">
             BMP
         </a>
     </td>
     <td>
         Represents an bitmap image.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.GIF.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.GIF.md">
             GIF
         </a>
     </td>
     <td>
         Represents an GIF image.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.JPEG.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.JPEG.md">
             JPEG
         </a>
     </td>
     <td>
         Represents an JPEG/JPG image.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.PDF.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.PDF.md">
             PDF
         </a>
     </td>
     <td>
         Represents an PDF file.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.PNG.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.PNG.md">
             PNG
         </a>
     </td>
     <td>
         Represents an PNG image.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.TIFF.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.TIFF.md">
             TIFF
         </a>
     </td>
     <td>
         Represents an TIFF image.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.Unknown.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.Unknown.md">
             Unknown
         </a>
     </td>
     <td>
         Represents that the object is not a recognized image.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.WEBP.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObjectCommonFormat.WEBP.md">
             WEBP
         </a>
     </td>
     <td>
         Represents an WebP image.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

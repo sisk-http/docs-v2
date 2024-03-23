@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # AccessLogs property
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContext](/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContext](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public TextWriter? AccessLogs { get; }
 ```
 
-Gets the configured access log stream. This property is inherited from <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">ServerConfiguration</a>.
+Gets the configured access log stream. This property is inherited from <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">ServerConfiguration</a>.
 

@@ -20,173 +20,169 @@ Definition:
 public class HttpRequestEventSource : IDisposable
 ```
 
-An <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instance opens a persistent connection to the request, which sends events in text/event-stream format.
-
+An <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> instance opens a persistent connection to the request, which sends events in text/event-stream format.
 
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.HttpRequest.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.HttpRequest.md">
             HttpRequest
         </a>
     </td>
     <td>
-        Gets the <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object which created this Event Source instance.
-    </td>
+        Gets the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object which created this Event Source instance.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Identifier.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Identifier.md">
             Identifier
         </a>
     </td>
     <td>
         Gets an unique identifier label to this EventStream connection, useful for finding this connection's reference later.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.IsActive.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.IsActive.md">
             IsActive
         </a>
     </td>
     <td>
         Gets an boolean indicating if this connection is open and this instance can send messages.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.PingPolicy.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.PingPolicy.md">
             PingPolicy
         </a>
     </td>
     <td>
-        Gets the <a href="/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.md">HttpStreamPingPolicy</a> for this HTTP event source connection.
-    </td>
+        Gets the <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.md">HttpStreamPingPolicy</a> for this HTTP event source connection.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.SentContentLength.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.SentContentLength.md">
             SentContentLength
         </a>
     </td>
     <td>
         Gets an integer indicating the total bytes sent by this instance to the client.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.AppendHeader(string-string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.AppendHeader(string-string).md">
             AppendHeader(string, string)
         </a>
     </td>
     <td>
         Sends an header to the streaming context.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Cancel().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Cancel().md">
             Cancel()
         </a>
     </td>
     <td>
         Cancels the sending queue from sending pending messages and clears the queue.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Close().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Close().md">
             Close()
         </a>
     </td>
     <td>
         Closes the event listener and it's connection.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Dispose().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Dispose().md">
             Dispose()
         </a>
     </td>
     <td>
         Flushes and releases the used resources of this class instance.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.KeepAlive().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.KeepAlive().md">
             KeepAlive()
         </a>
     </td>
     <td>
         Asynchronously waits for the connection to close before continuing execution. This method is released when either the client or the server reaches an sending failure.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Send(Object).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Send(Object).md">
             Send(Object)
         </a>
     </td>
     <td>
         Writes a event message with their data to the event listener and returns an boolean indicating if the message was delivered to the client.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Send(string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.Send(string).md">
             Send(string)
         </a>
     </td>
     <td>
         Writes a event message with their data to the event listener and returns an boolean indicating if the message was delivered to the client.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.WaitForFail(TimeSpan).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.WaitForFail(TimeSpan).md">
             WaitForFail(TimeSpan)
         </a>
     </td>
     <td>
         Asynchronously waits for the connection to close before continuing execution with an maximum keep alive timeout. This method is released when either the client or the server reaches an sending failure.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.WithPing(HttpStreamPingPolicy).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.WithPing(HttpStreamPingPolicy).md">
             WithPing(HttpStreamPingPolicy)
         </a>
     </td>
     <td>
         Configures the ping policy for this instance of HTTP Event Source.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

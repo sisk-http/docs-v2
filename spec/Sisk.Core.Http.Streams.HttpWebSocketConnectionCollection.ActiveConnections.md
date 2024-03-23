@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ActiveConnections property
 
-Declaring type: [Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection](/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md) (from Sisk.Core)
 
 
 Definition:

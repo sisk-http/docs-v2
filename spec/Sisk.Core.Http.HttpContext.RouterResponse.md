@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RouterResponse property
 
-Declaring type: [Sisk.Core.Http.HttpContext](/spec/Sisk.Core.Http.HttpContext.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpContext](/read?q=/contents/spec/Sisk.Core.Http.HttpContext.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpResponse? RouterResponse { get; }
 ```
 
-Gets or sets the HTTP response for this context. This property is only not null when a post-executing <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> was executed for this router context.
+Gets or sets the HTTP response for this context. This property is only not null when a post-executing <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> was executed for this router context.
 

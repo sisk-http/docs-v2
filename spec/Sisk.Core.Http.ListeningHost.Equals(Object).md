@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Equals(Object) method
 
-Declaring type: [Sisk.Core.Http.ListeningHost](/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHost](/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
 
 
 Definition:

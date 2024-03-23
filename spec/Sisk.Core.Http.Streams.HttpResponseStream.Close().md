@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Close() method
 
-Declaring type: [Sisk.Core.Http.Streams.HttpResponseStream](/spec/Sisk.Core.Http.Streams.HttpResponseStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpResponseStream](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpResponseStream.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpResponse Close()
 ```
 
-Closes this HTTP response stream connection between the server and the client and returns an empty <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> to finish the HTTP server context.
+Closes this HTTP response stream connection between the server and the client and returns an empty <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> to finish the HTTP server context.
 

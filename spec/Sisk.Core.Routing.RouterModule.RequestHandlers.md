@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RequestHandlers property
 
-Declaring type: [Sisk.Core.Routing.RouterModule](/spec/Sisk.Core.Routing.RouterModule.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RouterModule](/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.md) (from Sisk.Core)
 
 
 Definition:

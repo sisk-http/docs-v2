@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RoutePatchAttribute() constructor
 
-Declaring type: [Sisk.Core.Routing.RoutePatchAttribute](/spec/Sisk.Core.Routing.RoutePatchAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RoutePatchAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RoutePatchAttribute.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public RoutePatchAttribute()
 ```
 
-Creates an new <a href="/spec/Sisk.Core.Routing.RoutePatchAttribute.md">RoutePatchAttribute</a> attribute instance with an root path (/).
+Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePatchAttribute.md">RoutePatchAttribute</a> attribute instance with an root path (/).
 

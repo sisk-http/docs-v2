@@ -20,158 +20,152 @@ Definition:
 public class ListeningHostRepository : ICollection<ListeningHost>, IEnumerable<ListeningHost>
 ```
 
-Represents an fluent repository of <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> that can add, modify, or remove listening hosts while an <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> is running.
-
+Represents an fluent repository of <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> that can add, modify, or remove listening hosts while an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> is running.
 
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.ListeningHostRepository().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.ListeningHostRepository().md">
             ListeningHostRepository()
         </a>
     </td>
     <td>
-        Creates a new instance of an empty <a href="/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
-    </td>
+        Creates a new instance of an empty <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.ListeningHostRepository(ListeningHost).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.ListeningHostRepository(ListeningHost).md">
             ListeningHostRepository(ListeningHost)
         </a>
     </td>
     <td>
-        Creates a new instance of an <a href="/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a> copying the items from another collection of <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a>.
-    </td>
+        Creates a new instance of an <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a> copying the items from another collection of <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a>.
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.Count.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.Count.md">
             Count
         </a>
     </td>
     <td>
-        Gets the number of elements contained in this <a href="/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
-    </td>
+        Gets the number of elements contained in this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.IsReadOnly.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.IsReadOnly.md">
             IsReadOnly
         </a>
     </td>
     <td>
-        Gets an boolean indicating if this <a href="/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a> is read only. This property always returns <c>true</c>.
-    </td>
+        Gets an boolean indicating if this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a> is read only. This property always returns <c>true</c>.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.Item.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.Item.md">
             Item
         </a>
     </td>
     <td>
         Gets or sets a listening host through its index.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.Add(ListeningHost).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.Add(ListeningHost).md">
             Add(ListeningHost)
         </a>
     </td>
     <td>
         Adds a listeninghost to this repository. If this listeninghost already exists in this class, an exception will be thrown.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.Clear().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.Clear().md">
             Clear()
         </a>
     </td>
     <td>
         Removes all listeninghosts from this repository.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.Contains(ListeningHost).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.Contains(ListeningHost).md">
             Contains(ListeningHost)
         </a>
     </td>
     <td>
-        Determines if an <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> is present in this repository.
-    </td>
+        Determines if an <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> is present in this repository.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.CopyTo(ListeningHost-int).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.CopyTo(ListeningHost-int).md">
             CopyTo(ListeningHost[], int)
         </a>
     </td>
     <td>
         Copies all elements from this repository to another compatible repository.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.GetEnumerator().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.GetEnumerator().md">
             GetEnumerator()
         </a>
     </td>
     <td>
-        Returns an enumerator that iterates through this <a href="/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
-    </td>
+        Returns an enumerator that iterates through this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.Remove(ListeningHost).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.Remove(ListeningHost).md">
             Remove(ListeningHost)
         </a>
     </td>
     <td>
-        Try to remove a <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> from this repository. If the item is removed, this methods returns <c>true</c>.
-    </td>
+        Try to remove a <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> from this repository. If the item is removed, this methods returns <c>true</c>.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningHostRepository.System#Collections#IEnumerable#GetEnumerator().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.System#Collections#IEnumerable#GetEnumerator().md">
             System#Collections#IEnumerable#GetEnumerator()
         </a>
     </td>
     <td>
-        Returns an enumerator that iterates through this <a href="/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
-    </td>
+        Returns an enumerator that iterates through this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHostRepository.md">ListeningHostRepository</a>.
+    <td>
 </tr>
     </tbody>
 </table>

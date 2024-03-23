@@ -12,13 +12,13 @@ edit the XML documentation present in the Sisk source code.
 
 # Query property
 
-Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpRequest](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public NameValueCollection Query { get; }
+public StringValueCollection Query { get; }
 ```
 
 Gets the HTTP request query extracted from the path string. This property also contains routing parameters.

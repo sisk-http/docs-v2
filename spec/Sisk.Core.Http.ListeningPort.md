@@ -20,7 +20,7 @@ Definition:
 public struct ListeningPort
 ```
 
-Provides a structure to contain a listener port for an <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance.
+Provides a structure to contain a listener port for an <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance.
 
 
 <p>
@@ -40,156 +40,150 @@ Provides a structure to contain a listener port for an <a href="/spec/Sisk.Core.
                     http://182.32.112.223:5251/
                 </code></pre>
 
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.Hostname.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.Hostname.md">
             Hostname
         </a>
     </td>
     <td>
         Gets or sets the DNS hostname pattern where this listening port will refer.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.Port.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.Port.md">
             Port
         </a>
     </td>
     <td>
         Gets or sets the port where this listening port will refer.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.Secure.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.Secure.md">
             Secure
         </a>
     </td>
     <td>
         Gets or sets whether the server should listen to this port securely (SSL).
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.ListeningPort().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.ListeningPort().md">
             ListeningPort()
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with default parameters.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with default parameters.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.ListeningPort(bool-string-int).md">
-            ListeningPort(bool, string, int)
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.ListeningPort(bool-string-UInt16).md">
+            ListeningPort(bool, string, UInt16)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port, secure context and hostname.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.ListeningPort(int-bool).md">
-            ListeningPort(int, bool)
-        </a>
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port, secure context and hostname.
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port and secure context at the loopback host.
-    </td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.ListeningPort(int).md">
-            ListeningPort(int)
-        </a>
-    </td>
-    <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port at the loopback host.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.ListeningPort(string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.ListeningPort(string).md">
             ListeningPort(string)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified URI.
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified URI.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/constructor.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.ListeningPort(UInt16-bool).md">
+            ListeningPort(UInt16, bool)
+        </a>
     </td>
+    <td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port and secure context at the loopback host.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/constructor.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.ListeningPort(UInt16).md">
+            ListeningPort(UInt16)
+        </a>
+    </td>
+    <td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port at the loopback host.
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.Equals(Object).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.Equals(Object).md">
             Equals(Object)
         </a>
     </td>
     <td>
         Determines if another object is equals to this class instance.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.GetHashCode().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.GetHashCode().md">
             GetHashCode()
         </a>
     </td>
     <td>
         Gets the hash code for this listening port.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.GetRandomPort().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.GetRandomPort().md">
             GetRandomPort()
         </a>
     </td>
     <td>
-        Gets an <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> object with an random insecure port.
-    </td>
+        Gets an <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> object with an random insecure port.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.ListeningPort.ToString().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.ToString().md">
             ToString()
         </a>
     </td>
     <td>
-        Gets an string representation of this <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a>.
-    </td>
+        Gets an string representation of this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a>.
+    <td>
 </tr>
     </tbody>
 </table>

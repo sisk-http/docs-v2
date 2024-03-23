@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Due property
 
-Declaring type: [Sisk.Core.Http.RotatingLogPolicy](/spec/Sisk.Core.Http.RotatingLogPolicy.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.RotatingLogPolicy](/read?q=/contents/spec/Sisk.Core.Http.RotatingLogPolicy.md) (from Sisk.Core)
 
 
 Definition:

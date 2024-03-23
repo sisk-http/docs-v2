@@ -22,39 +22,35 @@ public interface IRequestHandler
 
 Represents an interface that is executed before a request.
 
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Routing.IRequestHandler.Execute(HttpRequest-HttpContext).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.Execute(HttpRequest-HttpContext).md">
             Execute(HttpRequest, HttpContext)
         </a>
     </td>
     <td>
-        This method is called by the <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> before executing a request when the <a href="/spec/Sisk.Core.Routing.Route.md">Route</a> instantiates an object that implements this interface. If it returns a <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object, the route action is not called and all execution of the route is stopped. If it returns "null", the execution is continued.
-    </td>
+        This method is called by the <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> before executing a request when the <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a> instantiates an object that implements this interface. If it returns a <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object, the route action is not called and all execution of the route is stopped. If it returns "null", the execution is continued.
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Routing.IRequestHandler.ExecutionMode.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.ExecutionMode.md">
             ExecutionMode
         </a>
     </td>
     <td>
         Gets or sets when this RequestHandler should run.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

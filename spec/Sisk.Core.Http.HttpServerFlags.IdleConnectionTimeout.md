@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # IdleConnectionTimeout field
 
-Declaring type: [Sisk.Core.Http.HttpServerFlags](/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerFlags](/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
 
 
 Definition:

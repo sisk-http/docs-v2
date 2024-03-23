@@ -12,14 +12,14 @@ edit the XML documentation present in the Sisk source code.
 
 # TextWriter property
 
-Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public TextWriter? TextWriter { get; }
+public TextWriter? TextWriter { get; set; }
 ```
 
-Gets the <a href="/spec/Sisk.Core.Http.LogStream.md">TextWriter</a> object where the log is being written to.
+Gets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.TextWriter">TextWriter</a> object where the log is being written to.
 

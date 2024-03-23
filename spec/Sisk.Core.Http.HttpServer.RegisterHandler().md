@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RegisterHandler() method
 
-Declaring type: [Sisk.Core.Http.HttpServer](/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServer](/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public void RegisterHandler<[DynamicallyAccessedMembers(DynamicallyAccessedMemberTypes.PublicMethods)] T>() where T : HttpServerHandler, new()
 ```
 
-Associate an <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md">HttpServerHandler</a> in this HttpServer to handle functions such as requests, routers and contexts.
+Associate an <a href="/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md">HttpServerHandler</a> in this HttpServer to handle functions such as requests, routers and contexts.
 

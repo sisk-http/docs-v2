@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Next() method
 
-Declaring type: [Sisk.Core.Routing.RequestHandler](/spec/Sisk.Core.Routing.RequestHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RequestHandler](/read?q=/contents/spec/Sisk.Core.Routing.RequestHandler.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpResponse? Next()
 ```
 
-Returns an null <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> reference, which points to the next request handler or route action.
+Returns an null <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> reference, which points to the next request handler or route action.
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # DataMessage property
 
-Declaring type: [Sisk.Core.Http.Streams.HttpStreamPingPolicy](/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpStreamPingPolicy](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.md) (from Sisk.Core)
 
 
 Definition:

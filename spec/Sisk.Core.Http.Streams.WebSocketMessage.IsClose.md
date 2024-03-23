@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # IsClose property
 
-Declaring type: [Sisk.Core.Http.Streams.WebSocketMessage](/spec/Sisk.Core.Http.Streams.WebSocketMessage.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.WebSocketMessage](/read?q=/contents/spec/Sisk.Core.Http.Streams.WebSocketMessage.md) (from Sisk.Core)
 
 
 Definition:

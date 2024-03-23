@@ -20,23 +20,21 @@ Definition:
 public abstract class RequestHandler : IRequestHandler
 ```
 
-Represents an abstract class which implements <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a>.
-
+Represents an abstract class which implements <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a>.
 
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Routing.RequestHandler.Next().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandler.Next().md">
             Next()
         </a>
     </td>
     <td>
-        Returns an null <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> reference, which points to the next request handler or route action.
-    </td>
+        Returns an null <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> reference, which points to the next request handler or route action.
+    <td>
 </tr>
     </tbody>
 </table>

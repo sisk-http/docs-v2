@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Start(bool, bool) method
 
-Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContext](/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Hosting.HttpServerHostContext](/read?q=/contents/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md) (from Sisk.Core)
 
 
 Definition:

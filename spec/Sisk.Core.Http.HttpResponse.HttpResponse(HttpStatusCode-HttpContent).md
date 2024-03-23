@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # HttpResponse(HttpStatusCode, HttpContent) constructor
 
-Declaring type: [Sisk.Core.Http.HttpResponse](/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpResponse](/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpResponse(HttpStatusCode status, HttpContent content)
 ```
 
-Creates an new <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code and HTTP contents.
+Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code and HTTP contents.
 

@@ -22,262 +22,342 @@ public class LogStream : IDisposable
 
 Provides a managed, asynchronous log writer which supports writing safe data to log files or streams.
 
-
 # Field list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.ConsoleOutput.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.ConsoleOutput.md">
             ConsoleOutput
         </a>
     </td>
     <td>
         Represents a LogStream that writes its output to the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Console.Out">Out</a> stream.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Property list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Encoding.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.Encoding.md">
             Encoding
         </a>
     </td>
     <td>
         Gets or sets the encoding used for writting data to the output file. This property is only appliable if this instance is using an file-based output.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.FilePath.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.FilePath.md">
             FilePath
         </a>
     </td>
     <td>
         Gets the absolute path to the file where the log is being written to.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Format.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.Format.md">
             Format
         </a>
     </td>
     <td>
         Gets or sets the function that formats input when used with <see cref="M:Sisk.Core.Http.LogStream.WriteFormat(System.Object)" />.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.RotatingPolicy.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.IsBuffering.md">
+            IsBuffering
+        </a>
+    </td>
+    <td>
+        Gets an boolean indicating if this <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> is buffering output messages to their internal message buffer.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/property.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.RotatingPolicy.md">
             RotatingPolicy
         </a>
     </td>
     <td>
-        Gets the defined <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.md">RotatingLogPolicy</a> for this <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a>.
-    </td>
+        Gets the defined <a href="/read?q=/contents/spec/Sisk.Core.Http.RotatingLogPolicy.md">RotatingLogPolicy</a> for this <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a>.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.TextWriter.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.StreamWriter.md">
+            StreamWriter
+        </a>
+    </td>
+    <td>
+        Gets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.StreamWriter">StreamWriter</a> object where the log is being written to.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/property.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.TextWriter.md">
             TextWriter
         </a>
     </td>
     <td>
-        Gets the <a href="/spec/Sisk.Core.Http.LogStream.md">TextWriter</a> object where the log is being written to.
-    </td>
+        Gets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.TextWriter">TextWriter</a> object where the log is being written to.
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Constructor list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.LogStream(TextWriter).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.LogStream().md">
+            LogStream()
+        </a>
+    </td>
+    <td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance with no predefined outputs.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/constructor.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.LogStream(StreamWriter).md">
+            LogStream(StreamWriter)
+        </a>
+    </td>
+    <td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance with the given <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.StreamWriter">StreamWriter</a> resource.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/constructor.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.LogStream(TextWriter).md">
             LogStream(TextWriter)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance with the given TextWriter object.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance with the given TextWriter object.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.LogStream(string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.LogStream(string-TextWriter-StreamWriter).md">
+            LogStream(string, TextWriter, StreamWriter)
+        </a>
+    </td>
+    <td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance which writes text to an file and an <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">TextWriter</a>.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/constructor.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.LogStream(string).md">
             LogStream(string)
         </a>
     </td>
     <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance with the given relative or absolute file path.
-    </td>
+        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance with the given relative or absolute file path.
+    <td>
 </tr>
     </tbody>
 </table>
-
 # Method list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Close().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.Close().md">
             Close()
         </a>
     </td>
     <td>
         Writes all pending logs from the queue and closes all resources used by this object.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.ConfigureRotatingPolicy(long-TimeSpan).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.ConfigureRotatingPolicy(long-TimeSpan).md">
             ConfigureRotatingPolicy(long, TimeSpan)
         </a>
     </td>
     <td>
-        Defines the time interval and size threshold for starting the task, and then starts the task. This method is an shortcut for calling <see cref="M:Sisk.Core.Http.RotatingLogPolicy.Configure(System.Int64,System.TimeSpan)" /> of this defined <a href="/spec/Sisk.Core.Http.LogStream.md">RotatingPolicy</a> method.
-    </td>
+        Defines the time interval and size threshold for starting the task, and then starts the task. This method is an shortcut for calling <see cref="M:Sisk.Core.Http.RotatingLogPolicy.Configure(System.Int64,System.TimeSpan)" /> of this defined <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">RotatingPolicy</a> method.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Dispose().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.Dispose().md">
             Dispose()
         </a>
     </td>
     <td>
         Writes all pending logs from the queue and closes all resources used by this object.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Peek(int).md">
-            Peek(int)
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.EnqueueMessageLine(string).md">
+            EnqueueMessageLine(string)
         </a>
     </td>
     <td>
-        Reads the last few lines of the linked log file.
-    </td>
+        Represents the method that enqueues a message to the queue of messages to be written to output streams.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Set().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.Peek().md">
+            Peek()
+        </a>
+    </td>
+    <td>
+        Reads the output buffer. To use this method, it's required to set this <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> buffering with <see cref="M:Sisk.Core.Http.LogStream.StartBuffering(System.Int32)" />.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.Set().md">
             Set()
         </a>
     </td>
     <td>
         Releases the execution of the queue.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Wait(bool).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.StartBuffering(int).md">
+            StartBuffering(int)
+        </a>
+    </td>
+    <td>
+        Start buffering all output to an alternate stream in memory for readability with <see cref="!:Peek(int)" /> later.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.StopBuffering().md">
+            StopBuffering()
+        </a>
+    </td>
+    <td>
+        Stops buffering output to the alternative stream.
+    <td>
+</tr>
+<tr>
+    <td width="33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.Wait(bool).md">
             Wait(bool)
         </a>
     </td>
     <td>
         Waits for the log to finish writing the current queue state.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Write(Object).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.Write(Object).md">
             Write(Object)
         </a>
     </td>
     <td>
         Writes the text into the output.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.WriteException(Exception).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.WriteException(Exception).md">
             WriteException(Exception)
         </a>
     </td>
     <td>
         Writes an exception description in the log.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.WriteFormat(Object).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.WriteFormat(Object).md">
             WriteFormat(Object)
         </a>
     </td>
     <td>
-        Writes the input, formatting with <a href="/spec/Sisk.Core.Http.LogStream.md">Format</a> handler, at the end of the output.
-    </td>
+        Writes the input, formatting with <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">Format</a> handler, at the end of the output.
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.WriteLine().md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.WriteLine().md">
             WriteLine()
         </a>
     </td>
     <td>
         Writes an line-break at the end of the output.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.WriteLine(Object).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.WriteLine(Object).md">
             WriteLine(Object)
         </a>
     </td>
     <td>
         Writes the text and concats an line-break at the end into the output.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.WriteLine(string-Object).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.WriteLine(string-Object).md">
             WriteLine(string, Object[])
         </a>
     </td>
     <td>
         Writes the text format and arguments and concats an line-break at the end into the output.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.WriteLine(string).md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.WriteLine(string).md">
             WriteLine(string)
         </a>
     </td>
     <td>
         Writes the text and concats an line-break at the end into the output.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Count property
 
-Declaring type: [Sisk.Core.Http.HttpContextBagRepository](/spec/Sisk.Core.Http.HttpContextBagRepository.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpContextBagRepository](/read?q=/contents/spec/Sisk.Core.Http.HttpContextBagRepository.md) (from Sisk.Core)
 
 
 Definition:

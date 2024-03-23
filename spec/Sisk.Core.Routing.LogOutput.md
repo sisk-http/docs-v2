@@ -22,54 +22,52 @@ public enum LogOutput
 
 Determines the way the server can write log messages. This enumerator is for giving permissions for certain contexts to be able or not to write to the logs.
 
-
 # Field list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.LogOutput.AccessLog.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.LogOutput.AccessLog.md">
             AccessLog
         </a>
     </td>
     <td>
         Determines that the context or the route can write log messages only to the access logs.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.LogOutput.Both.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.LogOutput.Both.md">
             Both
         </a>
     </td>
     <td>
         Determines that the context or the route can write log messages to both error and access logs.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.LogOutput.ErrorLog.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.LogOutput.ErrorLog.md">
             ErrorLog
         </a>
     </td>
     <td>
         Determines that the context or the route can write error messages only to the error logs.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.LogOutput.None.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Routing.LogOutput.None.md">
             None
         </a>
     </td>
     <td>
         Determines that the context or the route cannot write any log messages.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

@@ -12,13 +12,13 @@ edit the XML documentation present in the Sisk source code.
 
 # WithCookie(string, string, DateTime?, TimeSpan?, string, string, bool?, bool?, string) method
 
-Declaring type: [Sisk.Core.Http.HttpResponse](/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpResponse](/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
 
 
 Definition:
 
 ```cs
-public HttpResponse WithCookie(string name, string value, DateTime? expires, TimeSpan? maxAge, string? domain, string? path, bool? secure, bool? httpOnly, string? sameSite)
+public HttpResponse WithCookie(string name, string value, DateTime? expires = null, TimeSpan? maxAge = null, string? domain = null, string? path = null, bool? secure = null, bool? httpOnly = null, string? sameSite = null)
 ```
 
 Sets a cookie and sends it in the response to be set by the client.

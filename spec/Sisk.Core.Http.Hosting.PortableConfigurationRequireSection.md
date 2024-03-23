@@ -23,54 +23,52 @@ public enum PortableConfigurationRequireSection
 
 Defines which sessions are mandatory in the portable configuration file.
 
-
 # Field list
-
 <table>
     <tbody>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.All.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.All.md">
             All
         </a>
     </td>
     <td>
         Defines that the all sections is mandatory.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.ListeningHost.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.ListeningHost.md">
             ListeningHost
         </a>
     </td>
     <td>
         Defines that the ListeningHost section is mandatory.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.Parameters.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.Parameters.md">
             Parameters
         </a>
     </td>
     <td>
         Defines that the Parameters section is mandatory.
-    </td>
+    <td>
 </tr>
 <tr>
-    <td style="width: 33%">
+    <td width="33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.ServerConfiguration.md">
+        <a href="/read?q=/contents/spec/Sisk.Core.Http.Hosting.PortableConfigurationRequireSection.ServerConfiguration.md">
             ServerConfiguration
         </a>
     </td>
     <td>
         Defines that the ServerConfiguration section is mandatory.
-    </td>
+    <td>
 </tr>
     </tbody>
 </table>

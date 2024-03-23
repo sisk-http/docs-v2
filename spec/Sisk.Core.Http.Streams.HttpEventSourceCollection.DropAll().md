@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # DropAll() method
 
-Declaring type: [Sisk.Core.Http.Streams.HttpEventSourceCollection](/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpEventSourceCollection](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpEventSourceCollection.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public void DropAll()
 ```
 
-Closes and disposes all registered and active <a href="/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> in this collections.
+Closes and disposes all registered and active <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpRequestEventSource.md">HttpRequestEventSource</a> in this collections.
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Sender property
 
-Declaring type: [Sisk.Core.Http.Streams.WebSocketMessage](/spec/Sisk.Core.Http.Streams.WebSocketMessage.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.WebSocketMessage](/read?q=/contents/spec/Sisk.Core.Http.Streams.WebSocketMessage.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpWebSocket Sender { get; }
 ```
 
-Gets the sender <a href="/spec/Sisk.Core.Http.Streams.HttpWebSocket.md">HttpWebSocket</a> object instance which received this message.
+Gets the sender <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocket.md">HttpWebSocket</a> object instance which received this message.
 
