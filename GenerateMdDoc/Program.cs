@@ -91,6 +91,8 @@ namespace Sisk.GenerateMdDoc
 
                 var members = doc.SelectNodes("/doc/members/member")!;
 
+                Directory.CreateDirectory("Output");
+
                 File.WriteAllText("Output/index.md", """
                     # Specification
 
@@ -154,7 +156,7 @@ namespace Sisk.GenerateMdDoc
                         }
                         else
                         {
-                            parent = name.Substring(0, name.LastIndexOf('.'));
+                            parent = name.Contains('.') ? name.Substring(0, name.LastIndexOf('.')) : name;
                         }
                         string remarks = member.SelectSingleNode("remarks")?.InnerXml.Trim() ?? "";
                         string declaringName = nameWithoutArgs.Substring(nameWithoutArgs.LastIndexOf('.') + 1);
