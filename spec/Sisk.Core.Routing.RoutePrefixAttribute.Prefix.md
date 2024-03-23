@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Prefix property
 
-Declaring type: [Sisk.Core.Routing.RoutePrefixAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RoutePrefixAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RoutePrefixAttribute](/spec/Sisk.Core.Routing.RoutePrefixAttribute.md) (from Sisk.Core)
 
 
 Definition:

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Value property
 
-Declaring type: [Sisk.Core.Entity.StringValue](/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.StringValue](/spec/Sisk.Core.Entity.StringValue.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public string? Value { get; }
 ```
 
-Gets the value slot of this <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>.
+Gets the value slot of this <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>.
 

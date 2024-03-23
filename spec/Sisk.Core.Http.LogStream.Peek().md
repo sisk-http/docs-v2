@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Peek() method
 
-Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public string Peek()
 ```
 
-Reads the output buffer. To use this method, it's required to set this <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> buffering with <see cref="M:Sisk.Core.Http.LogStream.StartBuffering(System.Int32)" />.
+Reads the output buffer. To use this method, it's required to set this <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> buffering with <see cref="M:Sisk.Core.Http.LogStream.StartBuffering(System.Int32)" />.
 

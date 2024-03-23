@@ -22,85 +22,87 @@ public class HttpContext
 
 Represents an context for Http requests.
 
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContext.HttpServer.md">
+        <a href="/spec/Sisk.Core.Http.HttpContext.HttpServer.md">
             HttpServer
         </a>
     </td>
     <td>
         Gets the context Http Server instance.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContext.ListeningHost.md">
+        <a href="/spec/Sisk.Core.Http.HttpContext.ListeningHost.md">
             ListeningHost
         </a>
     </td>
     <td>
-        Gets the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContext.md">ListeningHost</a> instance of this HTTP context.
-    <td>
+        Gets the <a href="/spec/Sisk.Core.Http.HttpContext.md">ListeningHost</a> instance of this HTTP context.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContext.MatchedRoute.md">
+        <a href="/spec/Sisk.Core.Http.HttpContext.MatchedRoute.md">
             MatchedRoute
         </a>
     </td>
     <td>
         Gets the matched Http Route object from the Router.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContext.OverrideHeaders.md">
+        <a href="/spec/Sisk.Core.Http.HttpContext.OverrideHeaders.md">
             OverrideHeaders
         </a>
     </td>
     <td>
         Gets or sets an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Specialized.NameValueCollection">NameValueCollection</a> indicating HTTP headers which will overwrite headers set by CORS, router response or request handlers.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContext.Request.md">
+        <a href="/spec/Sisk.Core.Http.HttpContext.Request.md">
             Request
         </a>
     </td>
     <td>
         Gets the HTTP request which is contained in this HTTP context.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContext.RequestBag.md">
+        <a href="/spec/Sisk.Core.Http.HttpContext.RequestBag.md">
             RequestBag
         </a>
     </td>
     <td>
         Gets or sets a managed object that is accessed and modified by request handlers.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContext.RouterResponse.md">
+        <a href="/spec/Sisk.Core.Http.HttpContext.RouterResponse.md">
             RouterResponse
         </a>
     </td>
     <td>
-        Gets or sets the HTTP response for this context. This property is only not null when a post-executing <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> was executed for this router context.
-    <td>
+        Gets or sets the HTTP response for this context. This property is only not null when a post-executing <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> was executed for this router context.
+    </td>
 </tr>
     </tbody>
 </table>

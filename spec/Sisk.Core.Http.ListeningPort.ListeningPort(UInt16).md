@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ListeningPort(UInt16) constructor
 
-Declaring type: [Sisk.Core.Http.ListeningPort](/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningPort](/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public ListeningPort(int port)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port at the loopback host.
+Creates an new <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a> instance with the specified port at the loopback host.
 
 
 # Parameters

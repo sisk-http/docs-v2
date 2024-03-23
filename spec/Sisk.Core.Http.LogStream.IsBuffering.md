@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # IsBuffering property
 
-Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public bool IsBuffering { get; }
 ```
 
-Gets an boolean indicating if this <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> is buffering output messages to their internal message buffer.
+Gets an boolean indicating if this <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> is buffering output messages to their internal message buffer.
 

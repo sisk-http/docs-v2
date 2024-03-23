@@ -21,5 +21,5 @@ Definition:
 public class RequestHandlerAttribute : Attribute
 ```
 
-Specifies that the method, when used on this attribute, will instantiate the type and call the <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> with given parameters.
+Specifies that the method, when used on this attribute, will instantiate the type and call the <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> with given parameters.
 

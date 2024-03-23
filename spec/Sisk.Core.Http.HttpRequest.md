@@ -22,442 +22,446 @@ public sealed class HttpRequest
 
 Represents an HTTP request received by a Sisk server.
 
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Authority.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Authority.md">
             Authority
         </a>
     </td>
     <td>
         Get the requested host header with the port from this HTTP request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Bag.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Bag.md">
             Bag
         </a>
     </td>
     <td>
         Gets the managed object which holds data for an entire HTTP session.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Body.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Body.md">
             Body
         </a>
     </td>
     <td>
         Gets the HTTP request body as string, decoded by the request content encoding.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.ContentLength.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.ContentLength.md">
             ContentLength
         </a>
     </td>
     <td>
         Gets the content length in bytes.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Context.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Context.md">
             Context
         </a>
     </td>
     <td>
         Gets the HttpContext for this request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Cookies.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Cookies.md">
             Cookies
         </a>
     </td>
     <td>
         Gets an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Specialized.NameValueCollection">NameValueCollection</a> object with all cookies set in this request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.FullPath.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.FullPath.md">
             FullPath
         </a>
     </td>
     <td>
         Gets the full HTTP request path with the query string.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.FullUrl.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.FullUrl.md">
             FullUrl
         </a>
     </td>
     <td>
         Gets the full URL for this request, with scheme, host, port (if any), path and query.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.HasContents.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.HasContents.md">
             HasContents
         </a>
     </td>
     <td>
         Gets a boolean indicating whether this request has contents.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Headers.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Headers.md">
             Headers
         </a>
     </td>
     <td>
         Gets the HTTP request headers.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Host.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Host.md">
             Host
         </a>
     </td>
     <td>
         Get the requested host header (without port) from this HTTP request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.IsContentAvailable.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.IsContentAvailable.md">
             IsContentAvailable
         </a>
     </td>
     <td>
         Gets a boolean indicating whether the content of this request has been processed by the server.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.IsSecure.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.IsSecure.md">
             IsSecure
         </a>
     </td>
     <td>
         Gets a boolean indicating whether this request was made by an secure transport context (SSL/TLS) or not.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Method.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Method.md">
             Method
         </a>
     </td>
     <td>
         Gets the HTTP request method.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Origin.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Origin.md">
             Origin
         </a>
     </td>
     <td>
         Gets the incoming IP address from the request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Path.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Path.md">
             Path
         </a>
     </td>
     <td>
         Gets the HTTP request path without the query string.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Query.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Query.md">
             Query
         </a>
     </td>
     <td>
         Gets the HTTP request query extracted from the path string. This property also contains routing parameters.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.QueryString.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.QueryString.md">
             QueryString
         </a>
     </td>
     <td>
         Gets the HTTP request URL raw query string.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.RawBody.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.RawBody.md">
             RawBody
         </a>
     </td>
     <td>
         Gets the HTTP request body as a byte array.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.RemoteAddress.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.RemoteAddress.md">
             RemoteAddress
         </a>
     </td>
     <td>
         Gets the incoming IP address from the request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.RequestedAt.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.RequestedAt.md">
             RequestedAt
         </a>
     </td>
     <td>
         Gets the moment which the request was received by the server.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.RequestEncoding.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.RequestEncoding.md">
             RequestEncoding
         </a>
     </td>
     <td>
         Gets the Encoding used in the request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.RequestId.md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.RequestId.md">
             RequestId
         </a>
     </td>
     <td>
         Gets a unique random ID for this request.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.Close().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.Close().md">
             Close()
         </a>
     </td>
     <td>
         Closes this HTTP request and their connection with the remote client without sending any response.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetContextBag().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetContextBag().md">
             GetContextBag()
         </a>
     </td>
     <td>
         Gets an managed object from the HTTP context bag through it's type.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetEventSource(string).md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetEventSource(string).md">
             GetEventSource(string)
         </a>
     </td>
     <td>
-        Gets an Event Source interface for this request. Calling this method will put this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> instance in it's event source listening state.
-    <td>
+        Gets an Event Source interface for this request. Calling this method will put this <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> instance in it's event source listening state.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetFormContent().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetFormContent().md">
             GetFormContent()
         </a>
     </td>
     <td>
         Gets the values sent by a form in this request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetHeader(string).md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetHeader(string).md">
             GetHeader(string)
         </a>
     </td>
     <td>
         Gets a header value using a case-insensitive search.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetMultipartFormContent().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetMultipartFormContent().md">
             GetMultipartFormContent()
         </a>
     </td>
     <td>
         Gets the multipart form content for this request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetQueryValue().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetQueryValue().md">
             GetQueryValue()
         </a>
     </td>
     <td>
-        Gets the value stored from the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">Query</a> and converts it to the given type.
-    <td>
+        Gets the value stored from the <a href="/spec/Sisk.Core.Http.HttpRequest.md">Query</a> and converts it to the given type.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetQueryValue(string).md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetQueryValue(string).md">
             GetQueryValue(string)
         </a>
     </td>
     <td>
         Gets a query value using an case-insensitive search.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetRawHttpRequest(bool).md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetRawHttpRequest(bool).md">
             GetRawHttpRequest(bool)
         </a>
     </td>
     <td>
         Gets the raw HTTP request message from the socket.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetRequestStream().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetRequestStream().md">
             GetRequestStream()
         </a>
     </td>
     <td>
         Gets the HTTP request content stream. This property is only available while the content has not been imported by the HTTP server and will invalidate the body content cached in this object.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetResponseStream().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetResponseStream().md">
             GetResponseStream()
         </a>
     </td>
     <td>
         Gets an HTTP response stream for this HTTP request.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.GetWebSocket(string-string).md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.GetWebSocket(string-string).md">
             GetWebSocket(string, string)
         </a>
     </td>
     <td>
-        Accepts and acquires a websocket for this request. Calling this method will put this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> instance in streaming state.
-    <td>
+        Accepts and acquires a websocket for this request. Calling this method will put this <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> instance in streaming state.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.SendTo(RouteAction).md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.SendTo(RouteAction).md">
             SendTo(RouteAction)
         </a>
     </td>
     <td>
         Calls another handler for this request, preserving the current call-stack frame, and then returns the response from it. This method manages to prevent possible stack overflows.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.SetContextBag().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.SetContextBag().md">
             SetContextBag()
         </a>
     </td>
     <td>
         Creates and stores a managed object in HTTP context bag through it's type.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.SetContextBag().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.SetContextBag().md">
             SetContextBag()
         </a>
     </td>
     <td>
         Stores a managed object in HTTP context bag through it's type.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.ToString().md">
+        <a href="/spec/Sisk.Core.Http.HttpRequest.ToString().md">
             ToString()
         </a>
     </td>
     <td>
-        Gets an string representation of this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object.
-    <td>
+        Gets an string representation of this <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object.
+    </td>
 </tr>
     </tbody>
 </table>

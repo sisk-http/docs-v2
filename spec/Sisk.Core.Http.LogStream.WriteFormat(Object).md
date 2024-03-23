@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # WriteFormat(Object) method
 
-Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public void WriteFormat(object? input)
 ```
 
-Writes the input, formatting with <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">Format</a> handler, at the end of the output.
+Writes the input, formatting with <a href="/spec/Sisk.Core.Http.LogStream.md">Format</a> handler, at the end of the output.
 
 
 # Parameters

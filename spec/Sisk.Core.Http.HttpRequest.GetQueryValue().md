@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # GetQueryValue() method
 
-Declaring type: [Sisk.Core.Http.HttpRequest](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
 
 
 Definition:
@@ -24,7 +24,7 @@ public T GetQueryValue<T>(string queryKeyName, T defaultValue = default) where T
 public T GetQueryValue<T>(string queryKeyName, T defaultValue = default) where T : struct, IParsable<T>
 ```
 
-Gets the value stored from the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">Query</a> and converts it to the given type.
+Gets the value stored from the <a href="/spec/Sisk.Core.Http.HttpRequest.md">Query</a> and converts it to the given type.
 
 
 # Parameters

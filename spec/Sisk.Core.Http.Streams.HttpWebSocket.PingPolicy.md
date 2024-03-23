@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # PingPolicy property
 
-Declaring type: [Sisk.Core.Http.Streams.HttpWebSocket](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocket.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpWebSocket](/spec/Sisk.Core.Http.Streams.HttpWebSocket.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpStreamPingPolicy PingPolicy { get; }
 ```
 
-Gets the <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.md">HttpStreamPingPolicy</a> for this HTTP web socket connection.
+Gets the <a href="/spec/Sisk.Core.Http.Streams.HttpStreamPingPolicy.md">HttpStreamPingPolicy</a> for this HTTP web socket connection.
 

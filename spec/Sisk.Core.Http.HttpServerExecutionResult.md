@@ -22,85 +22,87 @@ public class HttpServerExecutionResult
 
 Represents the results of executing a request on the server.
 
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionResult.IsSuccessStatus.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerExecutionResult.IsSuccessStatus.md">
             IsSuccessStatus
         </a>
     </td>
     <td>
         Gets an boolean indicating if this execution status is an success status.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionResult.Request.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerExecutionResult.Request.md">
             Request
         </a>
     </td>
     <td>
         Represents the request received in this diagnosis.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionResult.RequestSize.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerExecutionResult.RequestSize.md">
             RequestSize
         </a>
     </td>
     <td>
         Gets the request size in bytes.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionResult.Response.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerExecutionResult.Response.md">
             Response
         </a>
     </td>
     <td>
         Represents the response sent by the server.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionResult.ResponseSize.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerExecutionResult.ResponseSize.md">
             ResponseSize
         </a>
     </td>
     <td>
         Gets the response size in bytes, if any.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionResult.ServerException.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerExecutionResult.ServerException.md">
             ServerException
         </a>
     </td>
     <td>
         Gets the exception that was thrown when executing the route, if any.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionResult.Status.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerExecutionResult.Status.md">
             Status
         </a>
     </td>
     <td>
         Represents the status of server operation.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>

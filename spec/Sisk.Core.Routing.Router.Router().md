@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Router() constructor
 
-Declaring type: [Sisk.Core.Routing.Router](/read?q=/contents/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Router](/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public Router()
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> instance with default properties values.
+Creates an new <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> instance with default properties values.
 

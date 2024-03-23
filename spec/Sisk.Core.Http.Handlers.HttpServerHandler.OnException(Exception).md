@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OnException(Exception) method
 
-Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 protected virtual void OnException(Exception exception)
 ```
 
-Method that is called when an exception is caught in the Http server. This method is called regardless of whether <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerConfiguration.md">ThrowExceptions</a> is enabled or not.
+Method that is called when an exception is caught in the Http server. This method is called regardless of whether <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.md">ThrowExceptions</a> is enabled or not.
 
 
 # Parameters

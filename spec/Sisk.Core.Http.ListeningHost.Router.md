@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Router property
 
-Declaring type: [Sisk.Core.Http.ListeningHost](/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningHost](/spec/Sisk.Core.Http.ListeningHost.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public Router? Router { get; set; }
 ```
 
-Gets or sets the <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> for this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance.
+Gets or sets the <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> for this <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> instance.
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OnContextBagCreated(HttpContextBagRepository) method
 
-Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 protected virtual void OnContextBagCreated(HttpContextBagRepository contextBag)
 ```
 
-Method that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContextBagRepository.md">HttpContextBagRepository</a> is created within an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object.
+Method that is called when an <a href="/spec/Sisk.Core.Http.HttpContextBagRepository.md">HttpContextBagRepository</a> is created within an <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object.
 
 
 # Parameters

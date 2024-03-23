@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # GlobalRequestHandlers property
 
-Declaring type: [Sisk.Core.Routing.Router](/read?q=/contents/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Router](/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
 
 
 Definition:

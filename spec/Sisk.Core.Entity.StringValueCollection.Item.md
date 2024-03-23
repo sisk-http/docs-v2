@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Item property
 
-Declaring type: [Sisk.Core.Entity.StringValueCollection](/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.StringValueCollection](/spec/Sisk.Core.Entity.StringValueCollection.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public StringValue this[string name] { get; }
 ```
 
-Gets an <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> item by their key name.
+Gets an <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> item by their key name.
 

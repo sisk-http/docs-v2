@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # StartBuffering(int) method
 
-Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Start buffering all output to an alternate stream in memory for readability with <see cref="!:Peek(int)" /> later.

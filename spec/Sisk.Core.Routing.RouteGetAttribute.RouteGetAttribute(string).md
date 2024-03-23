@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RouteGetAttribute(string) constructor
 
-Declaring type: [Sisk.Core.Routing.RouteGetAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RouteGetAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RouteGetAttribute](/spec/Sisk.Core.Routing.RouteGetAttribute.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public RouteGetAttribute(string path)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteGetAttribute.md">RouteGetAttribute</a> attribute instance with given path.
+Creates an new <a href="/spec/Sisk.Core.Routing.RouteGetAttribute.md">RouteGetAttribute</a> attribute instance with given path.
 
 
 # Parameters

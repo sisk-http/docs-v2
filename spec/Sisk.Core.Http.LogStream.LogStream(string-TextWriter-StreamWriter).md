@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # LogStream(string, TextWriter, StreamWriter) constructor
 
-Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public LogStream(string? filename, TextWriter? tw, StreamWriter? sw)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance which writes text to an file and an <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">TextWriter</a>.
+Creates an new <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance which writes text to an file and an <a href="/spec/Sisk.Core.Http.LogStream.md">TextWriter</a>.
 
 
 # Parameters

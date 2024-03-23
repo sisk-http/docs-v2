@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RequestHandlerAttribute(Type) constructor
 
-Declaring type: [Sisk.Core.Routing.RequestHandlerAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RequestHandlerAttribute](/spec/Sisk.Core.Routing.RequestHandlerAttribute.md) (from Sisk.Core)
 
 
 Definition:

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OnHttpRequestClose(HttpServerExecutionResult) method
 
-Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 protected virtual void OnHttpRequestClose(HttpServerExecutionResult result)
 ```
 
-Method that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> is closed in the Http server.
+Method that is called when an <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> is closed in the Http server.
 
 
 # Parameters

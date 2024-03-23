@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # AutoScanModules() method
 
-Declaring type: [Sisk.Core.Routing.Router](/read?q=/contents/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Router](/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public void AutoScanModules<TModule>() where T : RouterModule
 ```
 
-Scans for all types that implements <typeparamref name="TModule" /> and associates an instance of each type to the router. Note that, <typeparamref name="TModule" /> must be an <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.md">RouterModule</a> type and an accessible constructor for each type must be present.
+Scans for all types that implements <typeparamref name="TModule" /> and associates an instance of each type to the router. Note that, <typeparamref name="TModule" /> must be an <a href="/spec/Sisk.Core.Routing.RouterModule.md">RouterModule</a> type and an accessible constructor for each type must be present.
 

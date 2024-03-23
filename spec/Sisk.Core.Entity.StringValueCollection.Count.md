@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Count property
 
-Declaring type: [Sisk.Core.Entity.StringValueCollection](/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.StringValueCollection](/spec/Sisk.Core.Entity.StringValueCollection.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public int Count { get; }
 ```
 
-Gets the number of items defined in this <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a>.
+Gets the number of items defined in this <a href="/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a>.
 

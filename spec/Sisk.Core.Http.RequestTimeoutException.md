@@ -20,5 +20,5 @@ Definition:
 public class HttpRequestException : Exception
 ```
 
-Represents an exception which is thrown when an Http request total time exceeds the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md">RouteActionTimeout</a>.
+Represents an exception which is thrown when an Http request total time exceeds the <a href="/spec/Sisk.Core.Http.HttpServerFlags.md">RouteActionTimeout</a>.
 

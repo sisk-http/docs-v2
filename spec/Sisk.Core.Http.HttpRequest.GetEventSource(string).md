@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # GetEventSource(string) method
 
-Declaring type: [Sisk.Core.Http.HttpRequest](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public HttpRequestEventSource GetEventSource(string? identifier = null)
 ```
 
-Gets an Event Source interface for this request. Calling this method will put this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> instance in it's event source listening state.
+Gets an Event Source interface for this request. Calling this method will put this <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> instance in it's event source listening state.
 
 
 # Parameters

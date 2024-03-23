@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # View field
 
-Declaring type: [Sisk.Core.Routing.RouteMethod](/read?q=/contents/spec/Sisk.Core.Routing.RouteMethod.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RouteMethod](/spec/Sisk.Core.Routing.RouteMethod.md) (from Sisk.Core)
 
 
 Definition:

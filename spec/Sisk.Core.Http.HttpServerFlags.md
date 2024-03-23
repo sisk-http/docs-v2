@@ -22,178 +22,182 @@ public class HttpServerFlags
 
 Provides advanced fields for Sisk server behavior.
 
+
 # Field list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.AsyncRequestProcessing.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.AsyncRequestProcessing.md">
             AsyncRequestProcessing
         </a>
     </td>
     <td>
         Determines if the HTTP server should handle requests asynchronously or if it should limit the request processing to one request per time.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.ForceTrailingSlash.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.ForceTrailingSlash.md">
             ForceTrailingSlash
         </a>
     </td>
     <td>
         Determines if the HTTP server should automatically rewrite GET requests to end their path with /. This is non-applyable to Regex routes.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.HeaderNameRequestId.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.HeaderNameRequestId.md">
             HeaderNameRequestId
         </a>
     </td>
     <td>
         Determines the HTTP header name of the request ID.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.IdleConnectionTimeout.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.IdleConnectionTimeout.md">
             IdleConnectionTimeout
         </a>
     </td>
     <td>
         Determines the maximum amount of time an connection can keep alive without sending or receiving any data.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.NormalizeHeadersEncodings.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.NormalizeHeadersEncodings.md">
             NormalizeHeadersEncodings
         </a>
     </td>
     <td>
         Determines if the HTTP server should convert request headers encoding to the content encoding.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.OptionsLogMode.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.OptionsLogMode.md">
             OptionsLogMode
         </a>
     </td>
     <td>
         Determines if the HTTP server should write log to OPTIONS requests.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.RequestStreamCopyBufferSize.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.RequestStreamCopyBufferSize.md">
             RequestStreamCopyBufferSize
         </a>
     </td>
     <td>
         Specifies the size, in bytes, of the copy buffer of both streams (inbound and outgoing) of the response stream.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.RouteActionTimeout.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.RouteActionTimeout.md">
             RouteActionTimeout
         </a>
     </td>
     <td>
-        Determines the maximum amount of time an route can process an request, including running request handlers, reading body and executing the route action. Specify zero for no limit. When the route action running time reaches it's timeout, an <a href="/read?q=/contents/spec/Sisk.Core.Http.RequestTimeoutException.md">RequestTimeoutException</a> is thrown.
-    <td>
+        Determines the maximum amount of time an route can process an request, including running request handlers, reading body and executing the route action. Specify zero for no limit. When the route action running time reaches it's timeout, an <a href="/spec/Sisk.Core.Http.RequestTimeoutException.md">RequestTimeoutException</a> is thrown.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.SendCorsHeaders.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.SendCorsHeaders.md">
             SendCorsHeaders
         </a>
     </td>
     <td>
         Determines if the HTTP server automatically should send CORS headers if set.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.SendSiskHeader.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.SendSiskHeader.md">
             SendSiskHeader
         </a>
     </td>
     <td>
         Determines if the HTTP server should send the X-Powered-By header in all responses.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.ThrowContentOnNonSemanticMethods.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.ThrowContentOnNonSemanticMethods.md">
             ThrowContentOnNonSemanticMethods
         </a>
     </td>
     <td>
         Determines if the HTTP server should drop requests which has content body in GET, OPTIONS, HEAD and TRACE methods.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.TreatHeadAsGetMethod.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.TreatHeadAsGetMethod.md">
             TreatHeadAsGetMethod
         </a>
     </td>
     <td>
         Determines if the HTTP server should automatically send HTTP headers of an pre-processed GET response if the request is using HEAD method.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.UnescapedRouteMatching.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.UnescapedRouteMatching.md">
             UnescapedRouteMatching
         </a>
     </td>
     <td>
         Determines if the HTTP server should matches route after URL decoding the request path.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.WebSocketBufferSize.md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.WebSocketBufferSize.md">
             WebSocketBufferSize
         </a>
     </td>
     <td>
         Determines the WebSocket buffer initial and max length.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Constructor list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.HttpServerFlags().md">
+        <a href="/spec/Sisk.Core.Http.HttpServerFlags.HttpServerFlags().md">
             HttpServerFlags()
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md">HttpServerFlags</a> instance with default flags values.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpServerFlags.md">HttpServerFlags</a> instance with default flags values.
+    </td>
 </tr>
     </tbody>
 </table>

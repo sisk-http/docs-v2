@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # MalformedRequest field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
 Indicates that the server cannot or will not process the request due to something that is perceived to be a client error.

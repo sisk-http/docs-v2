@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RegisterValueHandler() method
 
-Declaring type: [Sisk.Core.Routing.Router](/read?q=/contents/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Router](/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public void RegisterActionAssociation<T>(T type, Action<T, HttpResponse> actionHandler) where T : Type
 ```
 
-Register an type handling association to converting it to an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
+Register an type handling association to converting it to an <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> object.
 
 
 # Parameters

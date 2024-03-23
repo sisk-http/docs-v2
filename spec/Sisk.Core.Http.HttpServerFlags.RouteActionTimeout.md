@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RouteActionTimeout field
 
-Declaring type: [Sisk.Core.Http.HttpServerFlags](/read?q=/contents/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerFlags](/spec/Sisk.Core.Http.HttpServerFlags.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public TimeSpan RouteActionTimeout;
 ```
 
-Determines the maximum amount of time an route can process an request, including running request handlers, reading body and executing the route action. Specify zero for no limit. When the route action running time reaches it's timeout, an <a href="/read?q=/contents/spec/Sisk.Core.Http.RequestTimeoutException.md">RequestTimeoutException</a> is thrown.
+Determines the maximum amount of time an route can process an request, including running request handlers, reading body and executing the route action. Specify zero for no limit. When the route action running time reaches it's timeout, an <a href="/spec/Sisk.Core.Http.RequestTimeoutException.md">RequestTimeoutException</a> is thrown.
 
 
 <p>

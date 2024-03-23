@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # GetItem(string) method
 
-Declaring type: [Sisk.Core.Entity.StringValueCollection](/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.StringValueCollection](/spec/Sisk.Core.Entity.StringValueCollection.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public StringValue GetItem(string name)
 ```
 
-Gets an <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> from their key name. If the object was not found by their name, an empty non-null <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> with no value is returned.
+Gets an <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> from their key name. If the object was not found by their name, an empty non-null <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> with no value is returned.
 

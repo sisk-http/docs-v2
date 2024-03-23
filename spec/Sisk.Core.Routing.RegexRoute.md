@@ -20,5 +20,5 @@ Definition:
 public class RegexRoute
 ```
 
-Represents an <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">Route</a> which it's implementation already enables <a href="/read?q=/contents/spec/Sisk.Core.Routing.Route.md">UseRegex</a>.
+Represents an <a href="/spec/Sisk.Core.Routing.Route.md">Route</a> which it's implementation already enables <a href="/spec/Sisk.Core.Routing.Route.md">UseRegex</a>.
 

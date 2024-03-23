@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # LogStream(string) constructor
 
-Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public LogStream(string filename)
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance with the given relative or absolute file path.
+Creates an new <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance with the given relative or absolute file path.
 
 
 # Parameters

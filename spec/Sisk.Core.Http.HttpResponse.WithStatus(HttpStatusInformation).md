@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # WithStatus(HttpStatusInformation) method
 
-Declaring type: [Sisk.Core.Http.HttpResponse](/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpResponse](/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public HttpResponse WithStatus(int status)
 ```
 
-Sets the HTTP response status information from an <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> object.
+Sets the HTTP response status information from an <a href="/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> object.
 
 
 # Parameters

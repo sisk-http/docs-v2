@@ -20,70 +20,74 @@ Definition:
 public sealed class StringValueCollection : IEnumerable<StringValue>, IEnumerable<KeyValuePair<string, string>>
 ```
 
-Represents an collection of <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>.
+Represents an collection of <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>.
+
 
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.AsDictionary().md">
+        <a href="/spec/Sisk.Core.Entity.StringValueCollection.AsDictionary().md">
             AsDictionary()
         </a>
     </td>
     <td>
-        Gets an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.IDictionary">IDictionary</a> object with the data of this <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a> with their keys and values.
-    <td>
+        Gets an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.IDictionary">IDictionary</a> object with the data of this <a href="/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a> with their keys and values.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.AsNameValueCollection().md">
+        <a href="/spec/Sisk.Core.Entity.StringValueCollection.AsNameValueCollection().md">
             AsNameValueCollection()
         </a>
     </td>
     <td>
-        Gets an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Specialized.NameValueCollection">NameValueCollection</a> with the data of this <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a>.
-    <td>
+        Gets an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Specialized.NameValueCollection">NameValueCollection</a> with the data of this <a href="/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a>.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.GetItem(string).md">
+        <a href="/spec/Sisk.Core.Entity.StringValueCollection.GetItem(string).md">
             GetItem(string)
         </a>
     </td>
     <td>
-        Gets an <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> from their key name. If the object was not found by their name, an empty non-null <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> with no value is returned.
-    <td>
+        Gets an <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> from their key name. If the object was not found by their name, an empty non-null <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> with no value is returned.
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.Count.md">
+        <a href="/spec/Sisk.Core.Entity.StringValueCollection.Count.md">
             Count
         </a>
     </td>
     <td>
-        Gets the number of items defined in this <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a>.
-    <td>
+        Gets the number of items defined in this <a href="/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a>.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.Item.md">
+        <a href="/spec/Sisk.Core.Entity.StringValueCollection.Item.md">
             Item
         </a>
     </td>
     <td>
-        Gets an <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> item by their key name.
-    <td>
+        Gets an <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> item by their key name.
+    </td>
 </tr>
     </tbody>
 </table>

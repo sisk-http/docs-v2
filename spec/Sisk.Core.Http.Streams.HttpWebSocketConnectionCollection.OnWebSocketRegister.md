@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OnWebSocketRegister event
 
-Declaring type: [Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection](/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection](/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public event WebSocketRegistrationHandler? OnRegister;
 ```
 
-Represents an event that is fired when an <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocket.md">HttpWebSocket</a> is registered in this collection.
+Represents an event that is fired when an <a href="/spec/Sisk.Core.Http.Streams.HttpWebSocket.md">HttpWebSocket</a> is registered in this collection.
 

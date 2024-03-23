@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # HttpContextBagRepository() constructor
 
-Declaring type: [Sisk.Core.Http.HttpContextBagRepository](/read?q=/contents/spec/Sisk.Core.Http.HttpContextBagRepository.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpContextBagRepository](/spec/Sisk.Core.Http.HttpContextBagRepository.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public HttpContextBagRepository()
 ```
 
-Creates an new instance of the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpContextBagRepository.md">HttpContextBagRepository</a> class.
+Creates an new instance of the <a href="/spec/Sisk.Core.Http.HttpContextBagRepository.md">HttpContextBagRepository</a> class.
 

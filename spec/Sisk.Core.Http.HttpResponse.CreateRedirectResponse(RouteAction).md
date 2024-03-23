@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # CreateRedirectResponse(RouteAction) method
 
-Declaring type: [Sisk.Core.Http.HttpResponse](/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpResponse](/spec/Sisk.Core.Http.HttpResponse.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public static HttpResponse CreateRedirectResponse(RouterCallback action)
 ```
 
-Creates an new redirect <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> which redirects to the route path defined in a action. The provided method must have a valid RouteAttribute attribute.
+Creates an new redirect <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> which redirects to the route path defined in a action. The provided method must have a valid RouteAttribute attribute.
 
 
 # Parameters

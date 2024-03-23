@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # AsNameValueCollection() method
 
-Declaring type: [Sisk.Core.Entity.StringValueCollection](/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.StringValueCollection](/spec/Sisk.Core.Entity.StringValueCollection.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public NameValueCollection AsNameValueCollection()
 ```
 
-Gets an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Specialized.NameValueCollection">NameValueCollection</a> with the data of this <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a>.
+Gets an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Specialized.NameValueCollection">NameValueCollection</a> with the data of this <a href="/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a>.
 

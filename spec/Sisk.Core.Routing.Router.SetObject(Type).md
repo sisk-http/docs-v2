@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # SetObject(Type) method
 
-Declaring type: [Sisk.Core.Routing.Router](/read?q=/contents/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.Router](/spec/Sisk.Core.Routing.Router.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public void SetObject(Type attrClassType)
 ```
 
-Searches the object for static methods with attribute <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
+Searches the object for static methods with attribute <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
 
 
 # Parameters

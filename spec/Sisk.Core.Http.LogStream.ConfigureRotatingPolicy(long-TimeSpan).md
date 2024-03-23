@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ConfigureRotatingPolicy(long, TimeSpan) method
 
-Declaring type: [Sisk.Core.Http.LogStream](/read?q=/contents/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 public void ConfigureRotatingPolicy(long maximumSize, TimeSpan due)
 ```
 
-Defines the time interval and size threshold for starting the task, and then starts the task. This method is an shortcut for calling <see cref="M:Sisk.Core.Http.RotatingLogPolicy.Configure(System.Int64,System.TimeSpan)" /> of this defined <a href="/read?q=/contents/spec/Sisk.Core.Http.LogStream.md">RotatingPolicy</a> method.
+Defines the time interval and size threshold for starting the task, and then starts the task. This method is an shortcut for calling <see cref="M:Sisk.Core.Http.RotatingLogPolicy.Configure(System.Int64,System.TimeSpan)" /> of this defined <a href="/spec/Sisk.Core.Http.LogStream.md">RotatingPolicy</a> method.
 
 > **Remarks:**
 >

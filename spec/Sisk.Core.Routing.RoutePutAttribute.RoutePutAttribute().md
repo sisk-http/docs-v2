@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RoutePutAttribute() constructor
 
-Declaring type: [Sisk.Core.Routing.RoutePutAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RoutePutAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RoutePutAttribute](/spec/Sisk.Core.Routing.RoutePutAttribute.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public RoutePutAttribute()
 ```
 
-Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePutAttribute.md">RoutePutAttribute</a> attribute instance with an root path (/).
+Creates an new <a href="/spec/Sisk.Core.Routing.RoutePutAttribute.md">RoutePutAttribute</a> attribute instance with an root path (/).
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ToString() method
 
-Declaring type: [Sisk.Core.Http.HttpRequest](/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public override String ToString()
 ```
 
-Gets an string representation of this <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object.
+Gets an string representation of this <a href="/spec/Sisk.Core.Http.HttpRequest.md">HttpRequest</a> object.
 

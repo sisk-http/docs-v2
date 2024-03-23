@@ -12,8 +12,8 @@ edit the XML documentation present in the Sisk source code.
 
 # GetShort() method
 
-Declaring type: [Sisk.Core.Entity.StringValue](/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.StringValue](/spec/Sisk.Core.Entity.StringValue.md) (from Sisk.Core)
 
 
-Gets a <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Int16">Int16</a> from this <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>.
+Gets a <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Int16">Int16</a> from this <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>.
 

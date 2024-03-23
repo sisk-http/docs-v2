@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OnSetupRouter(Router) method
 
-Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 protected virtual void OnSetupRouter(Router router)
 ```
 
-Method that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Routing.Router.md">Router</a> is binded to the Http server.
+Method that is called when an <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> is binded to the Http server.
 
 
 # Parameters

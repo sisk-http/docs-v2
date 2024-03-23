@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # RequestHandlerType property
 
-Declaring type: [Sisk.Core.Routing.RequestHandlerAttribute](/read?q=/contents/spec/Sisk.Core.Routing.RequestHandlerAttribute.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RequestHandlerAttribute](/spec/Sisk.Core.Routing.RequestHandlerAttribute.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public Type RequestHandlerType { get; set; }
 ```
 
-Gets or sets the type that implements <a href="/read?q=/contents/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> which will be instantiated.
+Gets or sets the type that implements <a href="/spec/Sisk.Core.Routing.IRequestHandler.md">IRequestHandler</a> which will be instantiated.
 

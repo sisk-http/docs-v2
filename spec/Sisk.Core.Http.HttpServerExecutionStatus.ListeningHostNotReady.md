@@ -12,8 +12,8 @@ edit the XML documentation present in the Sisk source code.
 
 # ListeningHostNotReady field
 
-Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/read?q=/contents/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.HttpServerExecutionStatus](/spec/Sisk.Core.Http.HttpServerExecutionStatus.md) (from Sisk.Core)
 
 
-Indicates that the DNS was successful, however the matched <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> does not have an valid initialized router .
+Indicates that the DNS was successful, however the matched <a href="/spec/Sisk.Core.Http.ListeningHost.md">ListeningHost</a> does not have an valid initialized router .
 

@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # MaybeNull() method
 
-Declaring type: [Sisk.Core.Entity.StringValue](/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.StringValue](/spec/Sisk.Core.Entity.StringValue.md) (from Sisk.Core)
 
 
 Definition:

@@ -21,32 +21,34 @@ Definition:
 public class RoutePostAttribute : RouteAttribute
 ```
 
-Represents a mapping to an HTTP POST route. This attribute is an shorthand from <a href="/read?q=/contents/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a>.
+Represents a mapping to an HTTP POST route. This attribute is an shorthand from <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a>.
+
 
 # Constructor list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePostAttribute.RoutePostAttribute().md">
+        <a href="/spec/Sisk.Core.Routing.RoutePostAttribute.RoutePostAttribute().md">
             RoutePostAttribute()
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePostAttribute.md">RoutePostAttribute</a> attribute instance with an root path (/).
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Routing.RoutePostAttribute.md">RoutePostAttribute</a> attribute instance with an root path (/).
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePostAttribute.RoutePostAttribute(string).md">
+        <a href="/spec/Sisk.Core.Routing.RoutePostAttribute.RoutePostAttribute(string).md">
             RoutePostAttribute(string)
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePostAttribute.md">RoutePostAttribute</a> attribute instance with given path.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Routing.RoutePostAttribute.md">RoutePostAttribute</a> attribute instance with given path.
+    </td>
 </tr>
     </tbody>
 </table>

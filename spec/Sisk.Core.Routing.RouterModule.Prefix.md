@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # Prefix property
 
-Declaring type: [Sisk.Core.Routing.RouterModule](/read?q=/contents/spec/Sisk.Core.Routing.RouterModule.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Routing.RouterModule](/spec/Sisk.Core.Routing.RouterModule.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public string? Prefix { get; set; }
 ```
 
-Gets or sets the router prefix for this class. This property overrides any value defined by <a href="/read?q=/contents/spec/Sisk.Core.Routing.RoutePrefixAttribute.md">RoutePrefixAttribute</a> set in this class.
+Gets or sets the router prefix for this class. This property overrides any value defined by <a href="/spec/Sisk.Core.Routing.RoutePrefixAttribute.md">RoutePrefixAttribute</a> set in this class.
 

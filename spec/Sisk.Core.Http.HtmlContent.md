@@ -22,46 +22,50 @@ public class HtmlContent : ByteArrayContent
 
 Provides HTTP content based on HTML contents.
 
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.DefaultEncoding.md">
+        <a href="/spec/Sisk.Core.Http.HtmlContent.DefaultEncoding.md">
             DefaultEncoding
         </a>
     </td>
     <td>
         Gets or sets the default encoding which will be used on constructors.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Constructor list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.HtmlContent(string-Encoding).md">
+        <a href="/spec/Sisk.Core.Http.HtmlContent.HtmlContent(string-Encoding).md">
             HtmlContent(string, Encoding)
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.md">HtmlContent</a> class with given HTML content and encoding.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HtmlContent.md">HtmlContent</a> class with given HTML content and encoding.
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.HtmlContent(string).md">
+        <a href="/spec/Sisk.Core.Http.HtmlContent.HtmlContent(string).md">
             HtmlContent(string)
         </a>
     </td>
     <td>
-        Creates an new <a href="/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.md">HtmlContent</a> class with given HTML content, using the <a href="/read?q=/contents/spec/Sisk.Core.Http.HtmlContent.md">DefaultEncoding</a> encoding.
-    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HtmlContent.md">HtmlContent</a> class with given HTML content, using the <a href="/spec/Sisk.Core.Http.HtmlContent.md">DefaultEncoding</a> encoding.
+    </td>
 </tr>
     </tbody>
 </table>

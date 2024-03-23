@@ -22,101 +22,105 @@ public class MultipartObject
 
 Represents an multipart/form-data object.
 
+
 # Property list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.ContentBytes.md">
+        <a href="/spec/Sisk.Core.Entity.MultipartObject.ContentBytes.md">
             ContentBytes
         </a>
     </td>
     <td>
         The multipart form data content bytes.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.ContentLength.md">
+        <a href="/spec/Sisk.Core.Entity.MultipartObject.ContentLength.md">
             ContentLength
         </a>
     </td>
     <td>
         The multipart form data content length.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.Filename.md">
+        <a href="/spec/Sisk.Core.Entity.MultipartObject.Filename.md">
             Filename
         </a>
     </td>
     <td>
         The name of the file provided by Multipart form data. Null is returned if the object is not a file.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.Headers.md">
+        <a href="/spec/Sisk.Core.Entity.MultipartObject.Headers.md">
             Headers
         </a>
     </td>
     <td>
         The multipart form data object headers.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.Name.md">
+        <a href="/spec/Sisk.Core.Entity.MultipartObject.Name.md">
             Name
         </a>
     </td>
     <td>
         The multipart form data object field name.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>
+
 # Method list
+
 <table>
     <tbody>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.GetCommonFileFormat().md">
+        <a href="/spec/Sisk.Core.Entity.MultipartObject.GetCommonFileFormat().md">
             GetCommonFileFormat()
         </a>
     </td>
     <td>
         Determine the image format based in the file header for each image content type.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.ReadContentAsString().md">
+        <a href="/spec/Sisk.Core.Entity.MultipartObject.ReadContentAsString().md">
             ReadContentAsString()
         </a>
     </td>
     <td>
         Reads the content bytes using the Http request content-encoding.
-    <td>
+    </td>
 </tr>
 <tr>
-    <td width="33%">
+    <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/read?q=/contents/spec/Sisk.Core.Entity.MultipartObject.ReadContentAsString(Encoding).md">
+        <a href="/spec/Sisk.Core.Entity.MultipartObject.ReadContentAsString(Encoding).md">
             ReadContentAsString(Encoding)
         </a>
     </td>
     <td>
         Reads the content bytes with the given encoder.
-    <td>
+    </td>
 </tr>
     </tbody>
 </table>

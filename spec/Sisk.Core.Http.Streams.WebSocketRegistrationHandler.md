@@ -20,5 +20,5 @@ Definition:
 public delegate void WebSocketRegistrationHandler(object sender, HttpWebSocket ws);
 ```
 
-Represents an function that is called when an <a href="/read?q=/contents/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md">HttpWebSocketConnectionCollection</a> registers an new web socket connection.
+Represents an function that is called when an <a href="/spec/Sisk.Core.Http.Streams.HttpWebSocketConnectionCollection.md">HttpWebSocketConnectionCollection</a> registers an new web socket connection.
 

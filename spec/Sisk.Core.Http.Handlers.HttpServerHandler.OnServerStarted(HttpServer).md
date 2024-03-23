@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # OnServerStarted(HttpServer) method
 
-Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/read?q=/contents/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.Handlers.HttpServerHandler](/spec/Sisk.Core.Http.Handlers.HttpServerHandler.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,7 +21,7 @@ Definition:
 protected virtual void OnServerStarted(HttpServer server)
 ```
 
-Method that is called immediately after starting the <a href="/read?q=/contents/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>, when it's ready and listening.
+Method that is called immediately after starting the <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>, when it's ready and listening.
 
 
 # Parameters

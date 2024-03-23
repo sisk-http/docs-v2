@@ -12,8 +12,8 @@ edit the XML documentation present in the Sisk source code.
 
 # GetString() method
 
-Declaring type: [Sisk.Core.Entity.StringValue](/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Entity.StringValue](/spec/Sisk.Core.Entity.StringValue.md) (from Sisk.Core)
 
 
-Gets a non-null string from this <a href="/read?q=/contents/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>. This method will throw an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.NullReferenceException">NullReferenceException</a> if the value stored in this instance is null.
+Gets a non-null string from this <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>. This method will throw an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.NullReferenceException">NullReferenceException</a> if the value stored in this instance is null.
 

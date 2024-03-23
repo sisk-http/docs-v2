@@ -12,7 +12,7 @@ edit the XML documentation present in the Sisk source code.
 
 # ToString() method
 
-Declaring type: [Sisk.Core.Http.ListeningPort](/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
+Declaring type: [Sisk.Core.Http.ListeningPort](/spec/Sisk.Core.Http.ListeningPort.md) (from Sisk.Core)
 
 
 Definition:
@@ -21,5 +21,5 @@ Definition:
 public override string ToString()
 ```
 
-Gets an string representation of this <a href="/read?q=/contents/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a>.
+Gets an string representation of this <a href="/spec/Sisk.Core.Http.ListeningPort.md">ListeningPort</a>.
 
