@@ -17,7 +17,8 @@ Namespace: Sisk.Core.Entity
 Definition:
 
 ```cs
-public class MultipartFormCollection : IEnumerable<MultipartObject>
+public class MultipartFormCollection : IEnumerable<MultipartObject>, IReadOnlyList<MultipartObject>,
+IReadOnlyCollection<MultipartObject>
 ```
 
 Represents an class which hosts an multipart form data contents.
@@ -30,34 +31,34 @@ Represents an class which hosts an multipart form data contents.
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartFormCollection.GetItem().md">
-            GetItem()
+        <a href="/spec/Sisk.Core.Entity.MultipartFormCollection.GetItem(string-bool).md">
+            GetItem(string, bool)
         </a>
     </td>
     <td>
-        Reads an form item by it's name and casts it into an <typeparamref name="T" />.
+        Reads an form item contents by it's name.
     </td>
 </tr>
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartFormCollection.GetItem(string).md">
-            GetItem(string)
+        <a href="/spec/Sisk.Core.Entity.MultipartFormCollection.GetString(string-bool-Encoding).md">
+            GetString(string, bool, Encoding)
         </a>
     </td>
     <td>
-        Reads an form item by it's name.
+        Reads an form item contents by it's name and returns their content as string.
     </td>
 </tr>
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Entity.MultipartFormCollection.GetString(string).md">
-            GetString(string)
+        <a href="/spec/Sisk.Core.Entity.MultipartFormCollection.GetStringValue(string).md">
+            GetStringValue(string)
         </a>
     </td>
     <td>
-        Reads an form item by it's name and return an string representation of it's value.
+        Gets an <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a> object from the form item content string.
     </td>
 </tr>
     </tbody>

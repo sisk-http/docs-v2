@@ -180,23 +180,12 @@ Represents an HTTP Response.
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.HttpResponse.CustomStatus.md">
-            CustomStatus
-        </a>
-    </td>
-    <td>
-        Gets or sets an custom HTTP status code and description for this HTTP response. If this property ins't null, it will overwrite the <a href="/spec/Sisk.Core.Http.HttpResponse.md">Status</a> property in this class.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/property.svg">
         <a href="/spec/Sisk.Core.Http.HttpResponse.Headers.md">
             Headers
         </a>
     </td>
     <td>
-        Gets a <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Specialized.NameValueCollection">NameValueCollection</a> instance of the HTTP response headers.
+        Gets a <a href="/spec/Sisk.Core.Entity.HttpHeaderCollection.md">HttpHeaderCollection</a> instance of the HTTP response headers.
     </td>
 </tr>
 <tr>
@@ -219,6 +208,17 @@ Represents an HTTP Response.
     </td>
     <td>
         Gets or sets the HTTP response status code.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/property.svg">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.StatusInformation.md">
+            StatusInformation
+        </a>
+    </td>
+    <td>
+        Gets or sets the HTTP status code and description for this HTTP response.
     </td>
 </tr>
     </tbody>
@@ -292,6 +292,17 @@ Represents an HTTP Response.
     </td>
     <td>
         Creates an new <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instance with given status code.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/constructor.svg">
+        <a href="/spec/Sisk.Core.Http.HttpResponse.HttpResponse(string).md">
+            HttpResponse(string)
+        </a>
+    </td>
+    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpResponse.md">HttpResponse</a> instanec with given string content and status code as 200 OK.
     </td>
 </tr>
     </tbody>

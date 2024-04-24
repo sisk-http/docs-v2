@@ -23,6 +23,24 @@ public class Route
 Represents an HTTP route to be matched by an <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> object.
 
 
+# Field list
+
+<table>
+    <tbody>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/field.svg">
+        <a href="/spec/Sisk.Core.Routing.Route.AnyPath.md">
+            AnyPath
+        </a>
+    </td>
+    <td>
+        Represents an route path which captures any URL path.
+    </td>
+</tr>
+    </tbody>
+</table>
+
 # Property list
 
 <table>
@@ -36,6 +54,17 @@ Represents an HTTP route to be matched by an <a href="/spec/Sisk.Core.Routing.Ro
     </td>
     <td>
         Gets or sets the function that is called after the route is matched with the request.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/property.svg">
+        <a href="/spec/Sisk.Core.Routing.Route.Bag.md">
+            Bag
+        </a>
+    </td>
+    <td>
+        Gets or sets an <a href="/spec/Sisk.Core.Entity.TypedValueDictionary.md">TypedValueDictionary</a> for this route, which can hold contextual variables for this <a href="/spec/Sisk.Core.Routing.Route.md">Route</a> object.
     </td>
 </tr>
 <tr>

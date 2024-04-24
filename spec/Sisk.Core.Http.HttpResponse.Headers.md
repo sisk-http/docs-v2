@@ -18,8 +18,8 @@ Declaring type: [Sisk.Core.Http.HttpResponse](/spec/Sisk.Core.Http.HttpResponse.
 Definition:
 
 ```cs
-public NameValueCollection Headers { get; }
+public HttpHeaderCollection Headers { get; }
 ```
 
-Gets a <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Specialized.NameValueCollection">NameValueCollection</a> instance of the HTTP response headers.
+Gets a <a href="/spec/Sisk.Core.Entity.HttpHeaderCollection.md">HttpHeaderCollection</a> instance of the HTTP response headers.
 

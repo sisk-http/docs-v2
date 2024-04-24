@@ -18,8 +18,11 @@ Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (f
 Definition:
 
 ```cs
-public string? FilePath { get; }
+public string? FilePath { get; set; }
 ```
 
-Gets the absolute path to the file where the log is being written to.
+Gets or sets the absolute path to the file where the log is being written to.
 
+> **Remarks:**
+>
+> When setting this method, if the file directory doens't exists, it is created.

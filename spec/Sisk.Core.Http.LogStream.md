@@ -64,18 +64,7 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
         </a>
     </td>
     <td>
-        Gets the absolute path to the file where the log is being written to.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Format.md">
-            Format
-        </a>
-    </td>
-    <td>
-        Gets or sets the function that formats input when used with <see cref="M:Sisk.Core.Http.LogStream.WriteFormat(System.Object)" />.
+        Gets or sets the absolute path to the file where the log is being written to.
     </td>
 </tr>
 <tr>
@@ -98,17 +87,6 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
     </td>
     <td>
         Gets the defined <a href="/spec/Sisk.Core.Http.RotatingLogPolicy.md">RotatingLogPolicy</a> for this <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a>.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/property.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.StreamWriter.md">
-            StreamWriter
-        </a>
-    </td>
-    <td>
-        Gets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.StreamWriter">StreamWriter</a> object where the log is being written to.
     </td>
 </tr>
 <tr>
@@ -143,17 +121,6 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.LogStream(StreamWriter).md">
-            LogStream(StreamWriter)
-        </a>
-    </td>
-    <td>
-        Creates an new <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> instance with the given <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.StreamWriter">StreamWriter</a> resource.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/constructor.svg">
         <a href="/spec/Sisk.Core.Http.LogStream.LogStream(TextWriter).md">
             LogStream(TextWriter)
         </a>
@@ -165,8 +132,8 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.LogStream(string-TextWriter-StreamWriter).md">
-            LogStream(string, TextWriter, StreamWriter)
+        <a href="/spec/Sisk.Core.Http.LogStream.LogStream(string-TextWriter).md">
+            LogStream(string, TextWriter)
         </a>
     </td>
     <td>
@@ -227,17 +194,6 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.EnqueueMessageLine(string).md">
-            EnqueueMessageLine(string)
-        </a>
-    </td>
-    <td>
-        Represents the method that enqueues a message to the queue of messages to be written to output streams.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/method.svg">
         <a href="/spec/Sisk.Core.Http.LogStream.Peek().md">
             Peek()
         </a>
@@ -265,7 +221,7 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
         </a>
     </td>
     <td>
-        Start buffering all output to an alternate stream in memory for readability with <see cref="!:Peek(int)" /> later.
+        Start buffering all output to an alternate stream in memory for readability with <a href="/spec/Sisk.Core.Http.LogStream.md">Peek</a> later.
     </td>
 </tr>
 <tr>
@@ -293,34 +249,12 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.Write(Object).md">
-            Write(Object)
-        </a>
-    </td>
-    <td>
-        Writes the text into the output.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/method.svg">
         <a href="/spec/Sisk.Core.Http.LogStream.WriteException(Exception).md">
             WriteException(Exception)
         </a>
     </td>
     <td>
         Writes an exception description in the log.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/method.svg">
-        <a href="/spec/Sisk.Core.Http.LogStream.WriteFormat(Object).md">
-            WriteFormat(Object)
-        </a>
-    </td>
-    <td>
-        Writes the input, formatting with <a href="/spec/Sisk.Core.Http.LogStream.md">Format</a> handler, at the end of the output.
     </td>
 </tr>
 <tr>
@@ -365,6 +299,17 @@ Provides a managed, asynchronous log writer which supports writing safe data to 
     </td>
     <td>
         Writes the text and concats an line-break at the end into the output.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.LogStream.WriteLineInternal(string).md">
+            WriteLineInternal(string)
+        </a>
+    </td>
+    <td>
+        Represents the method that intercepts the line that will be written to an output log before being queued for writing.
     </td>
 </tr>
     </tbody>

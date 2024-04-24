@@ -17,7 +17,7 @@ Namespace: Sisk.Core.Routing
 Definition:
 
 ```cs
-public class Router
+public sealed class Router : IEnumerable<Route>
 ```
 
 Represents a collection of Routes and main executor of callbacks in an <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a>.
@@ -118,12 +118,23 @@ Represents a collection of Routes and main executor of callbacks in an <a href="
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Routing.Router.SetObject().md">
+            SetObject()
+        </a>
+    </td>
+    <td>
+        Searches in the specified object for static methods marked with routing attributes, such as <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
         <a href="/spec/Sisk.Core.Routing.Router.SetObject(Object).md">
             SetObject(Object)
         </a>
     </td>
     <td>
-        Searches the object instance for methods with attribute <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
+        Searches in the specified object for instance methods marked with routing attributes, such as <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them. All routes is delegated to the specified instance.
     </td>
 </tr>
 <tr>
@@ -134,7 +145,7 @@ Represents a collection of Routes and main executor of callbacks in an <a href="
         </a>
     </td>
     <td>
-        Searches the object for static methods with attribute <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
+        Searches in the specified object for static methods marked with routing attributes, such as <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
     </td>
 </tr>
 <tr>
@@ -208,6 +219,17 @@ Represents a collection of Routes and main executor of callbacks in an <a href="
     </td>
     <td>
         Gets or sets the global requests handlers that will be executed in all matched routes.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/property.svg">
+        <a href="/spec/Sisk.Core.Routing.Router.IsReadOnly.md">
+            IsReadOnly
+        </a>
+    </td>
+    <td>
+        Gets an boolean indicating where this <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> is read-only or not.
     </td>
 </tr>
 <tr>

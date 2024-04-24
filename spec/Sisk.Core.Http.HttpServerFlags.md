@@ -112,7 +112,7 @@ Provides advanced fields for Sisk server behavior.
         </a>
     </td>
     <td>
-        Determines the maximum amount of time an route can process an request, including running request handlers, reading body and executing the route action. Specify zero for no limit. When the route action running time reaches it's timeout, an <a href="/spec/Sisk.Core.Http.RequestTimeoutException.md">RequestTimeoutException</a> is thrown.
+        Determines the maximum amount of time an route can process an request, including running request handlers, reading body and executing the route action. Specify zero for no limit. When the route action running time reaches it's timeout, an RequestTimeoutException is thrown.
     </td>
 </tr>
 <tr>

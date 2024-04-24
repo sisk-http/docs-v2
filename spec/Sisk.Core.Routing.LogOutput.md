@@ -17,10 +17,11 @@ Namespace: Sisk.Core.Routing
 Definition:
 
 ```cs
+[Flags]
 public enum LogOutput
 ```
 
-Determines the way the server can write log messages. This enumerator is for giving permissions for certain contexts to be able or not to write to the logs.
+Determines the way the server can write log messages. This enumerator is for giving permissions for certain contexts to be able or not to write to the server logs, such as <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.md">AccessLogsStream</a> and <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.md">ErrorsLogsStream</a>.
 
 
 # Field list
@@ -35,7 +36,7 @@ Determines the way the server can write log messages. This enumerator is for giv
         </a>
     </td>
     <td>
-        Determines that the context or the route can write log messages only to the access logs.
+        Determines that the context or the route can write log messages only to the access logs through <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.md">AccessLogsStream</a>.
     </td>
 </tr>
 <tr>
@@ -57,7 +58,7 @@ Determines the way the server can write log messages. This enumerator is for giv
         </a>
     </td>
     <td>
-        Determines that the context or the route can write error messages only to the error logs.
+        Determines that the context or the route can write error messages only to the error logs through <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.md">ErrorsLogsStream</a>.
     </td>
 </tr>
 <tr>

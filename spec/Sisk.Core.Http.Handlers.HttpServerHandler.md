@@ -96,6 +96,28 @@ Represents an event handler for the <a href="/spec/Sisk.Core.Http.HttpServer.md"
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnServerStopped(HttpServer).md">
+            OnServerStopped(HttpServer)
+        </a>
+    </td>
+    <td>
+        Method that is called after the <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> is stopped, meaning it has stopped from listening to requests.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnServerStopping(HttpServer).md">
+            OnServerStopping(HttpServer)
+        </a>
+    </td>
+    <td>
+        Method that is called before the <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> stop, when it is stopping from listening requests.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
         <a href="/spec/Sisk.Core.Http.Handlers.HttpServerHandler.OnSetupRouter(Router).md">
             OnSetupRouter(Router)
         </a>

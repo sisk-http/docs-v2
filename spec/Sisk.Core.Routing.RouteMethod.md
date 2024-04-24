@@ -42,17 +42,6 @@ Represents an HTTP method to be matched in an <a href="/spec/Sisk.Core.Routing.R
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Copy.md">
-            Copy
-        </a>
-    </td>
-    <td>
-        Represents the HTTP COPY method.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/field.svg">
         <a href="/spec/Sisk.Core.Routing.RouteMethod.Delete.md">
             Delete
         </a>
@@ -81,17 +70,6 @@ Represents an HTTP method to be matched in an <a href="/spec/Sisk.Core.Routing.R
     </td>
     <td>
         Represents the HTTP HEAD method.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Link.md">
-            Link
-        </a>
-    </td>
-    <td>
-        Represents the HTTP LINK method.
     </td>
 </tr>
 <tr>
@@ -136,39 +114,6 @@ Represents an HTTP method to be matched in an <a href="/spec/Sisk.Core.Routing.R
     </td>
     <td>
         Represents the HTTP PUT method.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Trace.md">
-            Trace
-        </a>
-    </td>
-    <td>
-        Represents the HTTP TRACE method.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.Unlink.md">
-            Unlink
-        </a>
-    </td>
-    <td>
-        Represents the HTTP UNLINK method.
-    </td>
-</tr>
-<tr>
-    <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/field.svg">
-        <a href="/spec/Sisk.Core.Routing.RouteMethod.View.md">
-            View
-        </a>
-    </td>
-    <td>
-        Represents the HTTP VIEW method.
     </td>
 </tr>
     </tbody>

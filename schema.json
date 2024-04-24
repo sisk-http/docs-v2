@@ -21,6 +21,11 @@
             "icon": "class"
         },
         {
+            "title": "HttpHeaderCollection",
+            "href": "/spec/Sisk.Core.Entity.HttpHeaderCollection.md",
+            "icon": "class"
+        },
+        {
             "title": "MultipartFormCollection",
             "href": "/spec/Sisk.Core.Entity.MultipartFormCollection.md",
             "icon": "class"
@@ -43,6 +48,11 @@
         {
             "title": "StringValueCollection",
             "href": "/spec/Sisk.Core.Entity.StringValueCollection.md",
+            "icon": "class"
+        },
+        {
+            "title": "TypedValueDictionary",
+            "href": "/spec/Sisk.Core.Entity.TypedValueDictionary.md",
             "icon": "class"
         },
         "Sisk.Core.Http",
@@ -175,11 +185,6 @@
             "icon": "delegate"
         },
         {
-            "title": "RequestTimeoutException",
-            "href": "/spec/Sisk.Core.Http.RequestTimeoutException.md",
-            "icon": "class"
-        },
-        {
             "title": "RotatingLogPolicy",
             "href": "/spec/Sisk.Core.Http.RotatingLogPolicy.md",
             "icon": "class"
@@ -272,6 +277,11 @@
             "icon": "enum"
         },
         {
+            "title": "MethodNotAllowedErrorCallback",
+            "href": "/spec/Sisk.Core.Routing.MethodNotAllowedErrorCallback.md",
+            "icon": "delegate"
+        },
+        {
             "title": "NoMatchedRouteErrorCallback",
             "href": "/spec/Sisk.Core.Routing.NoMatchedRouteErrorCallback.md",
             "icon": "delegate"
@@ -289,11 +299,6 @@
         {
             "title": "RequestHandler",
             "href": "/spec/Sisk.Core.Routing.RequestHandler.md",
-            "icon": "class"
-        },
-        {
-            "title": "RequestHandlerAttribute",
-            "href": "/spec/Sisk.Core.Routing.RequestHandlerAttribute.md",
             "icon": "class"
         },
         {

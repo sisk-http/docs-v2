@@ -17,11 +17,30 @@ Namespace: Sisk.Core.Entity
 Definition:
 
 ```cs
-public sealed class StringValueCollection : IEnumerable<StringValue>, IEnumerable<KeyValuePair<string, string>>
+public sealed class StringValueCollection : IEnumerable<StringValue>, IEnumerable<KeyValuePair<string, string>>,
+IReadOnlyDictionary<string, StringValue>
 ```
 
 Represents an collection of <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>.
 
+
+# Field list
+
+<table>
+    <tbody>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/field.svg">
+        <a href="/spec/Sisk.Core.Entity.StringValueCollection.Empty.md">
+            Empty
+        </a>
+    </td>
+    <td>
+        Represents an empty <a href="/spec/Sisk.Core.Entity.StringValueCollection.md">StringValueCollection</a> field.
+    </td>
+</tr>
+    </tbody>
+</table>
 
 # Method list
 

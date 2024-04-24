@@ -15,5 +15,11 @@ edit the XML documentation present in the Sisk source code.
 Declaring type: [Sisk.Core.Http.HttpStatusInformation](/spec/Sisk.Core.Http.HttpStatusInformation.md) (from Sisk.Core)
 
 
+Definition:
+
+```cs
+public string Description
+```
+
 Gets or sets the numeric HTTP status code of the HTTP message.
 

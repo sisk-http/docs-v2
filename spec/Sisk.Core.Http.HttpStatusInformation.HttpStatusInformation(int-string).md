@@ -23,6 +23,9 @@ public HttpStatusInformation(int statusCode, string description)
 
 Creates an new <a href="/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> instance with given parameters.
 
+> **Remarks:**
+>
+> Custom status descriptions is only supported for plain HTTP/1.1 and 1.0 transfers.
 
 # Parameters
 

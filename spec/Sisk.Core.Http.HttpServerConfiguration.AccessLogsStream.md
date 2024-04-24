@@ -21,8 +21,5 @@ Definition:
 public TextWriter? AccessLogsStream { get; set; }
 ```
 
-Gets or sets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.TextWriter">TextWriter</a> object which the HTTP server will write HTTP server access messages to.
+Gets or sets the <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> object which the HTTP server will write HTTP server access messages to.
 
-> **Remarks:**
->
-> This property defaults to Console.Out.

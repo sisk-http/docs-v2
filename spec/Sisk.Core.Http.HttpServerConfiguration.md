@@ -46,7 +46,7 @@ Provides execution parameters for an <a href="/spec/Sisk.Core.Http.HttpServer.md
         </a>
     </td>
     <td>
-        Gets or sets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.TextWriter">TextWriter</a> object which the HTTP server will write HTTP server access messages to.
+        Gets or sets the <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> object which the HTTP server will write HTTP server access messages to.
     </td>
 </tr>
 <tr>
@@ -79,7 +79,7 @@ Provides execution parameters for an <a href="/spec/Sisk.Core.Http.HttpServer.md
         </a>
     </td>
     <td>
-        Gets or sets the <a href="https://learn.microsoft.com/en-us/dotnet/api/System.IO.TextWriter">TextWriter</a> object which the HTTP server will write HTTP server error transcriptions to.
+        Gets or sets the <a href="/spec/Sisk.Core.Http.LogStream.md">LogStream</a> object which the HTTP server will write HTTP server error transcriptions to.
     </td>
 </tr>
 <tr>

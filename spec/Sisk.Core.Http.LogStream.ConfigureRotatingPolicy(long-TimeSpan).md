@@ -18,7 +18,7 @@ Declaring type: [Sisk.Core.Http.LogStream](/spec/Sisk.Core.Http.LogStream.md) (f
 Definition:
 
 ```cs
-public void ConfigureRotatingPolicy(long maximumSize, TimeSpan due)
+public LogStream ConfigureRotatingPolicy(long maximumSize, TimeSpan due)
 ```
 
 Defines the time interval and size threshold for starting the task, and then starts the task. This method is an shortcut for calling <see cref="M:Sisk.Core.Http.RotatingLogPolicy.Configure(System.Int64,System.TimeSpan)" /> of this defined <a href="/spec/Sisk.Core.Http.LogStream.md">RotatingPolicy</a> method.

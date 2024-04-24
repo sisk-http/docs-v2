@@ -96,6 +96,17 @@ Represents an context for Http requests.
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/property.svg">
+        <a href="/spec/Sisk.Core.Http.HttpContext.Router.md">
+            Router
+        </a>
+    </td>
+    <td>
+        Gets the <a href="/spec/Sisk.Core.Routing.Router.md">Router</a> where this context was created.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/property.svg">
         <a href="/spec/Sisk.Core.Http.HttpContext.RouterResponse.md">
             RouterResponse
         </a>

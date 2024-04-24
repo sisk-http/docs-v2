@@ -21,7 +21,7 @@ Definition:
 public void SetObject(Type attrClassType)
 ```
 
-Searches the object for static methods with attribute <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
+Searches in the specified object for static methods marked with routing attributes, such as <a href="/spec/Sisk.Core.Routing.RouteAttribute.md">RouteAttribute</a> and optionals <a href="/spec/Sisk.Core.Routing.RequestHandlerAttribute.md">RequestHandlerAttribute</a>, and creates routes from them.
 
 
 # Parameters

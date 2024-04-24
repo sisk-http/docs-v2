@@ -17,7 +17,7 @@ Namespace: Sisk.Core.Http.Hosting
 Definition:
 
 ```cs
-public class HttpServerHostContext
+public class HttpServerHostContext : IDisposable
 ```
 
 Represents the class that hosts most of the components needed to run a Sisk application.
@@ -111,6 +111,17 @@ Represents the class that hosts most of the components needed to run a Sisk appl
 
 <table>
     <tbody>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.Dispose().md">
+            Dispose()
+        </a>
+    </td>
+    <td>
+        Invalidates this class and releases the resources used by it, and permanently closes the HTTP server.
+    </td>
+</tr>
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">

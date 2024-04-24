@@ -17,7 +17,7 @@ Namespace: Sisk.Core.Http
 Definition:
 
 ```cs
-public class RotatingLogPolicy : IDisposable
+public sealed class RotatingLogPolicy : IDisposable
 ```
 
 Provides a managed utility for rotating log files by their file size.

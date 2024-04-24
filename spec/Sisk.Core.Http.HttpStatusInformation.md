@@ -17,10 +17,10 @@ Namespace: Sisk.Core.Http
 Definition:
 
 ```cs
-public struct HttpStatusInformation
+public struct HttpStatusInformation : IComparable, IEquatable<HttpStatusInformation>
 ```
 
-Represents a structure that holds an HTTP response status information, with its code and description.
+Represents a structure that holds an HTTP response status information, with it's status code and description.
 
 
 # Property list
@@ -56,6 +56,17 @@ Represents a structure that holds an HTTP response status information, with its 
 
 <table>
     <tbody>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/constructor.svg">
+        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.HttpStatusInformation().md">
+            HttpStatusInformation()
+        </a>
+    </td>
+    <td>
+        Creates an new <a href="/spec/Sisk.Core.Http.HttpStatusInformation.md">HttpStatusInformation</a> with default parameters (200 OK) status.
+    </td>
+</tr>
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/constructor.svg">
@@ -99,12 +110,45 @@ Represents a structure that holds an HTTP response status information, with its 
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.GetHttpStatusCode().md">
+            GetHttpStatusCode()
+        </a>
+    </td>
+    <td>
+        Gets an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Net.HttpStatusCode">HttpStatusCode</a> corresponding to this instance, or null if the HTTP status does not match any value.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
         <a href="/spec/Sisk.Core.Http.HttpStatusInformation.GetStatusCodeDescription(int).md">
             GetStatusCodeDescription(int)
         </a>
     </td>
     <td>
         Gets the description of the HTTP status based on its description.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.GetStatusCodeDescription(HttpStatusCode).md">
+            GetStatusCodeDescription(HttpStatusCode)
+        </a>
+    </td>
+    <td>
+        Gets the description of the HTTP status based on its description.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.HttpStatusInformation.ToString().md">
+            ToString()
+        </a>
+    </td>
+    <td>
+        Gets an string representation of this HTTP Status Code.
     </td>
 </tr>
     </tbody>

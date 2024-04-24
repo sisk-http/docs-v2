@@ -15,5 +15,14 @@ edit the XML documentation present in the Sisk source code.
 Declaring type: [Sisk.Core.Http.HttpStatusInformation](/spec/Sisk.Core.Http.HttpStatusInformation.md) (from Sisk.Core)
 
 
+Definition:
+
+```cs
+public string Description
+```
+
 Gets or sets the short description of the HTTP message.
 
+> **Remarks:**
+>
+> Custom status descriptions is only supported for plain HTTP/1.1 and 1.0 transfers.

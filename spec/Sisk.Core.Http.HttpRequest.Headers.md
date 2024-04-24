@@ -18,7 +18,7 @@ Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md
 Definition:
 
 ```cs
-public NameValueCollection Headers { get; }
+public HttpHeaderCollection Headers { get; }
 ```
 
 Gets the HTTP request headers.

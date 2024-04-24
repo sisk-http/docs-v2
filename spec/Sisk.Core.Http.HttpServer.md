@@ -136,6 +136,17 @@ Provides an lightweight HTTP server powered by Sisk.
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.HttpServer.CreateBuilder(UInt16).md">
+            CreateBuilder(UInt16)
+        </a>
+    </td>
+    <td>
+        Builds an empty <a href="/spec/Sisk.Core.Http.Hosting.HttpServerHostContext.md">HttpServerHostContext</a> context with predefined listening port.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
         <a href="/spec/Sisk.Core.Http.HttpServer.Dispose().md">
             Dispose()
         </a>
@@ -221,33 +232,26 @@ Provides an lightweight HTTP server powered by Sisk.
         Stops the server from listening and stops the request handler.
     </td>
 </tr>
-    </tbody>
-</table>
-
-# Event list
-
-<table>
-    <tbody>
 <tr>
     <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/event.svg">
-        <a href="/spec/Sisk.Core.Http.HttpServer.OnConnectionClose.md">
-            OnConnectionClose
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.HttpServer.WaitNext().md">
+            WaitNext()
         </a>
     </td>
     <td>
-        Event that is called when this <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> computes an request and it's response.
+        Waits for the next execution result from the server. This method obtains the next completed context from the HTTP server, both with the request and its response. This method does not interrupt the asynchronous processing of requests.
     </td>
 </tr>
 <tr>
     <td style="width: 33%">
-        <img class="icon" src="/assets/img/icons/event.svg">
-        <a href="/spec/Sisk.Core.Http.HttpServer.OnConnectionOpen.md">
-            OnConnectionOpen
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Http.HttpServer.WaitNextAsync().md">
+            WaitNextAsync()
         </a>
     </td>
     <td>
-        Event that is called when this <a href="/spec/Sisk.Core.Http.HttpServer.md">HttpServer</a> receives an request.
+        Waits for the next execution result from the server asynchronously. This method obtains the next completed context from the HTTP server, both with the request and its response. This method does not interrupt the asynchronous processing of requests.
     </td>
 </tr>
     </tbody>

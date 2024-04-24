@@ -17,7 +17,7 @@ Namespace: Sisk.Core.Entity
 Definition:
 
 ```cs
-public class StringValue
+public struct StringValue
 ```
 
 Represents an instance that hosts a string value and allows conversion to common types.
@@ -81,6 +81,17 @@ Represents an instance that hosts a string value and allows conversion to common
 <tr>
     <td style="width: 33%">
         <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Entity.StringValue.Get().md">
+            Get()
+        </a>
+    </td>
+    <td>
+        Gets an not null value from the specified <typeparamref name="T" />.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
         <a href="/spec/Sisk.Core.Entity.StringValue.GetBoolean().md">
             GetBoolean()
         </a>
@@ -98,6 +109,17 @@ Represents an instance that hosts a string value and allows conversion to common
     </td>
     <td>
         Gets a <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Byte">Byte</a> from this <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>.
+    </td>
+</tr>
+<tr>
+    <td style="width: 33%">
+        <img class="icon" src="/assets/img/icons/method.svg">
+        <a href="/spec/Sisk.Core.Entity.StringValue.GetChar().md">
+            GetChar()
+        </a>
+    </td>
+    <td>
+        Gets a <a href="https://learn.microsoft.com/en-us/dotnet/api/System.Char">Char</a> from this <a href="/spec/Sisk.Core.Entity.StringValue.md">StringValue</a>. This method will throw an <a href="https://learn.microsoft.com/en-us/dotnet/api/System.NullReferenceException">NullReferenceException</a> if the value stored in this instance is null.
     </td>
 </tr>
 <tr>

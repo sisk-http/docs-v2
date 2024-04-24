@@ -18,10 +18,7 @@ Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md
 Definition:
 
 ```cs
-// in .NET 6
 public T GetQueryValue<T>(string queryKeyName, T defaultValue = default) where T : struct
-// in .NET 7+
-public T GetQueryValue<T>(string queryKeyName, T defaultValue = default) where T : struct, IParsable<T>
 ```
 
 Gets the value stored from the <a href="/spec/Sisk.Core.Http.HttpRequest.md">Query</a> and converts it to the given type.

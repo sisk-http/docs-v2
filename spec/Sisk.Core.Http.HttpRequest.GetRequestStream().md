@@ -18,7 +18,7 @@ Declaring type: [Sisk.Core.Http.HttpRequest](/spec/Sisk.Core.Http.HttpRequest.md
 Definition:
 
 ```cs
-public Stream GetInputStream()
+public Stream GetRequestStream()
 ```
 
 Gets the HTTP request content stream. This property is only available while the content has not been imported by the HTTP server and will invalidate the body content cached in this object.

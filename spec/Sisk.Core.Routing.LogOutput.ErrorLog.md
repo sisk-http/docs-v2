@@ -15,5 +15,5 @@ edit the XML documentation present in the Sisk source code.
 Declaring type: [Sisk.Core.Routing.LogOutput](/spec/Sisk.Core.Routing.LogOutput.md) (from Sisk.Core)
 
 
-Determines that the context or the route can write error messages only to the error logs.
+Determines that the context or the route can write error messages only to the error logs through <a href="/spec/Sisk.Core.Http.HttpServerConfiguration.md">ErrorsLogsStream</a>.
 

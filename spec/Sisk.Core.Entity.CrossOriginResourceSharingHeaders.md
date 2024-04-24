@@ -17,7 +17,7 @@ Namespace: Sisk.Core.Entity
 Definition:
 
 ```cs
-public class CrossOriginResourceSharingHeaders
+public sealed class CrossOriginResourceSharingHeaders
 ```
 
 Provides a class to provide Cross Origin response headers for when communicating with a browser.
