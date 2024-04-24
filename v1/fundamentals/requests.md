@@ -24,7 +24,7 @@ This property returns the request's method represented by an [HttpMethod](https:
 >
 > Unlike route methods, this property does not serves the [RouteMethod.Any](../specification/spec/Sisk.Core.Routing.RouteMethod.Any) item. Instead, it returns the real request method.
 
-# Getting the request url component
+# Getting request url components
 
 You can get various component from a URL through certain properties of a request. For this example, let's consider the URL:
 
@@ -32,134 +32,35 @@ You can get various component from a URL through certain properties of a request
 http://localhost:5000/user/login?email=foo@bar.com
 ```
 
-<table>
-    <thead>
-        <th>Component name</th>
-        <th>Description</th>
-        <th>URL piece</th>
-    </tr></thead>
-    <tbody>
-        <tr>
-            <td>
-                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.Path">
-                    Path
-                </a>
-            </td>
-            <td>
-                Gets the request path.
-            </td>
-            <td>
-                <code>/user/login</code>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.FullPath">
-                    FullPath
-                </a>
-            </td>
-            <td>
-                Gets the request path and the query string.
-            </td>
-            <td>
-                <code>/user/login?email=foo@bar.com</code>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.FullUrl">
-                    FullUrl
-                </a>
-            </td>
-            <td>
-                Gets the entire URL request string.
-            </td>
-            <td>
-                <code>http://localhost:5000/user/login?email=foo@bar.com</code>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.Host">
-                    Host
-                </a>
-            </td>
-            <td>
-                Gets the request host.
-            </td>
-            <td>
-                <code>localhost</code>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.Authority">
-                    Authority
-                </a>
-            </td>
-            <td>
-                Gets the request host and port.
-            </td>
-            <td>
-                <code>localhost:5000</code>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.QueryString">
-                    QueryString
-                </a>
-            </td>
-            <td>
-                Gets the request query.
-            </td>
-            <td>
-                <code>?email=foo@bar.com</code>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.Query">
-                    Query
-                </a>
-            </td>
-            <td>
-                Gets the request query in an named value collection.
-            </td>
-            <td>
-                <code>{NameValueCollection object}</code>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="../specification/spec/Sisk.Core.Http.HttpRequest.IsSecure">
-                    IsSecure
-                </a>
-            </td>
-            <td>
-                Determines if the request is using SSL (true) or not (false).
-            </td>
-            <td>
-                <code>false</code>
-            </td>
-        </tr>
-    </tbody>
-</table>
+| Component name | Description | Component value |
+| --- | --- | --- |
+| [Path](../specification/spec/Sisk.Core.Http.HttpRequest.Path) | Gets the request path. | `/user/login` |
+| [FullPath](../specification/spec/Sisk.Core.Http.HttpRequest.FullPath) | Gets the request path and the query string. | `/user/login?email=foo@bar.com` |
+| [FullUrl](../specification/spec/Sisk.Core.Http.HttpRequest.FullUrl) | Gets the entire URL request string. | `http://localhost:5000/user/login?email=foo@bar.com` |
+| [Host](../specification/spec/Sisk.Core.Http.HttpRequest.Host) | Gets the request host. | `localhost` |
+| [Authority](../specification/spec/Sisk.Core.Http.HttpRequest.Authority) | Gets the request host and port. | `localhost:5000` |
+| [QueryString](../specification/spec/Sisk.Core.Http.HttpRequest.QueryString) | Gets the request query. | `?email=foo@bar.com` |
+| [Query](../specification/spec/Sisk.Core.Http.HttpRequest.Query) | Gets the request query in a named value collection. | `{StringValueCollection object}` |
+| [IsSecure](../specification/spec/Sisk.Core.Http.HttpRequest.IsSecure) | Determines if the request is using SSL (true) or not (false). | `false` |
 
 # Getting the request body
 
 Some requests include body such as forms, files, or API transactions. You can get the body of a request from the property:
 
 ```cs
-// gets the request body as an string, using the request encoding
+// gets the request body as an string, using the request encoding as the encoder
 string body = request.Body;
-// or gets it in byte[]
+
+// or gets it in an byte array
 byte[] bodyBytes = request.RawBody;
+
+// or else, you can stream it
+Stream requestStream = request.GetRequestStream();
 ```
 
 It is also possible to determine if there is a body in the request and if it is loaded with the properties [HasContents](../specification/spec/Sisk.Core.Http.HttpRequest.HasContents), which determines if the request has contents and [IsContentAvailable](../specification/spec/Sisk.Core.Http.HttpRequest.IsContentAvailable) which indicates that the HTTP server fully received the content from the remote point.
 
-In a BeforeContents Request Handler context, you can read the request content inline with GetInputStream(). Learn more [here](/v1/fundamentals/request-handlers.md).
+It is not possible to read the request content through `GetRequestStream` more than once. If you read with this method, the values in `RawBody` and `Body` will also not be available.
 
 > **Note:**
 >
@@ -172,6 +73,8 @@ In a BeforeContents Request Handler context, you can read the request content in
 The HTTP Context is an exclusive Sisk object that stores HTTP server, route, router and request handler information. You can use it to be able to organize yourself in an environment where these objects are difficult to organize.
 
 The [RequestBag](../specification/spec/Sisk.Core.Http.HttpContext.RequestBag) object contains stored information that is passed from an request handler to another point, and can be consumed at the final destination. This object can also be used by request handlers that run after the route callback.
+
+> Tip: this property is also acessible by [HttpRequest.Bag](../specification/spec/Sisk.Core.Http.HttpRequest.Bag) property.
 
 ```cs
 public class AuthenticateUserRequestHandler : IRequestHandler
@@ -211,14 +114,14 @@ public class MyController
 }
 ```
 
-You can also use the `GetContextBag()` and `SetContextBag()` helper methods to get or set objects by their type.
+You can also use the `Bag.Set()` and `Bag.Get()` helper methods to get or set objects by their type singletons.
 
 ```cs
 public class Authenticate : RequestHandler
 {
     public override HttpResponse? Execute(HttpRequest request, HttpContext context)
     {
-        request.SetContextBag<User>(authUser);
+        request.Bag.Set<User>(authUser);
     }
 }
 
@@ -226,7 +129,7 @@ public class Authenticate : RequestHandler
 [RequestHandler<Authenticate>]
 public static HttpResponse Test(HttpRequest request)
 {
-    var user = request.GetContextBag<User>();
+    var user = request.Bag.Get<User>();
 }
 ```
 
@@ -359,3 +262,9 @@ confg.ResolveForwardedOriginHost = true;
 ```
 
 In case of [ResolveForwardedOriginHost](../specification/spec/Sisk.Core.Http.HttpServerConfiguration.ResolveForwardedOriginHost) and an `X-Forwarded-Host` header is present, the value of this header will be used for server-side DNS matching.
+
+# Headers encoding
+
+Header encoding can be a problem for some implementations. On Windows, UTF-8 headers are not supported, so ASCII is used. Sisk has a built-in encoding converter, which can be useful for decoding incorrectly encoded headers.
+
+This operation is costly and disabled by default, but can be enabled under the [NormalizeHeadersEncodings](/specification/spec/Sisk.Core.Http.HttpServerFlags.NormalizeHeadersEncodings) flag.

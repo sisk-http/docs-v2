@@ -1,0 +1,38 @@
+# Feature overview
+
+This page is dedicated to showing, in the most succinct way possible, everything that Sisk is capable of doing.
+
+- [Routing](/main/v1/fundamentals/routing)
+    - [Create standard routes](/main/v1/fundamentals/routing.md#creating-routes-using-paths)
+    - [Create regex routes](/main/v1/fundamentals/routing.md#regex-routes)
+    - [Any method routes](/main/v1/fundamentals/routing.md#any-method-routes)
+    - [Handle not found routes](/main/v1/fundamentals/routing.md#not-found-404-callback-handler)
+    - [Handle method not allowed](/main/v1/fundamentals/routing.md#method-not-allowed-405-callback-handler)
+    - [Handle exceptions](/main/v1/fundamentals/routing.md#internal-error-handler)
+    - [Scan for routes in assembly](/main/v1/fundamentals/routing.md#creating-routes-using-class-instances)
+    - [Handle object types to responses](/main/v1/fundamentals/responses.md#implicit-response-types)
+- [Request handlers (aka. middlewares)](/main/v1/fundamentals/request-handlers.md)
+    - Before routes actions
+    - After routes actions
+    - [Per routes request handlers](/main/v1/fundamentals/request-handlers.md#associating-a-request-handler-with-a-single-route)
+    - [Per routers request handlers](/main/v1/fundamentals/request-handlers.md#associating-a-request-handler-with-a-router)
+    - [Skip global request handlers](/main/v1/fundamentals/request-handlers.md#bypassing-an-global-request-handler)
+    - [Attributes for request handlers](/main/v1/fundamentals/request-handlers.md#associating-a-request-handler-with-an-attribute)
+- [Requests](/main/v1/fundamentals/requests.md)
+    - [Get primary information](/main/v1/fundamentals/requests.md#getting-the-request-url-component)
+    - [Decode cookies](/specification/spec/Sisk.Core.Http.HttpRequest.Cookies.md)
+    - [Decode content into string](/main/v1/fundamentals/requests.md#getting-the-request-body)
+    - [Decode content into form data](/main/v1/fundamentals/requests.md#getting-form-data)
+    - [Decode content into multipart form data](/main/v1/fundamentals/requests.md#getting-multipart-form-data)
+    - [Stream request contents](/main/v1/fundamentals/requests.md#getting-the-request-body)
+    - [Request-span bag](/main/v1/fundamentals/requests.md#getting-the-request-context)
+    - [Resolve IP/Host from proxy](/main/v1/fundamentals/requests.md#resolving-proxied-ips-and-hosts)
+    - [Abort connection](/specification/spec/Sisk.Core.Http.HttpRequest.Close().md)
+- [Responses](/main/v1/fundamentals/responses.md)
+    - [Send chunked responses](/main/v1/fundamentals/responses.md#sending-response-in-chunks)
+    - [Send response contents](/main/v1/fundamentals/responses.md#setting-body-and-content-type)
+    - [Stream response contents](/main/v1/fundamentals/responses.md#response-stream)
+    - [Send headers](/main/v1/fundamentals/responses.md#setting-response-headers)
+    - [Send cookies](/main/v1/fundamentals/responses.md#easily-setting-cookies)
+- [Logging](/sisk-http/docs-v2/main/v1/features/logging.md)
+    - [Write logs to files](/docs-v2/main/v1/features/logging.md#file-based-access-logs)

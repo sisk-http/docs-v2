@@ -8,8 +8,7 @@
         "description": "Documentation for the Sisk Framework, with tutorials and getting started.",
         "branches": [
             "main",
-            "specification",
-            "changelogs"
+            "specification"
         ],
         "theme": "github"
     },
@@ -85,6 +84,10 @@
         {
             "title": "HTTP server handlers",
             "href": "/v1/advanced/http-server-handlers.md"
+        },
+        {
+            "title": "Multi-host setup",
+            "href": "/v1/advanced/multi-host-setup.md"
         }
     ]
 }

@@ -15,6 +15,15 @@ HttpResponse res = new HttpResponse();
 res.Status = System.Net.HttpStatusCode.Accepted; // 202
 ```
 
+Or with Fluent Syntax:
+
+```cs
+new HttpResponse()
+    .WithStatus(200)
+    // or
+    .WithStatus(HttpStatusCode.BadRequest);
+```
+
 You can see the full list of available HttpStatusCode [here](https://learn.microsoft.com/pt-br/dotnet/api/system.net.httpstatuscode).
 
 # Setting body and content-type
@@ -28,6 +37,8 @@ res.Content = new StringContent(myJson, Encoding.UTF8, "application/json");
 
 You can ignore setting the `Content-Length` header as it is automatically calculated in the server infrastructure. Whenever you send an content length header, it will be ignored by the server and it will use the real content length based in the Content property length in bytes.
 
+You can also stream the response by sending a [StreamContent](https://learn.microsoft.com/pt-br/dotnet/api/system.net.http.streamcontent) or using the method [GetResponseStream](#response-stream).
+
 # Setting response headers
 
 You can add, edit or remove headers you're sending in the response. The example below shows how to send an redirect response to the client.
@@ -36,6 +47,13 @@ You can add, edit or remove headers you're sending in the response. The example 
 HttpResponse res = new HttpResponse();
 res.Status = System.Net.HttpStatusCode.Moved;
 res.Headers.Add("Location", "/login");
+```
+
+Or with Fluent Syntax:
+
+```cs
+new HttpResponse(301)
+    .WithHeader("Location", "/login");
 ```
 
 # Easily setting cookies
@@ -47,9 +65,16 @@ HttpResponse res = new HttpResponse();
 res.SetCookie("cookie-name", "cookie-value");
 ```
 
+Or with Fluent Syntax:
+
+```cs
+new HttpResponse(301)
+    .WithCookie("cookie-name", "cookie-value", expiresAt: DateTime.Now.Add(TimeSpan.FromDays(7)));
+```
+
 There are other [more complete versions](../specification/spec/Sisk.Core.Http.CookieHelper.SetCookie(string-string-DateTime-TimeSpan-string-string-bool-bool-string).md) of the same method.
 
-# Sending response in chunks
+# Sending chunked responses
 
 You can set the transfer encoding to chunked to send large responses.
 

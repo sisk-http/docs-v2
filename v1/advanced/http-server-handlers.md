@@ -7,14 +7,14 @@ The class concentrates events that occur during the lifetime of the entire HTTP 
 The events are:
 
 ```cs
-public class HttpServerHandler
+public abstract class HttpServerHandler
 {
-    public virtual void OnSetupHttpServer(HttpServer server) { }
-    public virtual void OnSetupRouter(Router router) { }
-    public virtual void OnContextBagCreated(HttpContextBagRepository contextBag) { }
-    public virtual void OnHttpRequestOpen(HttpRequest request) { }
-    public virtual void OnHttpRequestClose(HttpServerExecutionResult result) { }
-    public virtual void OnException(Exception exception) { }
+    protected virtual void OnSetupHttpServer(HttpServer server) { }
+    protected virtual void OnSetupRouter(Router router) { }
+    protected virtual void OnContextBagCreated(HttpContextBagRepository contextBag) { }
+    protected virtual void OnHttpRequestOpen(HttpRequest request) { }
+    protected virtual void OnHttpRequestClose(HttpServerExecutionResult result) { }
+    protected virtual void OnException(Exception exception) { }
 }
 ```
 
@@ -104,7 +104,7 @@ public class UserController : ApiController
 
         return JsonOk(user);
     }
-
+    
     [RoutePost]
     public async Task<HttpResponse> Create(HttpRequest request)
     {

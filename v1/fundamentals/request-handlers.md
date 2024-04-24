@@ -2,9 +2,8 @@
 
 Request handlers, also known as "middlewares", are functions that run before or after a request is executed on the router. They can be defined per route or per router.
 
-There are three types of request handlers:
+There are two types of request handlers:
 
-- **BeforeContents**: defines a Request Handler that will be executed before the request content is loaded. Note that it is possible to use the [GetInputStream()](../specification/spec/Sisk.Core.Http.HttpRequest.GetInputStream().md) method in this context and also the [ContentLength](../specification/spec/Sisk.Core.Http.HttpRequest.ContentLength.md) property. Returning a non-null HTTP response will discard the content sent by the client and not load the input body into the memory.
 - **BeforeResponse**: defines that the request handler will be executed before calling the router callback, but after the contents is loaded and ready.
 - **AfterResponse**: defines that the request handler will be executed after calling the router callback. Sending an HTTP response in this context will overwrite the router's HTTP response.
 

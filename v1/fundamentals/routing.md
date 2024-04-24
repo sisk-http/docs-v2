@@ -3,19 +3,17 @@
 The router refers to what redirects requests to their proper places. A [Router](../specification/spec/Sisk.Core.Routing.Router) is responsible for routing [Route](../specification/spec/Sisk.Core.Routing.Route) to its responsible controllers, methods or callbacks. What the Router uses to match a route with a Route is the request path and its method. These two items are responsible for assigning a request to a route.
 
 ```cs
-mainRouter.SetRoute(RouteMethod.Get, "/hey", (request) =>
+mainRouter.SetRoute(RouteMethod.Get, "/hey/<name>", (request) =>
 {
-    return new HttpResponse() { Content = new StringContent("Hello!") };
+    var name = request.Query["name"].GetString();
+    return new HttpResponse() { Content = new StringContent("Hello, " + name) };
 });
 
 // alternative way using the + operator
 mainRouter += new Route(RouteMethod.Get, "/", (req) =>
 {
     return new HttpResponse()
-    {
-        Content = new StringContent("...world"),
-        Status = HttpStatusCode.Ok
-    };
+        .WithContent("Hello, world!");
 });
 ```
 
@@ -23,7 +21,7 @@ To understand what a route is capable of doing, we need to understand what a req
 
 # Creating routes using paths
 
-You can define routes using SetRoute methods.
+You can define routes using various `SetRoute` methods.
 
 ```cs
 mainRouter.SetRoute(RouteMethod.Get, "/hey/<name>", (request) =>
@@ -89,6 +87,20 @@ public class MyController
 }
 ```
 
+Each route method (with the exception of Any) also contains its own attribute, such as:
+
+```cs
+public class MyController
+{
+    [RouteGet("/")]
+    HttpResponse Index(HttpRequest request)
+    {
+        return new HttpResponse()
+            .WithContent(new HtmlContent("<h1>Hello</h1>"));
+    }
+}
+```
+
 Then you can define the routes of the MyController instance:
 
 ```cs
@@ -102,11 +114,15 @@ Alternatively, you can define your members statically, without an instance, by p
 mainRouter.SetObject(typeof(MyController));
 ```
 
-Since Sisk version 0.16, it is possible to enable AutoScan, which will search for user-defined classes that implement `RouterModule` and will automatically associate it with the router. This method is experimental and is not supported by Native AOT.
+The diferences between `SetObject(object)` and `SetObject(type)` is the way the router searchs for route methods. The first searches all instance methods of the object. Functions will be called on a singleton of the parameter object. The second one searchs for static methods, public or not. Both methods searchs for private and public methods through reflection.
+
+Since Sisk version 0.16, it is possible to enable AutoScan, which will search for user-defined classes that implement `RouterModule` and will automatically associate it with the router. This method is experimental and is not supported with AOT compilation.
 
 ```cs
 mainRouter.AutoScanModules<ApiController>();
 ```
+
+The above instruction will search for all types which implements `ApiController` but not the type itself. The two optional parameters indicate how the method will search for these types. The first argument implies the Assembly where the types will be searched and the second indicates the way in which the types will be instantiated, whether by instance activation or by searching for static methods.
 
 # Regex routes
 
@@ -124,7 +140,7 @@ You can also capture groups from the regex pattern into the [Request.Query](../s
 [RegexRoute(RouteMethod.Get, @"/uploads/(?<filename>.*\.(jpeg|jpg|png))")]
 static HttpResponse RegexRoute(HttpRequest request)
 {
-    string? filename = request.Query["filename"];
+    string filename = request.Query["filename"].GetString();
     return new HttpResponse().WithContent($"Acessing file {filename}");
 }
 ```
@@ -170,11 +186,11 @@ mainRouter.NotFoundErrorHandler = () =>
 You can also create a custom callback for when a request matches it's path, but doens't match the method.
 
 ```cs
-mainRouter.MethodNotAllowedErrorHandler = () =>
+mainRouter.MethodNotAllowedErrorHandler = (context) =>
 {
     return new HttpResponse(405)
     {
-        Content = new StringContent($"This request is only GET request!")
+        Content = new StringContent($"Method not allowed for this route.")
     };
 };
 ```
@@ -183,10 +199,10 @@ mainRouter.MethodNotAllowedErrorHandler = () =>
 
 Route callbacks can throw errors during server execution. If not handled correctly, the overall functioning of the HTTP server can be terminated. The router has a callback for when a route callback fails and prevents service interruption.
 
-This method is only reacheable when [ThrowExceptions](../specification/spec/Sisk.Core.Http.HttpServerConfiguration.ThrowExceptions.md) is false.
+This method is only reacheable when [ThrowExceptions](../specification/spec/Sisk.Core.Http.HttpServerConfiguration.ThrowExceptions.md) is set to false.
 
 ```cs
-mainRouter.CallbackErrorHandler = (ex, req) =>
+mainRouter.CallbackErrorHandler = (ex, context) =>
 {
     return new HttpResponse(500)
     {
